@@ -1,0 +1,66 @@
+#include <iostream> //std::cout, std::cin
+#include <string>   //std::string
+#include <fstream>  //
+#include <vector>
+
+void parse_chunk(std::vector<std::string> line[]);
+
+int main() {
+
+	std::cout << "Enter Kindle file to parse: ";
+	
+	std::string input_filename;
+
+	std::getline(std::cin, input_filename);
+
+	if (input_filename == "") {
+		input_filename = "My Clippings.txt";
+	}
+
+	std::cout << "Parsing " << input_filename << "..." << std::endl;
+
+	std::ifstream my_clippings (input_filename);
+	if (my_clippings.good()) {
+		std::cout << "File access granted!" << std::endl;
+	}
+	else {
+		std::cout << "File access failed!" << std::endl;
+	}
+
+	std::string line;
+	std::string currbook;
+	int currchunk = 1;
+	int currpage;
+	int i = 1;
+	std::vector<std::string> chunk;
+
+	while (std::getline(my_clippings, line)) {
+		
+		if (line != "==========") {
+			chunk[i++] = line;
+		}
+		else {
+			// currently have some kind of segmentation fault... no idea why
+			parse_chunk(chunk);
+			i = 1;
+		}
+	}
+
+	my_clippings.close();
+	//output.close();
+	system("PAUSE");
+	return 0;
+}
+
+
+void parse_chunk(std::vector<std::string> chunk_input){
+	
+	int i = 1;
+	std::cout << "chunk number " << i++ << std::endl;
+
+}
+
+
+
+
+
