@@ -31,14 +31,14 @@ class Book:
         self.lastName = ""
 
     def setAuthor(self, first, last):
-        self.firstName = firstName
-        self.lastName = lastName
+        self.firstName = first
+        self.lastName = last
 
-    def hasAuthor():
-        if (firstName == "" and lastName == ""):
-            return false
+    def hasAuthor(self):
+        if (self.firstName == "" and self.lastName == ""):
+            return False
         else:
-            return true
+            return True
 
     # I want to insert-sort the highlights as I recieve them.
     def addHighlight(self, highlight):
@@ -52,5 +52,5 @@ class Book:
             else:
                 self.lon.append(content)
 
-    def getTitle():
+    def getTitle(self):
         return self.title
