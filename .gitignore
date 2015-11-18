@@ -2,3 +2,4 @@ archive
 outfolder
 My Clippings.txt
 *~
+*.pyc
