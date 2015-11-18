@@ -23,7 +23,6 @@ def main(argv):
 
 
 def finLooper(infile):
-    # with open(infile, mode='r') as fin:
     with codecs.open(infile, mode='r', encoding="UTF-8") as fin:
         while True:
             title = kipar_helper.parseTitle(fin.readline())
@@ -39,8 +38,6 @@ def finLooper(infile):
                 else:
                     content = content + temp
             # instead of printing, I would like save this info in objects.
-            # also, I would like this to print double quotes instead of
-            # ...weird nonstandard characters. goddamn it kindle.
             print title[0], "by", title[2], title[1]
             print loc[0], "on page", loc[1], "locations:", loc[2], "-", loc[3]
             print content
