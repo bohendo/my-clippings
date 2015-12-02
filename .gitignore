@@ -1,5 +1,6 @@
-archive
-outfolder
+archive/
+outfolder/
+Clippings_Archive/
 My Clippings.txt
 *~
 *.pyc

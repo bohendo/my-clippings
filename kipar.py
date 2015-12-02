@@ -5,78 +5,6 @@ import getopt
 import MySQLdb
 
 
-
-class Book:
-    def __init__(self, title_tuple):
-        # title_tuple = (title, lastname, firstname, addlastname, addfirstname)
-        self.title = title_tuple[0].strip()
-        # the author might night have a first name
-        if title_tuple[2] is None:
-            self.author = title_tuple[1]
-        else:
-            self.author = title_tuple[2] + " " + title_tuple[1]
-        # add the additional author if available
-        if title_tuple[3] is not None:
-            self.addAuthor = title_tuple[3]
-        elif title_tuple[3] is not None and title_tuple[4] is not None:
-            self.addAuthor = title_tuple[4] + " " + title_tuple[3]
-        # we'll add to these empty lists later
-        self.highlights = []
-        self.notes = []
-
-    def addLength(self, pages, locations):
-        self.pages = pages
-        self.locations = locations
-
-    def addHighlight(self, highlight):
-        self.highlights.append(highlight)
-
-    def addNote(self, note):
-        self.notes.append(note)
-
-    def toString(self):
-        return self.title + " by " + self.author
-
-    def getHighlights(self):
-        output = ""
-        for h in self.highlights:
-            output = output + h.getContent() + h.getLocation() + "\n\n"
-        return output
-
-
-class Highlight:
-    def __init__(self, loc_tuple, content):
-        if loc_tuple[1] == "Location":
-            self.page = None
-            self.locStart = int(loc_tuple[2])
-            self.locEnd = int(loc_tuple[3])
-        elif loc_tuple[1] == "page":
-            self.page = int(loc_tuple[2])
-            self.locStart = int(loc_tuple[5])
-            self.locEnd = int(loc_tuple[6])
-        self.content = content
-
-    def getContent(self):
-        return self.content
-
-    def getLocation(self):
-        return "(Location " + str(self.locStart) + "-" + str(self.locStart) + ")"
-
-
-class Note:
-    def __init__(self, loc_tuple, content):
-        if loc_tuple[1] == "Location":
-            self.page = None
-            self.locStart = int(loc_tuple[2])
-        elif loc_tuple[1] == "page":
-            self.page = int(loc_tuple[2])
-            self.locStart = int(loc_tuple[5])
-        self.content = content
-
-    def getContent(self):
-        return self.content
-
-
 def main(argv):
     infile = "My Clippings.txt"
     # process command line arguments
@@ -88,22 +16,36 @@ def main(argv):
     for opt, arg in opts:
         if opt == "-i":
             infile = arg
-    library = []
+
+    # connect to mysql
+    mysqldb = MySQLdb.connect(host="localhost",
+                              user="rojahend",
+                              passwd="password",
+                              db="library")
+    cursor = mysqldb.cursor()
+    # get the current list of books in the library
+    library_index = []
+    try:
+        cursor.execute("SELECT Title, Author FROM `index`;")
+        res = cursor.fetchall()
+        for t in res:
+            library_index.append(t[0] + " by " + t[1])
+    except:
+        print "error getting library data"
+        sys.exit()
+
     with codecs.open(infile, mode='r', encoding="UTF-8") as fin:
         while True:
-            currBook = Book(parseTitle(fin.readline()))
-            # if parseTitle returned "fatal error", we're done
-            if currBook.toString() == "F by t a":
+            title = parseTitle(fin.readline())
+            currBook = title[0] + " by " + title[1]
+            # if we can't parseTitle, we're done
+            if title == "Fatal error: couldn't parse Title...":
                 break
             # if this book isn't in our library yet, add it
-            if currBook.toString() not in map(Book.toString, library):
-                library.append(currBook)
-            # if it is, get the item from library with the same index as
-            # currBook.toString() has in the library of strings
-            else:
-                currBook = library[
-                    map(Book.toString, library).index(currBook.toString())
-                ]
+            if currBook not in library_index:
+                library_index.append(currBook)
+                newBook(title, cursor)
+            # if it is, then I don't know
             loc = parseLocation(fin.readline())
             content = ""
             while True:
@@ -113,43 +55,11 @@ def main(argv):
                 if temp is False:
                     return "error, unexpected break"
                 else:
-                    content = content + temp
+                    content = content + temp.replace('\r\n', '')
             if loc[0] == "Highlight":
-                currBook.addHighlight(Highlight(loc, content))
+                Highlight(title[0], loc[1], loc[2], content, cursor, mysqldb)
             elif loc[0] == "Note":
-                currBook.addNote(Note(loc, content))
-
-    print
-    for b in library:
-        print "=============================="
-        print b.toString()
-        print "=============================="
-        print str(b.getHighlights())
-
-# `index` table in library database
-# +----+---------------------+-------------+-------+-----------+------------+
-# | ID | Title               | Author      | Pages | Locations | AddAuthors |
-# +----+---------------------+-------------+-------+-----------+------------+
-# |  1 | The 4-Hour Workweek | Tim Ferriss |  NULL |      6768 | NULL       |
-# |  2 | Getting Things Done | David Allen |  NULL |      5847 | NULL       |
-# +----+---------------------+-------------+-------+-----------+------------+
-
-    # connect to mysql
-    mysqldb = MySQLdb.connect(host="localhost",
-                              user="rojahend",
-                              passwd="password",
-                              db="library")
-    cursor = mysqldb.cursor()
-    # get the current list of books in the library
-    try:
-        cursor.execute("SELECT title FROM `index`;")
-        index = []
-        for t in cursor.fetchall():
-            index.append(t[0])
-    except:
-        print "error getting library data"
-        sys.exit()
-    print
+                Note(title[0], loc[1], content, cursor, mysqldb)
 
 
 def parseContent(strinput):
@@ -168,7 +78,6 @@ def parseTitle(strinput):
     strinput = cleanup(strinput)
     # sample strinput:
     # ???Smarts: The Art (Science?) of Work (Allen, David; Gates, Bill)
-    output = []
     div = strinput.rfind('(')
     title = strinput[:div]
     author = strinput[div:]
@@ -179,9 +88,9 @@ def parseTitle(strinput):
     :?          # or the subtitle might be separated by a colon
     [\w -]*     # subtitle
     """
-    match = re.compile(pattern, re.VERBOSE).search(title)
+    match = re.compile(pattern, re.VERBOSE).match(title)
     if match:
-        output.extend(match.groups())
+        title = match.group(1).strip().replace("'", "")
     else:
         return "Fatal error: couldn't parse Title..."
     # sample author: "(Allen, David; Gates, Bill)\n"
@@ -199,10 +108,20 @@ def parseTitle(strinput):
     """
     match = re.compile(pattern, re.VERBOSE).search(author)
     if match:
-        output.extend(match.groups())
+        author_tuple = match.groups()
     else:
-        return "Fatal error: couldn't parse Author..."
-    return output
+        return [title, "Unknown"]
+    # the author might night have a first name
+    if author_tuple[1] is None:
+        author = author_tuple[0]
+    else:
+        author = author_tuple[1] + " " + author_tuple[0]
+    # add the additional author if available
+    if author_tuple[3] is None:
+        addAuthor = author_tuple[2]
+    elif author_tuple[2] is not None and author_tuple[3] is not None:
+        addAuthor = author_tuple[3] + " " + author_tuple[2]
+    return [title, author, addAuthor]
 
 
 def parseLocation(strinput):
@@ -226,7 +145,19 @@ def parseLocation(strinput):
     """
     match = re.compile(pattern, re.VERBOSE).match(strinput)
     if match:
-        return match.groups()
+        loc_tuple = match.groups()
+        if loc_tuple[0] == "Highlight":
+            if loc_tuple[1] == "Location":
+                return [loc_tuple[0], int(loc_tuple[2]),
+                        int(loc_tuple[3]), None]
+            elif loc_tuple[1] == "page":
+                return [loc_tuple[0], int(loc_tuple[5]),
+                        int(loc_tuple[6]), int(loc_tuple[2])]
+        else:
+            if loc_tuple[1] == "Location":
+                return [loc_tuple[0], int(loc_tuple[2]), None]
+            elif loc_tuple[1] == "page":
+                return [loc_tuple[0], int(loc_tuple[5]), int(loc_tuple[2])]
     else:
         return "Fatal error: couldn't parse Location..."
 
@@ -244,5 +175,156 @@ def cleanup(strinput):
     return re.sub('[^\n\r -~]', '', strinput)
 
 
+# create a new table + new row in `index` given a new book
+# newBook is only called if this title is not in the index yet
+# all titles in the index also have an associated table.
+def newBook(title_tuple, cursor):
+    # add new row to `index`
+    title_tuple[0]
+    newRowQuery = """
+    INSERT INTO `index`
+    (Title, Author)
+    VALUES ('%(title)s', '%(author)s');""" % {
+        "title": title_tuple[0],
+        "author": title_tuple[1]}
+    # print newRowQuery
+    # create new table
+    newTableQuery = """
+    CREATE TABLE %(table_tit)s (
+    Start int PRIMARY KEY, End int, Highlight text, Note text, Page int);
+    """ % {"table_tit": title_tuple[0].replace(" ", "_").replace("-", "_")}
+    # print newTableQuery
+    try:
+        cursor.execute(newRowQuery)
+    except:
+        print "Error adding new row to `index`:", newRowQuery
+        sys.exit()
+    try:
+        cursor.execute(newTableQuery)
+    except:
+        print "Error adding new table to MySQL db", newTableQuery
+        sys.exit()
+
+
+def Highlight(title, start, end, highlight, cursor, db):
+    highlight = highlight.replace("\"", "\\\"").replace("\'", "\\\'")
+    title = title.replace(" ", "_").replace("-", "_")
+    # select highlights/notes that begin within the current highlight
+    probe = """SELECT * FROM `%(title)s`
+    where Start>=%(start)d and Start<=%(end)d;""" % {
+        "title": title.replace(" ", "_").replace("-", "_"),
+        "start": start,
+        "end": end}
+    try:
+        cursor.execute(probe)
+        res = cursor.fetchall()
+    except:
+        print "Error accessing table:", probe
+    # if we get an empty set back, add the highlight
+    # or if we get something back with end = highlight = NULL,
+    #   then we're probably looking at a note, add the highlight here
+    if len(res) == 0:
+        newHighlight(title, start, end, highlight, cursor, db)
+    elif len(res) == 1 and res[0][2] is None:
+        addHighlight(title, res[0][0], start, end, highlight, cursor, db)
+    # elif len(res) == 2:
+        # print "len(res) == 2", res, "\n\n"
+
+
+def newHighlight(title, start, end, highlight, cursor, db):
+    query = """
+    INSERT INTO %(title)s
+    (Start, End, Highlight)
+    VALUES (%(start)d, %(end)d, '%(highlight)s');
+    """ % {
+        "title": title,
+        "start": start,
+        "end": end,
+        "highlight": highlight}
+    try:
+        cursor.execute(query)
+        db.commit()
+    except:
+        print "Error highlight data to table:", query
+
+
+def addHighlight(title, loc, start, end, highlight, cursor, db):
+    query = """
+    UPDATE %(title)s
+    SET Start='%(start)d',
+    End='%(end)d',
+    Highlight='%(highlight)s'
+    WHERE Start=%(loc)d;
+    """ % {
+        "title": title,
+        "start": start,
+        "end": end,
+        "highlight": highlight,
+        "loc": loc}
+    try:
+        cursor.execute(query)
+        db.commit()
+    except:
+        print "Error creating new highlight:", query
+
+
+def Note(title, loc, note, cursor, db):
+    note = note.replace("\"", "\\\"").replace("\'", "\\\'")
+    title = title.replace(" ", "_").replace("-", "_")
+    # select highlights/notes that begin within the current highlight
+    probe = """SELECT * FROM `%(title)s` WHERE
+    (Start<=%(loc)d and End>=%(loc)d) or
+    Start=%(loc)d;""" % {
+        "title": title,
+        "loc": loc}
+    try:
+        cursor.execute(probe)
+        res = cursor.fetchall()
+    except:
+        print "Error accessing table:", probe, "\n"
+    if len(res) == 0:
+        newNote(title, loc, note, cursor, db)
+    elif len(res) == 1 and res[0][3] is None:
+        addNote(title, res[0][0], note, cursor, db)
+    # elif len(res) == 2:
+        # print "len(res) == 2", res, "\n\n"
+
+
+def newNote(title, loc, note, cursor, db):
+    query = """
+    INSERT INTO %(title)s
+    (Start, Note)
+    VALUES (%(start)d, '%(note)s');
+    """ % {
+        "title": title,
+        "start": loc,
+        "note": note}
+    # print query
+    try:
+        cursor.execute(query)
+        db.commit()
+    except:
+        print "Error creating new note:", query
+
+
+def addNote(title, loc, note, cursor, db):
+    query = """
+    UPDATE %(title)s SET Note='%(note)s' WHERE Start=%(start)d;
+    """ % {
+        "title": title,
+        "note": note,
+        "start": loc}
+    # print query
+    try:
+        cursor.execute(query)
+        db.commit()
+    except:
+        print "Error adding note to table:", query
+
+
 if __name__ == "__main__":
     main(sys.argv[1:])
+
+# replace:
+# "title": title[0].replace(" ", "_").replace("-", "_"),
+# with some kind of regular expression
