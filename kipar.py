@@ -1,30 +1,42 @@
+#!/usr/bin/python
 import re
 import codecs
 import sys
 import getopt
 import MySQLdb
+import getpass
 
 
 def main(argv):
     infile = "My Clippings.txt"
     # process command line arguments
     try:
-        opts, args = getopt.getopt(argv, "i:")
+        opts, args = getopt.getopt(argv, "i:phu")
     except getopt.GetoptError:
         print "kipar -i <infile>"
         sys.exit()
     for opt, arg in opts:
         if opt == "-i":
             infile = arg
+    uploadClippings(infile)
 
+
+def uploadClippings(infile):
     # connect to mysql
-    mysqldb = MySQLdb.connect(host="localhost",
-                              user="rojahend",
-                              passwd="password",
-                              db="library")
+    pw = getpass.getpass()
+    try:
+        mysqldb = MySQLdb.connect(host="localhost",
+                                  user="bo",
+                                  passwd=pw,
+                                  db="library")
+    except:
+        print "error connecting to database"
+        sys.exit()
     cursor = mysqldb.cursor()
     # get the current list of books in the library
     library_index = []
+    # TODO:
+    # fix this to account for the `index` table not existing
     try:
         cursor.execute("SELECT Title, Author FROM `index`;")
         res = cursor.fetchall()
@@ -33,7 +45,7 @@ def main(argv):
     except:
         print "error getting library data"
         sys.exit()
-
+    # loop through the input file
     with codecs.open(infile, mode='r', encoding="UTF-8") as fin:
         while True:
             title = parseTitle(fin.readline())
@@ -53,7 +65,8 @@ def main(argv):
                 if temp is True:
                     break
                 if temp is False:
-                    return "error, unexpected break"
+                    print "error, unexpected end of file"
+                    return
                 else:
                     content = content + temp.replace('\r\n', '')
             if loc[0] == "Highlight":
@@ -208,13 +221,14 @@ def newBook(title_tuple, cursor):
 
 def Highlight(title, start, end, highlight, cursor, db):
     highlight = highlight.replace("\"", "\\\"").replace("\'", "\\\'")
-    title = title.replace(" ", "_").replace("-", "_")
+    title = title.replace(" ", "_").replace("-", "_").lower()
     # select highlights/notes that begin within the current highlight
     probe = """SELECT * FROM `%(title)s`
     where Start>=%(start)d and Start<=%(end)d;""" % {
         "title": title.replace(" ", "_").replace("-", "_"),
         "start": start,
         "end": end}
+    res = ()
     try:
         cursor.execute(probe)
         res = cursor.fetchall()
@@ -270,13 +284,14 @@ def addHighlight(title, loc, start, end, highlight, cursor, db):
 
 def Note(title, loc, note, cursor, db):
     note = note.replace("\"", "\\\"").replace("\'", "\\\'")
-    title = title.replace(" ", "_").replace("-", "_")
+    title = title.replace(" ", "_").replace("-", "_").lower()
     # select highlights/notes that begin within the current highlight
     probe = """SELECT * FROM `%(title)s` WHERE
     (Start<=%(loc)d and End>=%(loc)d) or
     Start=%(loc)d;""" % {
         "title": title,
         "loc": loc}
+    res = ()
     try:
         cursor.execute(probe)
         res = cursor.fetchall()
@@ -325,6 +340,7 @@ def addNote(title, loc, note, cursor, db):
 if __name__ == "__main__":
     main(sys.argv[1:])
 
-# replace:
+
+# TODO:
 # "title": title[0].replace(" ", "_").replace("-", "_"),
 # with some kind of regular expression
