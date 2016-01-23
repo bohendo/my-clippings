@@ -1,17 +1,17 @@
 #!/usr/bin/python
-import re
-import codecs
-import sys
-import getopt
-import MySQLdb
-import getpass
+import re       # re.compile(), re.sub(), re.VERBOSE
+import codecs   # codecs.open()
+import sys      # sys.argv() and sys.exit()
+import getopt   # getopt.getopt(), getopt.GetoptError
+import MySQLdb  # MySQLdb.connect(), mysqldb.cursor()
+import getpass  # getpass.getpass()
 
 
 def main(argv):
     infile = "My Clippings.txt"
-    # process command line arguments
+    # -i infile should be the only command line argument we need
     try:
-        opts, args = getopt.getopt(argv, "i:phu")
+        opts, args = getopt.getopt(argv, "i:")
     except getopt.GetoptError:
         print "kipar -i <infile>"
         sys.exit()
@@ -22,7 +22,7 @@ def main(argv):
 
 
 def uploadClippings(infile):
-    # connect to mysql
+    # connect to mysql w/out cleartext password!
     pw = getpass.getpass()
     try:
         mysqldb = MySQLdb.connect(host="localhost",
@@ -33,11 +33,18 @@ def uploadClippings(infile):
         print "error connecting to database"
         sys.exit()
     cursor = mysqldb.cursor()
-    # get the current list of books in the library
+    # which books are already in my library? Let's find out!
     library_index = []
-    # TODO:
-    # fix this to account for the `index` table not existing
     try:
+        # TODO: remove any books from the index that don't actually exist
+        # if the `index` table doesn't exist yet, make it exist!
+        cursor.execute("SHOW TABLES LIKE \"index\";")
+        res = cursor.fetchall()
+        if len(res) == 0:
+            cursor.execute("""CREATE TABLE `index` (
+            ID int UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            Title tinytext, Author tinytext);
+            """)
         cursor.execute("SELECT Title, Author FROM `index`;")
         res = cursor.fetchall()
         for t in res:
@@ -48,38 +55,47 @@ def uploadClippings(infile):
     # loop through the input file
     with codecs.open(infile, mode='r', encoding="UTF-8") as fin:
         while True:
-            title = parseTitle(fin.readline())
+            title = parseTitle(smart_read(fin))
             currBook = title[0] + " by " + title[1]
             # if we can't parseTitle, we're done
             if title == "Fatal error: couldn't parse Title...":
                 break
             # if this book isn't in our library yet, add it
+            # TODO: if it's in library_index but the table is gone, add table
             if currBook not in library_index:
                 library_index.append(currBook)
                 newBook(title, cursor)
-            # if it is, then I don't know
-            loc = parseLocation(fin.readline())
+            loc = parseLocation(smart_read(fin))
             content = ""
             while True:
-                temp = parseContent(fin.readline())
+                temp = parseContent(smart_read(fin))
                 if temp is True:
                     break
                 if temp is False:
+                    # TODO: why is this an error again???
                     print "error, unexpected end of file"
                     return
                 else:
-                    content = content + temp.replace('\r\n', '')
+                    content = content +\
+                        temp.replace('\r\n', '').replace('\r', '')
             if loc[0] == "Highlight":
                 Highlight(title[0], loc[1], loc[2], content, cursor, mysqldb)
             elif loc[0] == "Note":
                 Note(title[0], loc[1], content, cursor, mysqldb)
 
 
+# linux uses '\r\n' as line breaks, windows uses '\r' then '\r\n'
+# account for this when reading lines
+def smart_read(fin):
+    output = fin.readline()
+    while output == '\r\n' or output == '\r':
+        output = fin.readline()
+    return output
+
+
 def parseContent(strinput):
-    if strinput == '==========\r\n':
+    if strinput == "==========\r\n" or strinput == "==========\r":
         return True
-    if strinput == "\r\n":
-        return ""
     # this catches the end of the file
     if strinput == "":
         return False
@@ -172,7 +188,8 @@ def parseLocation(strinput):
             elif loc_tuple[1] == "page":
                 return [loc_tuple[0], int(loc_tuple[5]), int(loc_tuple[2])]
     else:
-        return "Fatal error: couldn't parse Location..."
+        print "Fatal error: couldn't parse Location...", repr(strinput)
+        sys.exit()
 
 
 # let's dumb down kindle's fancy characters
@@ -203,9 +220,10 @@ def newBook(title_tuple, cursor):
     # print newRowQuery
     # create new table
     newTableQuery = """
-    CREATE TABLE %(table_tit)s (
+    CREATE TABLE `%(table_tit)s` (
     Start int PRIMARY KEY, End int, Highlight text, Note text, Page int);
-    """ % {"table_tit": title_tuple[0].replace(" ", "_").replace("-", "_")}
+    """ % {"table_tit": title_tuple[0].replace(" ", "_").
+           replace("-", "_").lower()}
     # print newTableQuery
     try:
         cursor.execute(newRowQuery)
@@ -225,7 +243,7 @@ def Highlight(title, start, end, highlight, cursor, db):
     # select highlights/notes that begin within the current highlight
     probe = """SELECT * FROM `%(title)s`
     where Start>=%(start)d and Start<=%(end)d;""" % {
-        "title": title.replace(" ", "_").replace("-", "_"),
+        "title": title,
         "start": start,
         "end": end}
     res = ()
