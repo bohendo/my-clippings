@@ -8,3 +8,4 @@ You might recognize this program from its previous name: clippings_parser. This 
  - this program will dump your highlights into a mysql database instead of just reprinting it. 
  - this program will access your mysql data base and write the contained highlights to a new file in a pretty format.
  - The [kindle website](https://kindle.amazon.com/your_highlights) shows all of an accounts' highlights from all devices. I'd love to access this instead of 
+test
