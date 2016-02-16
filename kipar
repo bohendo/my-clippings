@@ -185,8 +185,11 @@ def parseLocation(strinput):
         else:
             if loc_tuple[1] == "Location":
                 return [loc_tuple[0], int(loc_tuple[2]), None]
-            elif loc_tuple[1] == "page":
+            elif loc_tuple[1] == "page" and loc_tuple[4] == "Location":
                 return [loc_tuple[0], int(loc_tuple[5]), int(loc_tuple[2])]
+            # what the fuck why is there ever a page number w/out location?
+            elif loc_tuple[1] == "page" and loc_tuple[4] == "Added":
+                return [loc_tuple[0], 0, None]
     else:
         print "Fatal error: couldn't parse Location...", repr(strinput)
         sys.exit()
