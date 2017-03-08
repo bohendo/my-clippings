@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 import re       # re.compile(), re.sub(), re.VERBOSE
 import codecs   # codecs.open()
 import sys      # sys.argv() and sys.exit()
