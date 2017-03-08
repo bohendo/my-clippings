@@ -29,7 +29,7 @@ my $indexfile = "$outfolder/.index.txt"; # index filename
 my %tr; # index TRanslator
 
 # temp storage
-my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num) = '';
+my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
 my $state;
 
 ##############################
@@ -86,9 +86,10 @@ sub loadIndex {
 ## Read My Clippings from stdin
 
 # reset temp storage
-($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num) = '';
+($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
 $state = 1; # state: 1-title/author, 2-type/location/date, 3-highlight/note
 
+# <> will look for a file as the first argument or listen to STDIN
 while (<>) {
 
   ##############################
@@ -111,29 +112,56 @@ while (<>) {
 
     ##############################
     ## Add this content to an existing file
+  
+    if ($type eq "Bookmark") {} # BTW skip bookmarks
+    elsif ( -e $outfile) {
 
-    if ( -e $outfile) {
+      $tempfile = "$outfile.tmp";
+      my $templine = "";
+      my $isDupe = 0;
 
-      # read file until we hit
+      $labl = ($page ne "") ? "pg" : "loc";
+      $num = ($labl eq "pg") ? $page : $loc;
+
+      # Open $outfile and a temporary file to copy to
       open($outfd, "< $outfile") or die "Error: couldn't open $outfile. $!\n";
+      open($tempfd, "> $tempfile") or die "Error: couldn't open $tempfile. $!\n";
 
+      ##############################
+      ## Copy over the first half of outfile, 
+      ## Stop when we find a good spot to insert our new content
       while (<$outfd>) {
         if (/\s((?:pg)|(?:loc))\s(\d+)\s-\s(.*)/) {
-          $num = ($1 eq "pg") ? $page : $loc;
-
           if ($2 == $num && $3 eq $content) {
-            print "duplicate detected!\n";
-            last;
+            # print "duplicate detected!\n";
+            $isDupe = 1;
+            last; # abort
           } elsif ($2 <= $num) {
-            print "new info at $num comes after $2\n";
+            print $tempfd $_;
+            # print "new info at $num comes after $2\n";
           } else {
-            print "new info at $num goes here: $2\n";
+            # print "new info at $num goes here: $2\n";
+            $templine = $_;
+            last;
           }
-
+        } else {
+          print $tempfd $_;
         }
       }
 
+      ##############################
+      ## Add our new content then copy the rest of the file
+      if ($type eq "Highlight") { print $tempfd " $labl $num - $content\n"; }
+      elsif ($type eq "Note") { print $tempfd " $labl $num - My Note: $content\n"; }
+      print $tempfd "\n$templine" unless($isDupe);
+      while (<$outfd>) { print $tempfd $_; }  
+
+      close($tempfd) or die "Error: couldn't close $tempfile. $!\n";
       close($outfd) or die "Error: couldn't close $outfile. $!\n";
+
+      # replace our old outfile with our new one
+      unlink $outfile;
+      rename $tempfile, $outfile;
 
     ##############################
     ## Create a new file and initialize it with this content
@@ -157,7 +185,7 @@ while (<>) {
     ## Reset in preparation for the next piece of content
 
     ($rawtitle, $title, $author, $key, $type, $loc, $page, $content) = "";
-    $state = 0; 
+    $state = 1; 
   }
 
   ##############################
@@ -209,6 +237,7 @@ while (<>) {
       %tr = loadIndex();
 
     }
+    $state += 1;
   }
 
   ##############################
@@ -236,6 +265,7 @@ while (<>) {
       $loc = ""; # print "no location..\n";
     }
 
+    $state += 1;
   }
 
   ##############################
@@ -248,6 +278,5 @@ while (<>) {
 
   ##############################
   ## Increment state after parsing each line
-  $state += 1;
 
 }
