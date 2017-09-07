@@ -1,0 +1,336 @@
+
+Site Reliability Engineering
+Site Reliability Engineering
+Google SRE
+
+New World Ronin: Strategies for Artists, Entrepreneurs, Rebels, Warriors and Outcasts
+New World Ronin
+Victor Pride
+
+Women on Top: How Real Life Has Changed Women's Sexual Fantasies
+Women on Top
+Nancy Friday
+
+Influence: The Psychology of Persuasion (Collins Business Essentials)
+Influence
+Robert Cialdini PhD
+
+The Circle
+The Circle
+Dave Eggers
+
+Awaken the Giant Within: How to Take Immediate Control of Your Mental, Emotional, Physical and Financial
+Awaken the Giant Within
+Tony Robbins
+
+Self-Knowledge
+Self Knowledge
+Mark Manson
+
+How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life
+How to Fail at Almost Everything
+Scott Adams
+
+Brave New World
+Brave New World
+Aldous Huxley
+
+Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley
+Chaos Monkeys
+Antonio Martinez
+
+Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers
+Tools of Titans
+Tim Ferriss
+
+The Elon Musk Blog Series: Wait But Why
+Elon Musk by Wait but Why
+Tim Urban
+
+Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future
+Elon Musk
+Ashlee Vance
+
+Threat Modeling: Designing for Security
+Threat Modeling
+Adam Shostack
+
+textbook-xinu
+Xinu
+Douglas Comer
+
+No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State
+No Place To Hide
+Glenn Greenwald
+
+Dreaming Yourself Awake: Lucid Dreaming and Tibetan Dream Yoga for Insight and Transformation
+Dreaming Yourself Awake
+Alan Wallace
+
+penetration-testing
+Penetration Testing
+Georgia Weidman
+
+The Magic of Thinking Big
+Magic of Thinking Big
+David Schwartz
+
+programming-from-the-ground-up
+Programming from the Ground Up
+Jonathan Bartlett
+
+Fight Club: A Novel
+Fight Club
+Chuck Palahniuk
+
+The Fountainhead
+Fountainhead
+Ayn Rand
+
+The Pragmatic Programmer: From Journeyman to Master
+Pragmatic Programmer
+Andrew Hunt, David Thomas
+
+Pro Git
+Pro Git
+Scott Chacon
+
+Countdown to Zero Day
+Countdown to Zero Day
+Kim Zetter
+
+The 48 Laws of Power
+48 Laws of Power
+Robert Greene
+
+The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change (25th Anniversary Edition)
+7 Habits of Highly Effective People
+Stephen Covey
+
+Jiu-Jitsu on the Brain
+Jiu-Jitsu on the Brain
+Mark Johnsom
+
+Think and Grow Rich
+Think and Grow Rich
+Napoleon Hill
+
+The Millionaire Fastlane: Crack the Code to Wealth and Live Rich for a Lifetime
+Millionaire Fastlane
+MJ DeMarco
+
+Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel
+Vagabonding
+Rolf Potts
+
+ng-book
+ng-book
+Ari Lerner
+
+Trump: The Art of the Deal
+Art of the Deal
+Donald Trump
+
+The Gervais Principle: The Complete Series, with a Bonus Essay on Office Space (Ribbonfarm Roughs Book 2)
+Gervais Principle
+Venkatesh Rao
+
+God's Debris: A Thought Experiment
+God's Debris
+Scott Adams
+
+Choose Yourself!
+Choose Yourself
+James Altucher
+
+Gorilla Mindset
+Gorilla Mindset
+Mike Cernovich
+
+Getting Things Done: The Art of Stress-Free Productivity
+Getting Things Done
+David Allen
+
+Never Eat Alone, Expanded and Updated: And Other Secrets to Success, One Relationship at a Time
+Never Eat Alone
+Keith Ferrazzi, Tahl Raz
+
+Getting Results the Agile Way: A Personal Results System for Work and Life
+Getting Results the Agile Way
+JD Meier
+
+The 4-Hour Workweek, Expanded and Updated: Expanded and Updated, With Over 100 New Pages of Cutting-Edge Content.
+4-Hour Workweek
+Tim Ferriss
+
+Models: Attract Women Through Honesty
+Models
+Mark Manson
+
+Love Yourself Like Your Life Depends On It
+Love Yourself
+Kamal Ravikant
+
+Countdown to Zero Day_ Stuxnet and the Launch of the World's First Digital Weapon_B00KEPLC08.kfx
+Countdown to Zero Day
+Kim Zetter
+
+The Power of Now: A Guide to Spiritual Enlightenment
+Power of Now
+Eckhart Tolle
+
+Be Slightly Evil: A Playbook for Sociopaths (Ribbonfarm Roughs 1)
+Be Slightly Evil
+Venkatesh Rao
+
+The 4-Hour Chef: The Simple Path to Cooking Like a Pro, Learning Anything, and Living the Good Life
+4-Hour Chef
+Tim Ferriss
+
+Sex at Dawn: How We Mate, Why We Stray, and What It Means for Modern Relationships
+Sex at Dawn
+Chris Ryan
+
+I Will Teach You To Be Rich
+I Will Teach You To Be Rich
+Ramit Sethi
+
+Convict Conditioning: How to Bust Free of All Weakness-Using the Lost Secrets of Supreme Survival Strength
+Convict Conditioning
+Paul Wade
+
+Antifragile: Things That Gain from Disorder (Incerto)
+Antifragile
+Nicholas Nassim
+
+Arnold: The Education of a Bodybuilder
+Education of a Bodybuilder
+Arnold Schwarzenegger
+
+The Power of Habit: Why We Do What We Do in Life and Business
+Power of Habit
+Charles Duhigg
+
+Joy on Demand: The Art of Discovering the Happiness Within
+Joy on Demand
+Chade-Meng Tan
+
+The Art and Science of Low Carbohydrate Performance
+Low Carbohydrate Performance
+Stephen Phinney
+
+6 Months to 6 Figures
+6 Months to 6 Figures
+Peter Voogd
+
+Rich Dad Poor Dad: What The Rich Teach Their Kids About Money - That The Poor And Middle Class Do Not!
+Rich Dad Poor Dad
+Robert Kiyosaki
+
+The Intelligent Investor, Rev. Ed (Collins Business Essentials)
+Intelligent Investor
+Ben Graham, Jason Zweig
+
+The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life
+Subtle Art of Not Giving a Fuck
+Mark Manson
+
+Accounting Made Simple: Accounting Explained in 100 Pages or Less
+Accounting Made Simple
+Mike Piper
+
+The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism
+Charisma Myth
+Olivia Cabane
+
+The Power of Persuasion: How We're Bought and Sold
+Power of Persuasion
+Robert Levine
+
+Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time
+Eat That Frog
+Brian Tracy
+
+What I Learned Losing A Million Dollars
+What I Learned Losing A Million Dollars
+Brendan Moynihan
+
+Limited Liability Company: Your Quickstart Guide to Limited Liability Companies (LLC) Business Taxes (LLC, Limited, Liability, Company, Quickstart)
+LLC Quickstart
+Peter Richardson
+
+The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM) (The Miracle Morning Book Series 1)
+Miracle Morning
+Hal Elrod
+
+Civil Disobedience
+Civil Disobedience
+Henry Thoreau
+
+How the Linux Scheduler Works
+How the Linux Scheduler Works
+Josh Aas
+
+Overcoming_Gravity
+Overcoming Gravity
+Steven Low
+
+The Effective Executive: The Definitive Guide to Getting the Right Things Done (Harperbusiness Essentials)
+Effective Executive
+Peter Drucker
+
+computer-security
+Computer Security
+Stallings & Brown
+
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two
+22 Immutable Laws of Marketing
+Al Ries
+
+Thinking, Fast and Slow
+Thinking Fast and Slow
+Daniel Kahneman
+
+Time Management for System Administrators: Stop Working Late and Start Working Smart
+Time Management for Sys Admins
+Thomas Limoncelli
+
+Mastering Bitcoin: Unlocking Digital Cryptocurrencies
+Mastering Bitcoin
+Andreas Antonopoulos
+
+Bitcoin:  A Concise History
+History of Bitcoin
+Eric Morse
+
+How Linux Works: What Every Superuser Should Know
+How Linux Works
+Brian Ward
+
+How to Get Filthy Rich in Rising Asia: A Novel
+Filthy Rich in Rising Asia
+Mohsin Hamid
+
+Mastering Ubuntu Server
+Mastering Ubuntu Server
+Jay LaCroix
+
+Sapiens: A Brief History of Humankind
+Sapiens
+Yuval Harari
+
+The Dip: A Little Book That Teaches You When to Quit (and When to Stick)
+The Dip
+Seth Godin
+
+The Practice of System and Network Administration
+Practice of System Administration
+Thomas Limoncelli
+
+The Slight Edge: Turning Simple Disciplines into Massive Success and Happiness
+Slight Edge
+Jeff Olson
+
+The Time Paradox: The New Psychology of Time That Will Change Your Life
+Time Paradox
+Philip Zimbardo
