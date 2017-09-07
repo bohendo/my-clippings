@@ -12,7 +12,7 @@ binmode(STDOUT, ":utf8"); # write to STDOUT as utf-8
 ##############################
 ## Variables
 
-my $outfolder = "/home/bo/n/kipar";
+my $outfolder = "$ENV{'HOME'}/Documents/kipar/highlights";
 
 my $outfd; # file descriptor for outfile
 my $outfile; # temp storage for book file we're writing to
@@ -83,7 +83,7 @@ sub loadIndex {
 # exit;
 
 ##############################
-## Read My Clippings from stdin
+## Read My Clippings (from stdin or as 1st arg)
 
 # reset temp storage
 ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
@@ -105,7 +105,7 @@ while (<>) {
 
   if ($_ eq "==========") { 
 
-    $outfile = lc "$outfolder/$title.txt";
+    $outfile = "$outfolder/" . lc "$title.txt";
     $outfile =~ s/\s/-/g;
 
     # print "GOT\ntitle: $title\nauthor: $author\ntype: $type\nloc: $loc\npage: $page\ncontent: $content\n\n";
@@ -132,7 +132,7 @@ while (<>) {
       ## Stop when we find a good spot to insert our new content
       while (<$outfd>) {
         if (/\s((?:pg)|(?:loc))\s(\d+)\s-\s(.*)/) {
-          if ($2 == $num && $3 eq $content) {
+          if ($2 == $num && ( $3 eq $content || $3 eq "My Note: $content") ) {
             # print "duplicate detected!\n";
             $isDupe = 1;
             last; # abort
@@ -150,10 +150,15 @@ while (<>) {
       }
 
       ##############################
-      ## Add our new content then copy the rest of the file
+      ## Add this line of content
       if ($type eq "Highlight") { print $tempfd " $labl $num - $content\n"; }
       elsif ($type eq "Note") { print $tempfd " $labl $num - My Note: $content\n"; }
+
+      # if this is a duplicate we just added a copy above
       print $tempfd "\n$templine" unless($isDupe);
+    
+      ##############################
+      # copy over the rest of the current file & cleanup
       while (<$outfd>) { print $tempfd $_; }  
 
       close($tempfd) or die "Error: couldn't close $tempfile. $!\n";
@@ -202,7 +207,6 @@ while (<>) {
 
     ##############################
     ## Old book? Replace extracted title/author w data from Index
-
     if (exists $tr{$key}) {
       $author = $tr{$key}->{'author'};
       $title = $tr{$key}->{'title'};
@@ -217,13 +221,13 @@ while (<>) {
       open($kb, "< /dev/tty") or die "Error: couldn't open keyboard. $!\n";
 
       # Ask the user what the TITLE of this book should be displayed as
-      print "Display title: "; chomp($kbinput = <$kb>);
+      print "Display title: "; chomp($kbinput = <$kb>); # chomp = s/\n?$//
       # set title to input unless the input is empty (in which case use default)
       if ($kbinput ne '') { $title = $kbinput; }
       else { $title = $key; }
 
       # Ask the user what the AUTHOR of this book should be displayed as
-      print "Display author: "; chomp($kbinput = <$kb>);
+      print "Display author: "; chomp($kbinput = <$kb>); # chomp = s/\n?$//
       # set author to input unless the input is empty (in which case use default)
       if ($kbinput ne '') { $author = $kbinput; }
 
@@ -275,8 +279,5 @@ while (<>) {
   ##############################
   ## More than 3 lines or less than 1: something's wrong
   else { die "Error: invalid state: $state on line '$_'\n"; }
-
-  ##############################
-  ## Increment state after parsing each line
 
 }
