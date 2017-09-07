@@ -1,15 +1,43 @@
-# kipar - the **ki**ndle clippings **par**ser
+# My Clippings
 
-Kindle highlights and notes are stored in a "My Clippings".txt file in an ugly format. This script copies your kindle notes to a format that's much easier to read. A kipar folder is created and filled with 1 file for each book you have highlights or notes for. Each file displays the title and author followed by a list of all of your notes/highlights sorted chronologically and labeled with the page or location it starts on.
+### `coalesce.sh`
 
-Download `kipar.pl` and then run it like this.
+This script will coalesce your "My Clippings.txt" files into one master file. While doing so, it removes any duplicate entries and sorts your highlights primarily by title and secondarily by the location/page.
+
+The default output file is called my-clippings.txt but you can change the output variable to whatever you like.
+
+`coalesce.sh` doesn't take any arguments but it expects to see a file called "My Clippings.txt" in the same folder.
+
+After it's done, it will delete "My Clippings.txt" and leave you with an updated my-clippings file that contains all its highlights.
+
+Usage looks like this:
 
 ```bash
-perl /path/to/kipar.pl /path/to/My\ Clippings.txt
+$ ls
+coalesce.sh  extract.pl  highlights  my-clippings.txt  My Clippings.txt  README.md
+
+$ ./coalesce.sh 
+
+$ ls
+coalesce.sh  extract.pl  highlights  my-clippings.txt  README.md
 ```
 
-You can run it over and over on the same `My Clippings.txt` and your kipar library will not be filled with duplicate entries. That means you can throw all of your clippings into one archive folder, maybe update filenames with the date you added them. Then if you ever need to completely reset your kipar library you can run the following.
+### `extract.pl`
+
+This script takes a single clippings file as it's only argument. It separates the kindle-readable clippings monolith into a collection of files in the highlights directory which each contain all the highlights for one book in a much more human-readable format.
+
+Each book has a user-definable display name. When `extract.pl` encounters a book that's not in it's `highlights/.index.txt` file, it will prompt the user for a display title which will be used as the filename for that book's highlights. Empty display titles default to the book's full title but be careful, some of these are really long.
+
+A display author is also asked for, this will be displayed at the top of this book's highlights file under the display title. This similarly uses the default value if none is provided.
+
+Your choices are saved in `highlights/.index.txt` so you only need to provide this once once per book.
 
 ```bash
-rm -rf /path/to/kipar/* && cat /path/to/clipping-archive/*.txt | /path/to/kipar.pl
+$ ./extract.pl my-clippings.txt 
+New book: 'The Pragmatic Programmer: From Journeyman to Master' by 'Andrew Hunt;David Thomas'
+Display title: Pragmatic Programmer
+Display author: Andrew Hunt & David Thomas
 ```
+
+Browse my highlights folder to see what the result looks like for yourself
+

@@ -87,10 +87,6 @@ The Fountainhead
 Fountainhead
 Ayn Rand
 
-The Pragmatic Programmer: From Journeyman to Master
-Pragmatic Programmer
-Andrew Hunt, David Thomas
-
 Pro Git
 Pro Git
 Scott Chacon
@@ -334,3 +330,7 @@ Jeff Olson
 The Time Paradox: The New Psychology of Time That Will Change Your Life
 Time Paradox
 Philip Zimbardo
+
+The Pragmatic Programmer: From Journeyman to Master
+Pragmatic Programmer
+Andrew Hunt & David Thomas
