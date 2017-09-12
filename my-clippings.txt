@@ -4395,6 +4395,11 @@ Gorilla Mindset (Cernovich, Mike)
 Ask these questions to develop ruthless focus: What do you want more of? What do you want less of? Does [person/activity] bring you more of what you want? Does [person/activity] bring you less of what you want?
 ==========
 How Linux Works: What Every Superuser Should Know (Ward, Brian)
+- Your Bookmark on page 245 | Location 6468 | Added on Thursday, August 24, 2017 4:28:46 PM
+
+
+==========
+How Linux Works: What Every Superuser Should Know (Ward, Brian)
 - Your Highlight on page 10 | Location 300-301 | Added on Thursday, July 27, 2017 8:44:09 AM
 
 Groups are sets of users. The primary purpose of groups is to allow a user to share file access to other users in a group.
@@ -5678,6 +5683,11 @@ How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life
 - Your Highlight on page 9 | Location 226-228 | Added on Wednesday, July 6, 2016 12:13:37 AM
 
 The prospect of humiliation in front of a thousand strangers, many of whom would likely be video recording the disaster, wasn’t as much of a showstopper as you might think. It was worth the risk to me because I needed to know what would happen with my voice in that context. I needed to find out the pattern.
+==========
+How to Get Filthy Rich in Rising Asia: A Novel (Hamid, Mohsin)
+- Your Bookmark on page 228 | Location 1961 | Added on Sunday, July 2, 2017 8:13:05 AM
+
+
 ==========
 How to Get Filthy Rich in Rising Asia: A Novel (Hamid, Mohsin)
 - Your Highlight on page 10 | Location 118-127 | Added on Sunday, June 25, 2017 2:01:39 PM
@@ -11420,6 +11430,11 @@ Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
 > h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 
 ==========
 Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:41 PM
+
+> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 ==
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
 - Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:46 PM
 
 > h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 == h2 => true
@@ -14206,6 +14221,11 @@ When you look at customers in a given product category, there seem to be two kin
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
 - Your Highlight on page 51 | Location 587-593 | Added on Tuesday, September 12, 2017 11:04:52 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-593 | Added on Tuesday, September 12, 2017 3:20:28 PM
 
  <You have reached the clipping limit for this item>
 ==========

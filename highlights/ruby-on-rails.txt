@@ -128,6 +128,8 @@ ______________________________
 
  loc 5066 - >> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 == h2 => true
 
+ loc 5066 - > h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 ==
+
  loc 5120 - Note that, while the each method for arrays takes a block with only one variable, each for hashes takes two, a key and a value. Thus, the each method for a hash iterates through the hash one key-value pair at a time.
 
  loc 5138 - using inspect to print an object is common enough that there’s a shortcut for it, the p function:

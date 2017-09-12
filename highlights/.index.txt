@@ -334,4 +334,3 @@ Andrew Hunt & David Thomas
 Ruby on Rails Tutorial (Rails 5)
 Ruby on Rails
 Michael Hartl
-

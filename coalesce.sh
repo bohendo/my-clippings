@@ -22,7 +22,8 @@ sed 's/^\xef\xbb\xbf//' |\
 tr -d '\n\r' |\
 
 # Split every highlight/bookmark/note onto it's own line
-sed 's/==========/==========\n/g' |\
+# anchor to end of delimiter in case highlight ends with =
+sed 's/==========\([^=]\)/==========\n\1/g' |\
 
 # Sort numerically so books w same title will sort by page/location
 # Note: the above logic is flawed, currently sorts 100, 12, 2
@@ -30,13 +31,19 @@ sed 's/==========/==========\n/g' |\
 sort -n | uniq |\
 
 # Put the newlines back where they were originally and we're done
-sed 's/==========/\n==========/g' |\
-sed 's/ \([AP]M\)/ \1\n\n/'       |\
+sed 's/==========$/\n==========/g' |\
+sed 's/ \([AP]M\)/ \1\n\n/'        |\
 sed 's/- Your/\n- Your/'           \
 > "$output"
+# change this to a temp file to debug
+
 
 # Remove our input & old output if everything went well
-if [[ $? -eq 0 && -f "$output" ]]; then
+if [[ -f "$output" ]]; then
   rm ".$output.backup" "$input"
+# Reverting changes makes debugging cleaner
+else
+  echo "Expected output not generated, reverting changes.."
+  mv ".$output.backup" "$output"
 fi
 
