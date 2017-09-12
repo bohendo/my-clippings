@@ -12,7 +12,7 @@ binmode(STDOUT, ":utf8"); # write to STDOUT as utf-8
 ##############################
 ## Variables
 
-my $outfolder = "$ENV{'HOME'}/Documents/kipar/highlights";
+my $outfolder = "highlights";
 
 my $outfd; # file descriptor for outfile
 my $outfile; # temp storage for book file we're writing to

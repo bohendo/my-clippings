@@ -12,3 +12,5 @@ ______________________________
 
  loc 585 - While doing a memory test can add considerable time to the installation process, I definitely recommend it, especially if the hardware is new and hasn't ever been tested at all. In fact, I make it a process to test the RAM of all my servers once or twice a year, so this media can be used as a memory tester any time you need one.
 
+ loc 840 - Ubuntu defaults to locking out the root account altogether. This is very much unlike many other distributions.
+

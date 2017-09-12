@@ -7,10 +7,6 @@ New World Ronin: Strategies for Artists, Entrepreneurs, Rebels, Warriors and Out
 New World Ronin
 Victor Pride
 
-Women on Top: How Real Life Has Changed Women's Sexual Fantasies
-Women on Top
-Nancy Friday
-
 Influence: The Psychology of Persuasion (Collins Business Essentials)
 Influence
 Robert Cialdini PhD
@@ -334,3 +330,8 @@ Philip Zimbardo
 The Pragmatic Programmer: From Journeyman to Master
 Pragmatic Programmer
 Andrew Hunt & David Thomas
+
+Ruby on Rails Tutorial (Rails 5)
+Ruby on Rails
+Michael Hartl
+

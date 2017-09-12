@@ -25,6 +25,7 @@ tr -d '\n\r' |\
 sed 's/==========/==========\n/g' |\
 
 # Sort numerically so books w same title will sort by page/location
+# Note: the above logic is flawed, currently sorts 100, 12, 2
 # Remove any duplicate lines (we're idempotent!)
 sort -n | uniq |\
 

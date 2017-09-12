@@ -8579,6 +8579,11 @@ Mastering Ubuntu Server (LaCroix, Jay)
 
 While doing a memory test can add considerable time to the installation process, I definitely recommend it, especially if the hardware is new and hasn't ever been tested at all. In fact, I make it a process to test the RAM of all my servers once or twice a year, so this media can be used as a memory tester any time you need one.
 ==========
+Mastering Ubuntu Server (LaCroix, Jay)
+- Your Highlight on Location 840-841 | Added on Friday, September 8, 2017 10:48:17 AM
+
+Ubuntu defaults to locking out the root account altogether. This is very much unlike many other distributions.
+==========
 Models: Attract Women Through Honesty (Manson, Mark)
 - Your Highlight on Location 145-145 | Added on Monday, July 20, 2015 1:07:59 PM
 
@@ -11074,6 +11079,676 @@ Rich Dad Poor Dad: What The Rich Teach Their Kids About Money - That The Poor An
 
 “An intelligent person hires people who are more intelligent than he is.”
 ==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10090-10092 | Added on Tuesday, September 5, 2017 1:14:23 PM
+
+we’ll render an error-messages partial on the user new page while adding the CSS class form-control (which has special meaning to Bootstrap) to each entry field,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10184-10186 | Added on Tuesday, September 5, 2017 1:19:46 PM
+
+pluralize takes an integer argument and then returns the number with a properly pluralized version of its second argument. Underlying this method is a powerful inflector that knows how to pluralize a large number of words, including many with irregular plurals:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1029-1032 | Added on Sunday, September 3, 2017 2:07:51 PM
+
+the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems where the last digit differs (e.g., from 4.0.0 to 4.0.1),
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1029-1033 | Added on Sunday, September 3, 2017 2:06:29 PM
+
+the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems where the last digit differs (e.g., from 4.0.0 to 4.0.1), but the digits before that releases (e.g., from 4.0 to 4.1).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1029-1033 | Added on Sunday, September 3, 2017 2:07:47 PM
+
+the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation only installs updated gems where the last digit differs (e.g., from 4.0.0 to 4.0.1), but the digits before that releases (e.g., from 4.0 to 4.1).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10294-10296 | Added on Tuesday, September 5, 2017 1:26:40 PM
+
+By wrapping the post in the assert_no_difference method with the string argument ’User.count’, we arrange for a comparison between User.count before and after the contents inside the assert_no_difference block.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10294-10296 | Added on Tuesday, September 5, 2017 1:26:43 PM
+
+By wrapping the post in the assert_no_difference method with the string argument ’User.count’, we arrange for a comparison between User.count before and after the contents inside the assert_no_difference block.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10294-10298 | Added on Tuesday, September 5, 2017 1:26:47 PM
+
+By wrapping the post in the assert_no_difference method with the string argument ’User.count’, we arrange for a comparison between User.count before and after the contents inside the assert_no_difference block. This is equivalent to recording the user count, posting the data, and verifying that the count is the same:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 10506-10507 | Added on Tuesday, September 5, 2017 1:30:10 PM
+
+The Rails way to display a temporary message is to use a special method called the flash, which we can treat like a hash.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1372-1374 | Added on Sunday, September 3, 2017 2:29:21 PM
+
+repositories while charging for private repos, whereas Bitbucket allows unlimited free private repos while charging for more than a certain number of collaborators.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1373-1374 | Added on Sunday, September 3, 2017 2:29:24 PM
+
+Bitbucket allows unlimited free private repos while charging for more than a certain number of collaborators.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1377-1378 | Added on Sunday, September 3, 2017 2:29:45 PM
+
+growing concerns about security have led me to recommend that all web application repositories be private by default.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1493-1495 | Added on Sunday, September 3, 2017 2:35:50 PM
+
+Note that we write the commit message in the present tense (and, technically speaking, the imperative mood).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 1536-1538 | Added on Sunday, September 3, 2017 2:38:21 PM
+
+deploying early and often allows us to catch any deployment problems early in our development cycle. The alternative—deploying only after laborious effort sealed away in a development environment—often leads to terrible integration headaches when launch time comes.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2158-2161 | Added on Sunday, September 3, 2017 4:53:16 PM
+
+the index, show, new, and edit actions all correspond to pages from Section 2.2.1, but there are additional create, update, and destroy actions as
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2195-2202 | Added on Sunday, September 3, 2017 4:55:14 PM
+
+“REST”, which is an acronym for REpresentational State Transfer. REST is an architectural style for developing distributed, networked systems and software applications such as the World Wide Web and web applications. Although REST theory is rather abstract, in the context of Rails applications REST means that most application components (such as users and microposts) are modeled as resources that can be created, read, updated, and deleted—operations that correspond both to the CRUD operations of relational databases and to the four fundamental HTTP request methods: POST, GET, PATCH, and DELETE.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2240-2241 | Added on Sunday, September 3, 2017 4:58:52 PM
+
+Variables that start with the @ sign, called instance variables, are automatically available in the views;
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2556-2558 | Added on Sunday, September 3, 2017 5:17:31 PM
+
+both the User model and the Micropost model inherit (via the left angle bracket <) from ApplicationRecord, which in turn inherits from ActiveRecord::Base,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2556-2558 | Added on Sunday, September 3, 2017 5:17:35 PM
+
+both the User model and the Micropost model inherit (via the left angle bracket <) from ApplicationRecord, which in turn inherits from ActiveRecord::Base, which is the base class for models provided by Active Record;
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2960-2961 | Added on Sunday, September 3, 2017 6:41:27 PM
+
+these two commands cancel each other out: $ rails generate controller StaticPages home help $ rails destroy controller StaticPages home help
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 2970-2973 | Added on Sunday, September 3, 2017 6:41:39 PM
+
+Migrations change the state of the database using the command $ rails db:migrate We can undo a single migration step using $ rails db:rollback To go all the way back to the beginning, we can use $ rails db:migrate VERSION=0
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3144-3147 | Added on Sunday, September 3, 2017 6:51:52 PM
+
+When done right, writing tests also allows us to develop faster despite requiring extra code, because we’ll end up wasting less time trying to track down bugs. This is true only once we get good at writing tests, though, which is one reason it’s important to start practicing as early as possible.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3148-3150 | Added on Sunday, September 3, 2017 6:52:20 PM
+
+test-driven development (TDD),8 a testing technique in which the programmer writes failing tests first, and then writes the application code to get the tests to pass.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3164-3164 | Added on Sunday, September 3, 2017 6:53:37 PM
+
+many developers find that, as they get better at writing tests, they are more inclined to write them first.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3168-3174 | Added on Sunday, September 3, 2017 6:54:43 PM
+
+When a test is especially short or simple compared to the application code it tests, lean toward writing the test first. When the desired behavior isn’t yet crystal clear, lean toward writing the application code first, then write a test to codify the result. Because security is a top priority, err on the side of writing tests of the security model first. Whenever a bug is found, write a test to reproduce it and protect against regressions, then write the application code to fix it. Lean against writing tests for code (such as detailed HTML structure) likely to change in the future. Write tests before refactoring code, focusing on testing error-prone code that’s especially likely to break.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3175-3177 | Added on Sunday, September 3, 2017 6:55:04 PM
+
+we’ll usually write controller and model tests first and integration tests (which test functionality across models, views, and controllers) second. And when we’re writing application code that isn’t particularly brittle or error-prone, or is likely to change (as is often the case with views), we’ll often skip testing altogether.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3240-3243 | Added on Sunday, September 3, 2017 6:59:38 PM
+
+test-driven development involves writing a failing test first, writing the application code needed to get it to pass, and then refactoring the code if necessary. Because many testing tools represent failing tests with the color red and passing tests with the color green, this sequence is sometimes known as the “Red, Green, Refactor” cycle.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3242-3242 | Added on Sunday, September 3, 2017 6:59:28 PM
+
+Because many testing tools represent failing tests with the color red and passing
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3629-3631 | Added on Sunday, September 3, 2017 7:13:50 PM
+
+(The distinction between the two types of embedded Ruby is that <% ... %> executes the code inside, while <%= ... %> executes it and inserts the result into the template.)
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 3722-3723 | Added on Sunday, September 3, 2017 7:18:31 PM
+
+using this layout ensures that, for example, visiting the page /static_pages/home converts the contents of home.html.erb to HTML and then inserts it in place of <%= yield %>.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4394-4395 | Added on Monday, September 4, 2017 1:58:56 AM
+
+Ruby comments start with the pound sign # (also called the “hash mark” or (more poetically) the “octothorpe”)
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4395-4395 | Added on Monday, September 4, 2017 1:58:50 AM
+
+pound sign # (also called the “hash mark” or (more poetically) the “octothorpe
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4454-4454 | Added on Monday, September 4, 2017 1:02:16 PM
+
+nil is a special Ruby value for “nothing at all”.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4478-4479 | Added on Monday, September 4, 2017 1:03:15 PM
+
+Ruby won’t interpolate into single-quoted strings:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4491-4492 | Added on Monday, September 4, 2017 1:04:01 PM
+
+inside double-quoted strings, a literal backslash is represented with two backslashes.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4529-4531 | Added on Monday, September 4, 2017 1:06:00 PM
+
+Note the question mark at the end of the empty? method. This is a Ruby convention indicating that the return value is boolean: true or false.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4548-4549 | Added on Monday, September 4, 2017 1:06:25 PM
+
+Booleans can also be combined using the && (“and”), || (“or”), and ! (“not”) operators:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4592-4594 | Added on Monday, September 4, 2017 1:11:10 PM
+
+It’s worth noting that the nil object is special, in that it is the only Ruby object that is false in a boolean context, apart from false itself.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4592-4594 | Added on Monday, September 4, 2017 1:11:13 PM
+
+It’s worth noting that the nil object is special, in that it is the only Ruby object that is false in a boolean context, apart from false itself.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4592-4595 | Added on Monday, September 4, 2017 1:11:16 PM
+
+It’s worth noting that the nil object is special, in that it is the only Ruby object that is false in a boolean context, apart from false itself. We can see this using !! (read “bang bang”), which negates an object twice, thereby coercing it to its boolean value:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4648-4648 | Added on Monday, September 4, 2017 1:13:48 PM
+
+Ruby functions have an implicit
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4648-4649 | Added on Monday, September 4, 2017 1:13:52 PM
+
+Ruby functions have an implicit return, meaning they return the last statement evaluated—
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4794-4796 | Added on Monday, September 4, 2017 1:20:52 PM
+
+Note that none of the methods above changes a itself. To mutate the array, use the corresponding “bang” methods
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4794-4797 | Added on Monday, September 4, 2017 1:20:44 PM
+
+Note that none of the methods above changes a itself. To mutate the array, use the corresponding “bang” methods (so-called because the exclamation point is usually pronounced “bang” in this context):
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4801-4802 | Added on Monday, September 4, 2017 1:21:15 PM
+
+You can also add to arrays with the push method or its equivalent operator, <<, called the “shovel operator”:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4819-4821 | Added on Monday, September 4, 2017 1:22:36 PM
+
+Closely related to arrays are ranges, which can probably most easily be understood by converting them to arrays using the to_a method:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4829-4830 | Added on Monday, September 4, 2017 1:22:45 PM
+
+Though 0..9 is a valid range, the second expression above shows that we need to add parentheses to call a method on it.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4836-4838 | Added on Monday, September 4, 2017 1:23:55 PM
+
+use the index -1 at the end of the range to select every element from the starting point to the end of the array without explicitly having to use the array’s length:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4874-4878 | Added on Monday, September 4, 2017 1:25:13 PM
+
+(1..5).each { |i| puts 2 * i }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4880-4885 | Added on Monday, September 4, 2017 1:25:29 PM
+
+This code calls the each method on the range (1..5) and passes it the block { |i| puts 2 * i }. The vertical bars around the variable name in |i| are Ruby syntax for a block variable, and it’s up to the method to know what to do with the block. In this case, the range’s each method can handle a block with a single local variable, which we’ve called i, and it just executes the block for each value in the range.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4894-4896 | Added on Monday, September 4, 2017 1:25:46 PM
+
+we’ll follow the common convention of using curly braces only for short one-line blocks and the do..end syntax for longer one-liners and for multi-line blocks:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 490-491 | Added on Sunday, September 3, 2017 1:33:14 PM
+
+technical sophistication: the combination of hard and soft skills that make it seem like you can magically solve any technical problem
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4912-4914 | Added on Monday, September 4, 2017 1:27:40 PM
+
+3.times { puts "Betelgeuse!" } # 3.times takes a block with no variables.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4915-4919 | Added on Monday, September 4, 2017 1:27:53 PM
+
+(1..5).map { |i| i**2 } # The ** notation is for 'power'.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4920-4921 | Added on Monday, September 4, 2017 1:28:04 PM
+
+%w makes string arrays.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 4925-4927 | Added on Monday, September 4, 2017 1:28:22 PM
+
+%w[A B C].map { |char| char.downcase }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 496-497 | Added on Sunday, September 3, 2017 1:33:49 PM
+
+Because web applications have so many moving parts, they offer ample opportunities to develop your technical sophistication.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5003-5005 | Added on Monday, September 4, 2017 1:32:14 PM
+
+Hashes are essentially arrays that aren’t limited to integer indices. (In fact, some languages, especially Perl, sometimes call hashes associative arrays for this reason.)
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5019-5020 | Added on Monday, September 4, 2017 1:32:55 PM
+
+pair of braces with no key-value pairs—i.e., {}—is an empty hash.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5019-5020 | Added on Monday, September 4, 2017 1:32:58 PM
+
+pair of braces with no key-value pairs—i.e., {}—is an empty hash.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5019-5020 | Added on Monday, September 4, 2017 1:33:02 PM
+
+a pair of braces with no key-value pairs—i.e., {}—is an empty hash.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5024-5024 | Added on Monday, September 4, 2017 1:33:16 PM
+
+If order matters, use an array.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5026-5030 | Added on Monday, September 4, 2017 1:33:33 PM
+
+“hashrocket”: >> user = { "first_name" => "Michael", "last_name" => "Hartl" }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5026-5030 | Added on Monday, September 4, 2017 1:33:39 PM
+
+“hashrocket”: >> user = { "first_name" => "Michael", "last_name" => "Hartl" }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5026-5030 | Added on Monday, September 4, 2017 1:33:42 PM
+
+=>, called a “hashrocket”: >> user = { "first_name" => "Michael", "last_name" => "Hartl" }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5031-5031 | Added on Monday, September 4, 2017 1:34:06 PM
+
+I’ve used the usual Ruby convention of putting an extra space at the two ends of the hash—
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5034-5037 | Added on Monday, September 4, 2017 1:34:29 PM
+
+Symbols look kind of like strings, but prefixed with a colon instead of surrounded by quotes. For example, :name is a symbol. You can think of symbols as basically strings without all the extra baggage:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:41 PM
+
+> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:46 PM
+
+> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 == h2 => true
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:50 PM
+
+>> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 == h2 => true
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5066-5074 | Added on Monday, September 4, 2017 1:35:53 PM
+
+>> h1 = { :name => "Michael Hartl", :email => "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h2 = { name: "Michael Hartl", email: "michael@example.com" } => {:name=>"Michael Hartl", :email=>"michael@example.com"} >> h1 == h2 => true
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5120-5123 | Added on Monday, September 4, 2017 1:39:14 PM
+
+Note that, while the each method for arrays takes a block with only one variable, each for hashes takes two, a key and a value. Thus, the each method for a hash iterates through the hash one key-value pair at a time.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5138-5139 | Added on Monday, September 4, 2017 1:40:08 PM
+
+using inspect to print an object is common enough that there’s a shortcut for it, the p function:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5184-5185 | Added on Monday, September 4, 2017 1:42:19 PM
+
+where are the parentheses? In Ruby, they are optional,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5194-5194 | Added on Monday, September 4, 2017 1:42:01 PM
+
+When hashes are the last argument in a function call, the curly braces are optional,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5207-5208 | Added on Monday, September 4, 2017 1:42:48 PM
+
+Ruby doesn’t distinguish between newlines and other whitespace
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5231-5233 | Added on Monday, September 4, 2017 1:44:14 PM
+
+Ruby, like many object-oriented languages, uses classes to organize methods; these classes are then instantiated to create objects.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5247-5249 | Added on Monday, September 4, 2017 1:45:25 PM
+
+s = String.new("foobar") # A named constructor for a string
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5252-5253 | Added on Monday, September 4, 2017 1:45:28 PM
+
+This is equivalent to the literal constructor, but it’s more explicit about what we’re doing.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5259-5261 | Added on Monday, September 4, 2017 1:46:12 PM
+
+While the array constructor Array.new takes an initial value for the array, Hash.new takes a default value for the hash, which is the value of the hash for a nonexistent key:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5337-5338 | Added on Monday, September 4, 2017 1:48:25 PM
+
+class Word < String # Word inherits from String.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5337-5338 | Added on Monday, September 4, 2017 1:48:37 PM
+
+class Word < String # Word inherits from String.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5344-5344 | Added on Monday, September 4, 2017 1:48:46 PM
+
+Here Word < String is the Ruby syntax for inheritance
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5374-5375 | Added on Monday, September 4, 2017 1:50:00 PM
+
+inside the String class the use of self. is optional on a method or attribute (unless we’re making an assignment),
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5530-5534 | Added on Monday, September 4, 2017 1:58:42 PM
+
+attr_accessor :name, :email creates attribute accessors corresponding to a user’s name and email address. This creates “getter” and “setter” methods that allow us to retrieve (get) and assign (set) @name and @email instance variables,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5536-5538 | Added on Monday, September 4, 2017 1:56:48 PM
+
+In Rails, the principal importance of instance variables is that they are automatically available in the views, but in general they are used for variables that need to be available throughout a Ruby class.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5540-5541 | Added on Monday, September 4, 2017 1:57:20 PM
+
+The first method, initialize, is special in Ruby: it’s the method called when we execute User.new.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5598-5599 | Added on Monday, September 4, 2017 1:59:56 PM
+
+initializing objects using a hash argument, a technique known as mass assignment, is common in Rails applications.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5654-5655 | Added on Monday, September 4, 2017 2:02:58 PM
+
+Ruby, they’re the same thing: all methods are functions, and all functions are methods, because everything is an object.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5654-5655 | Added on Monday, September 4, 2017 2:03:02 PM
+
+in Ruby, they’re the same thing: all methods are functions, and all functions are methods, because everything is an object.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5670-5671 | Added on Monday, September 4, 2017 2:04:50 PM
+
+blocks are closures, which are one-shot anonymous functions with data attached.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5863-5864 | Added on Monday, September 4, 2017 2:16:51 PM
+
+the first argument to link_to is the link text, while the second is the URL.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 5863-5868 | Added on Monday, September 4, 2017 2:17:32 PM
+
+the first argument to link_to is the link text, while the second is the URL. We’ll fill in the URLs with named routes in Section 5.3.3, but for now we use the stub URL ’#’ commonly used in web design (i.e., ’#’ is just a “stub”, or placeholder, for the real URL). The third argument is an options hash, in this case adding the CSS id logo to the sample app link.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6091-6094 | Added on Monday, September 4, 2017 2:30:55 PM
+
+In other words, the dot . in .center indicates that the rule styles a class. (As we’ll see in Listing 5.9, the pound sign # identifies a rule to style a CSS id.)
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6224-6226 | Added on Monday, September 4, 2017 2:34:50 PM
+
+Note the leading underscore on the filename _shim.html.erb; this underscore is the universal convention for naming partials, and among other things makes it possible to identify all the partials in a directory at a glance.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6370-6372 | Added on Monday, September 4, 2017 2:37:52 PM
+
+From the perspective of a typical Rails developer, there are three main features to understand about the asset pipeline: asset directories, manifest files, and preprocessor engines.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6417-6418 | Added on Monday, September 4, 2017 2:42:28 PM
+
+We tell Rails which processor to use using filename extensions;
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6425-6426 | Added on Monday, September 4, 2017 2:42:16 PM
+
+foobar.js.erb.coffee gets run through both CoffeeScript and ERb (with the
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6425-6426 | Added on Monday, September 4, 2017 2:42:20 PM
+
+foobar.js.erb.coffee gets run through both CoffeeScript and ERb (with the code running from right to left, i.e., CoffeeScript first).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6488-6489 | Added on Monday, September 4, 2017 4:50:32 PM
+
+In order to nest the second rule, we need to reference the parent element #logo; in SCSS, this is accomplished with the ampersand character &
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6488-6489 | Added on Monday, September 4, 2017 4:50:38 PM
+
+In order to nest the second rule, we need to reference the parent element #logo; in SCSS, this is accomplished with the ampersand character &
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6504-6505 | Added on Monday, September 4, 2017 4:50:42 PM
+
+Sass changes &:hover into #logo:hover as part of converting from SCSS to CSS.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6662-6666 | Added on Monday, September 4, 2017 2:47:57 PM
+
+Rails conventionally uses named routes, which involves code like <%= link_to "About", about_path %> This way the code has a more transparent meaning, and it’s also more flexible since we can change the definition of about_path and
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6662-6667 | Added on Monday, September 4, 2017 2:48:02 PM
+
+Rails conventionally uses named routes, which involves code like <%= link_to "About", about_path %> This way the code has a more transparent meaning, and it’s also more flexible since we can change the definition of about_path and have the URL change everywhere about_path is used.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 6786-6789 | Added on Monday, September 4, 2017 2:50:20 PM
+
+get '/help', to: 'static_pages#help' This new pattern routes a GET request for the URL /help to the help action in the Static Pages controller.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7183-7185 | Added on Monday, September 4, 2017 3:08:11 PM
+
+As with the other routes, get ’signup’ automatically gives us the named route signup_path,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7278-7280 | Added on Monday, September 4, 2017 3:12:00 PM
+
+You might notice that the img tag, rather than looking like <img>...</img>, instead looks like <img ... />. Tags that follow this form are known as self-closing tags.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7365-7366 | Added on Monday, September 4, 2017 6:55:04 PM
+
+In Rails, the default data structure for a data model is called, naturally enough, a model (the M in MVC
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7365-7366 | Added on Monday, September 4, 2017 6:56:41 PM
+
+In Rails, the default data structure for a data model is called, naturally enough, a model (the M in MVC
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7365-7375 | Added on Monday, September 4, 2017 6:57:00 PM
+
+In Rails, the default data structure for a data model is called, naturally enough, a model (the M in MVC from Section 1.3.3). The default Rails solution to the problem of persistence is to use a database for long-term data storage, and the default library for interacting with the database is called Active Record.1 Active Record comes with a host of methods for creating, saving, and finding data objects, all without having to use the structured query language (SQL)2 used by relational databases. Moreover, Rails has a feature called migrations to allow data definitions to be written in pure Ruby, without having to learn an SQL data definition language (DDL).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7637-7638 | Added on Monday, September 4, 2017 8:35:43 PM
+
+it’s often convenient to make and save a model in two steps as we have above, but Active Record also lets you combine them into one step with User.create:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7657-7658 | Added on Monday, September 4, 2017 8:35:50 PM
+
+Like create, destroy returns the object in question,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 7768-7770 | Added on Monday, September 4, 2017 8:44:35 PM
+
+The update_attributes method accepts a hash of attributes, and on success performs both the update and the save in one step (returning true to indicate that the save went through).
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 788-789 | Added on Sunday, September 3, 2017 1:53:43 PM
+
+using two spaces for indentation is a near-universal convention in Ruby,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8137-8141 | Added on Monday, September 4, 2017 9:00:59 PM
+
+Note that we’ve included an optional second argument to the assertion with a custom error message, which in this case identifies the address causing the test to fail: assert @user.valid?, "#{valid_address.inspect} should be valid"
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8179-8183 | Added on Monday, September 4, 2017 9:02:10 PM
+
+The application code for email format validation uses the format validation, which works like this: validates :email, format: { with: /<regular expression>/ }
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8243-8244 | Added on Monday, September 4, 2017 9:04:48 PM
+
+Here the regex VALID_EMAIL_REGEX is a constant, indicated in Ruby by a name starting with a capital letter.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8428-8431 | Added on Monday, September 4, 2017 9:10:15 PM
+
+Luckily, the solution is straightforward to implement: we just need to enforce uniqueness at the database level as well as at the model level. Our method is to create a database index on the email column (Box 6.2), and then require that the index be unique.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8443-8446 | Added on Monday, September 4, 2017 9:12:28 PM
+
+To understand a database index, it’s helpful to consider the analogy of a book index. In a book, to find all the occurrences of a given string, say “foobar”, you would have to scan each page for “foobar”—the paper version of a full-table scan. With a book index, on the other hand, you can just look up “foobar” in the index to see all the pages containing “foobar”.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8537-8538 | Added on Monday, September 4, 2017 9:18:31 PM
+
+inside the User model the self keyword is optional on the right-hand side:
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8537-8540 | Added on Monday, September 4, 2017 9:18:37 PM
+
+inside the User model the self keyword is optional on the right-hand side: self.email = email.downcase
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8635-8636 | Added on Monday, September 4, 2017 9:25:57 PM
+
+Most of the secure password machinery will be implemented using a single Rails method called has_secure_password,
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8640-8646 | Added on Monday, September 4, 2017 9:26:01 PM
+
+When included in a model as above, this one method adds the following functionality: The ability to save a securely hashed password_digest attribute to the database A pair of virtual attributes18 (password and password_confirmation), including presence validations upon object creation and a validation requiring that they match An authenticate method that returns the user when the password is correct (and false otherwise)
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 8659-8661 | Added on Monday, September 4, 2017 9:27:38 PM
+
+We can choose any migration name we want, but it’s convenient to end the name with to_users, since in this case Rails automatically constructs a migration to add columns to the users table.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9039-9042 | Added on Monday, September 4, 2017 9:50:11 PM
+
+course, we could just edit the migration file for the users table in Listing 6.2, but that would require rolling back and then migrating back up. The Rails Way™ is to use migrations every time we discover that our data model needs to change.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9039-9042 | Added on Monday, September 4, 2017 9:50:15 PM
+
+Of course, we could just edit the migration file for the users table in Listing 6.2, but that would require rolling back and then migrating back up. The Rails Way™ is to use migrations every time we discover that our data model needs to change.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 909-910 | Added on Sunday, September 3, 2017 1:57:33 PM
+
+since the structure is common to all Rails apps, you can immediately get your bearings when looking at someone else’s code.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9138-9140 | Added on Tuesday, September 5, 2017 12:11:33 PM
+
+<%= debug(params) if Rails.env.development? %>
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9164-9166 | Added on Tuesday, September 5, 2017 12:30:13 PM
+
+If you ever need to run a console in a different environment (to debug a test, for example), you can pass the environment as a parameter to the console script: $ rails console test
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9164-9166 | Added on Tuesday, September 5, 2017 12:30:17 PM
+
+If you ever need to run a console in a different environment (to debug a test, for example), you can pass the environment as a parameter to the console script: $ rails console test Loading test environment
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9168-9169 | Added on Tuesday, September 5, 2017 12:30:46 PM
+
+rails server --environment production
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9257-9261 | Added on Tuesday, September 5, 2017 12:37:36 PM
+
+We’ll follow the conventions of the REST architecture favored in Rails applications (Box 2.2), which means representing data as resources that can be created, shown, updated, or destroyed—four actions corresponding to the four fundamental operations POST, GET, PATCH, and DELETE defined by the HTTP standard
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9262-9266 | Added on Tuesday, September 5, 2017 12:37:50 PM
+
+When following REST principles, resources are typically referenced using the resource name and a unique identifier. What this means in the context of users—which we’re now thinking of as a Users resource—is that we should view the user with id 1 by issuing a GET request to the URL /users/1.
+==========
+Ruby on Rails Tutorial (Rails 5) (Michael Hartl)
+- Your Highlight on Location 9824-9825 | Added on Tuesday, September 5, 2017 1:00:42 PM
+
+the code type="email" will cause some mobile devices to display a special keyboard optimized for entering email addresses.)
+==========
 Sapiens: A Brief History of Humankind (Harari, Yuval Noah)
 - Your Highlight on page 10 | Location 207-208 | Added on Wednesday, August 30, 2017 2:09:49 AM
 
@@ -13073,6 +13748,701 @@ The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ri
 - Your Highlight on Location 135-137 | Added on Wednesday, April 5, 2017 5:04:38 PM
 
 “FedEx this package to the Coast.” If you’re introducing the first brand in a new category, you should always try to select a name that can work generically. (Lawyers advise the opposite, but what do they know about the laws of marketing?)
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 100 | Location 1128-1131 | Added on Tuesday, September 12, 2017 12:09:34 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 100 | Location 1128-1131 | Added on Tuesday, September 12, 2017 12:09:46 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 100 | Location 1128-1133 | Added on Tuesday, September 12, 2017 12:09:51 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 103 | Location 1160-1169 | Added on Tuesday, September 12, 2017 12:14:25 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 104 | Location 1173-1176 | Added on Tuesday, September 12, 2017 12:15:04 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 105 | Location 1177-1178 | Added on Tuesday, September 12, 2017 12:15:31 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 105 | Location 1185-1185 | Added on Tuesday, September 12, 2017 12:18:43 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 106 | Location 1192-1194 | Added on Tuesday, September 12, 2017 12:19:55 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 106 | Location 1198-1201 | Added on Tuesday, September 12, 2017 12:22:50 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 107 | Location 1208-1210 | Added on Tuesday, September 12, 2017 12:24:56 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 108 | Location 1216-1220 | Added on Tuesday, September 12, 2017 12:26:48 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 108 | Location 1225-1231 | Added on Tuesday, September 12, 2017 12:27:44 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 108 | Location 1225-1231 | Added on Tuesday, September 12, 2017 12:28:10 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 109 | Location 1227-1228 | Added on Tuesday, September 12, 2017 12:28:16 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 109 | Location 1228-1231 | Added on Tuesday, September 12, 2017 12:28:25 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 10 | Location 162-164 | Added on Tuesday, September 12, 2017 10:17:25 AM
+
+2 The Law of the Category If you can’t be first in a category, set up a new category you can be first in.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 110 | Location 1234-1236 | Added on Tuesday, September 12, 2017 12:28:07 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 111 | Location 1241-1246 | Added on Tuesday, September 12, 2017 12:29:48 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 112 | Location 1255-1258 | Added on Tuesday, September 12, 2017 12:32:38 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 114 | Location 1269-1271 | Added on Tuesday, September 12, 2017 12:32:53 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 115 | Location 1276-1280 | Added on Tuesday, September 12, 2017 12:36:28 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 116 | Location 1289-1292 | Added on Tuesday, September 12, 2017 12:41:27 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 116 | Location 1295-1298 | Added on Tuesday, September 12, 2017 12:35:57 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 117 | Location 1307-1308 | Added on Tuesday, September 12, 2017 12:37:58 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 119 | Location 1332-1334 | Added on Tuesday, September 12, 2017 12:42:56 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 120 | Location 1335-1338 | Added on Tuesday, September 12, 2017 12:43:04 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 121 | Location 1339-1339 | Added on Tuesday, September 12, 2017 12:43:26 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 121 | Location 1339-1341 | Added on Tuesday, September 12, 2017 12:43:31 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 121 | Location 1344-1344 | Added on Tuesday, September 12, 2017 12:44:16 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 122 | Location 1352-1354 | Added on Tuesday, September 12, 2017 12:44:59 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 124 | Location 1367-1370 | Added on Tuesday, September 12, 2017 12:46:53 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 125 | Location 1374-1376 | Added on Tuesday, September 12, 2017 12:47:33 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 125 | Location 1374-1376 | Added on Tuesday, September 12, 2017 12:47:39 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 125 | Location 1374-1377 | Added on Tuesday, September 12, 2017 12:47:43 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 125 | Location 1381-1381 | Added on Tuesday, September 12, 2017 12:50:22 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 128 | Location 1419-1422 | Added on Tuesday, September 12, 2017 12:54:52 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 12 | Location 181-182 | Added on Monday, September 11, 2017 11:13:52 AM
+
+The most successful computer company of the seventies and eighties, next to IBM, was Digital Equipment Corporation. IBM was first in computers. DEC was first in minicomputers.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 12 | Location 189-190 | Added on Tuesday, September 12, 2017 10:14:38 AM
+
+Commodore was just another manufacturer of home personal computers that wasn’t going anywhere until it positioned the Amiga as the first multimedia computer.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 13 | Location 193-195 | Added on Tuesday, September 12, 2017 10:15:11 AM
+
+When you launch a new product, the first question to ask yourself is not “How is this new product better than the competition?” but “First what?” In other words, what category is this new product first in?
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 14 | Location 205-207 | Added on Tuesday, September 12, 2017 10:17:16 AM
+
+3 The Law of the Mind It’s better to be first in the mind than it is to be first in the marketplace
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 15 | Location 211-219 | Added on Tuesday, September 12, 2017 10:17:10 AM
+
+Du Mont invented the first commercial television set. Duryea introduced the first automobile. Hurley introduced the first washing machine. All are gone. Is something wrong with the law of leadership in chapter 1? No, but the law of the mind modifies it. It’s better to be first in the prospect’s mind than first in the marketplace. Which, if anything, understates the importance of being first in the mind. Being first in the mind is everything in marketing. Being first in the marketplace is important only to the extent that it allows you to get in the mind first. For example, IBM wasn’t first in the marketplace with the mainframe computer. Remington Rand was first, with UNIVAC. But thanks to a massive marketing effort, IBM got into the mind first and won the computer battle early. The law of the mind follows from the law of perception. If marketing is a battle of perception, not product, then the mind takes precedence over the marketplace.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 16 | Location 229-231 | Added on Tuesday, September 12, 2017 10:19:06 AM
+
+Xerox was first in copiers and then tried to get into the computer business. Twenty-five years and $2 billion later, Xerox is nowhere in computers.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 16 | Location 232-233 | Added on Tuesday, September 12, 2017 10:19:23 AM
+
+The single most wasteful thing you can do in marketing is try to change a mind.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 18 | Location 245-247 | Added on Tuesday, September 12, 2017 10:20:40 AM
+
+4 The Law of Perception Marketing is not a battle of products, it’s a battle of perception.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 19 | Location 252-254 | Added on Tuesday, September 12, 2017 10:21:00 AM
+
+There is no objective reality. There are no facts. There are no best products. All that exists in the world of marketing are perceptions in the minds of the customer or prospect. The perception is the reality. Everything else is an illusion.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 19 | Location 256-264 | Added on Tuesday, September 12, 2017 10:22:46 AM
+
+Most people think they are better perceivers than others. They have a sense of personal infallibility. Their perceptions are always more accurate than those of their neighbors or friends. Truth and perception become fused in the mind, leaving no difference between the two. It’s not easy to see that this is so. To cope with the terrifying reality of being alone in the universe, people project themselves on the outside world. They “live” in the arena of books, movies, television, newspapers, magazines. They “belong” to clubs, organizations, institutions. These outside representations of the world seem more real than the reality inside their own minds. People cling firmly to the belief that reality is the world outside of the mind and that the individual is one small speck on a global spaceship. Actually it’s the opposite. The only reality you can be sure about is in your own perceptions. If the universe exists, it exists inside your own mind and the minds of others. That’s the reality that marketing programs must deal with.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 20 | Location 266-267 | Added on Tuesday, September 12, 2017 10:24:27 AM
+
+Most marketing mistakes stem from the assumption that you’re fighting a product battle rooted in reality.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 23 | Location 307-313 | Added on Tuesday, September 12, 2017 10:30:35 AM
+
+What makes the battle even more difficult is that customers frequently make buying decisions based on second-hand perceptions. Instead of using their own perceptions, they base their buying decisions on someone else’s perception of reality. This is the “everybody knows” principle. Everybody knows that the Japanese make higher-quality cars than the Americans do. So people make buying decisions based on the fact that everybody knows the Japanese make higher-quality cars. When you ask shoppers whether they have had any personal experience with a product, most often they say they haven’t. And, more often than not, their own experience is often twisted to conform to their perceptions.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 26 | Location 325-327 | Added on Tuesday, September 12, 2017 10:31:19 AM
+
+5 The Law of Focus The most powerful concept in marketing is owning a word in the prospect’s mind.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 27 | Location 333-335 | Added on Tuesday, September 12, 2017 10:32:46 AM
+
+In a way, the law of leadership—it’s better to be first than to be better—enables the first brand or company to own a word in the mind of the prospect. But the word the leader owns is so simple that it’s invisible. The leader owns the word that stands for the category.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 27 | Location 337-343 | Added on Tuesday, September 12, 2017 10:34:32 AM
+
+You can also test the validity of a leadership claim by a word association test. If the given words are computer, copier, chocolate bar, and cola, the four most associated words are IBM, Xerox, Hershey’s, and Coke. An astute leader will go one step further to solidify its position. Heinz owns the word ketchup. But Heinz went on to isolate the most important ketchup attribute. “Slowest ketchup in the West” is how the company is preempting the thickness attribute. Owning the word slow helps Heinz maintain a 50 percent market share. If you’re not a leader, then your word has to have a narrow focus. Even more important, however, your word has to be “available” in your category. No one else can have a lock on it.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 27 | Location 337-343 | Added on Tuesday, September 12, 2017 10:34:36 AM
+
+You can also test the validity of a leadership claim by a word association test. If the given words are computer, copier, chocolate bar, and cola, the four most associated words are IBM, Xerox, Hershey’s, and Coke. An astute leader will go one step further to solidify its position. Heinz owns the word ketchup. But Heinz went on to isolate the most important ketchup attribute. “Slowest ketchup in the West” is how the company is preempting the thickness attribute. Owning the word slow helps Heinz maintain a 50 percent market share. If you’re not a leader, then your word has to have a narrow focus. Even more important, however, your word has to be “available” in your category. No one else can have a lock on it.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 28 | Location 342-343 | Added on Tuesday, September 12, 2017 10:33:37 AM
+
+If you’re not a leader, then your word has to have a narrow focus. Even more important, however, your word has to be “available” in your category. No one else can have a lock on it.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 28 | Location 345-346 | Added on Tuesday, September 12, 2017 10:34:52 AM
+
+The most effective words are simple and benefit oriented.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 28 | Location 347-348 | Added on Tuesday, September 12, 2017 10:34:48 AM
+
+there’s the halo effect. If you strongly establish one benefit, the prospect is likely to give you a lot of other benefits, too.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 2 | Location 82-83 | Added on Tuesday, September 12, 2017 10:17:33 AM
+
+1 The Law of Leadership It’s better to be first than it is to be better.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 30 | Location 372-374 | Added on Tuesday, September 12, 2017 10:36:38 AM
+
+Many companies see the advantage of owning a single word or concept (often called “the corporate vision”), but they neglect to be the first to preempt the word.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 31 | Location 381-382 | Added on Tuesday, September 12, 2017 10:37:25 AM
+
+The essence of marketing is narrowing the focus. You become stronger when you reduce the scope of your operations
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 32 | Location 391-392 | Added on Tuesday, September 12, 2017 10:39:55 AM
+
+Does any company proclaim itself as the “unquality” corporation? No, everybody stands for quality. As a result, nobody does.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 34 | Location 416-417 | Added on Tuesday, September 12, 2017 10:42:17 AM
+
+6 The Law of Exclusivity  Two companies cannot own the same word in the prospect’s mind.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 35 | Location 420-422 | Added on Tuesday, September 12, 2017 10:42:33 AM
+
+Volvo owns safety. Many other automobile companies, including Mercedes-Benz and General Motors, have tried to run marketing campaigns based on safety. Yet no one except Volvo has succeeded in getting into the prospect’s mind with a safety message.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 36 | Location 437-438 | Added on Tuesday, September 12, 2017 10:44:33 AM
+
+What often leads marketers down this booby-trapped lane is that wonderful stuff called research.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 36 | Location 441-443 | Added on Tuesday, September 12, 2017 10:44:30 AM
+
+long-lasting is what people want, that’s what we should advertise. Right? Wrong. What researchers never tell you is that some other company already owns the idea.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 36 | Location 441-443 | Added on Tuesday, September 12, 2017 10:44:35 AM
+
+long-lasting is what people want, that’s what we should advertise. Right? Wrong. What researchers never tell you is that some other company already owns the idea.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 36 | Location 441-443 | Added on Tuesday, September 12, 2017 10:44:40 AM
+
+If long-lasting is what people want, that’s what we should advertise. Right? Wrong. What researchers never tell you is that some other company already owns the idea.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 36 | Location 441-443 | Added on Tuesday, September 12, 2017 10:45:43 AM
+
+If long-lasting is what people want, that’s what we should advertise. Right? Wrong. What researchers never tell you is that some other company already owns the idea.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 37 | Location 445-449 | Added on Tuesday, September 12, 2017 10:46:06 AM
+
+A market study showed that the most popular attribute for fast food was “fast” (no big surprise there). So Burger King did what most red-blooded marketers do. It turned to its advertising agency and said, “If the world wants fast, our advertising should tell them we’re fast.” What was overlooked in the research was that McDonald’s was already perceived as being the fastest hamburger chain in the country. Fast belonged to McDonald’s. Undaunted by this, Burger King launched its campaign with the slogan “Best food for fast times.” The program quickly became a disaster
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 37 | Location 445-450 | Added on Tuesday, September 12, 2017 10:45:56 AM
+
+market study showed that the most popular attribute for fast food was “fast” (no big surprise there). So Burger King did what most red-blooded marketers do. It turned to its advertising agency and said, “If the world wants fast, our advertising should tell them we’re fast.” What was overlooked in the research was that McDonald’s was already perceived as being the fastest hamburger chain in the country. Fast belonged to McDonald’s. Undaunted by this, Burger King launched its campaign with the slogan “Best food for fast times.” The program quickly became a disaster very nearly on a par with the one that involved “Herb.”
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 37 | Location 445-450 | Added on Tuesday, September 12, 2017 10:45:59 AM
+
+market study showed that the most popular attribute for fast food was “fast” (no big surprise there). So Burger King did what most red-blooded marketers do. It turned to its advertising agency and said, “If the world wants fast, our advertising should tell them we’re fast.” What was overlooked in the research was that McDonald’s was already perceived as being the fastest hamburger chain in the country. Fast belonged to McDonald’s. Undaunted by this, Burger King launched its campaign with the slogan “Best food for fast times.” The program quickly became a disaster very nearly on a par with the one that involved “Herb.”
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 38 | Location 453-455 | Added on Tuesday, September 12, 2017 10:46:16 AM
+
+7 The Law of the Ladder The strategy to use depends on which rung you occupy on the ladder.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 39 | Location 459-461 | Added on Tuesday, September 12, 2017 10:48:13 AM
+
+For each category, there is a product ladder in the mind. On each rung is a brand name. Take the car rental category. Hertz got into the mind first and wound up on the top rung. Avis got in second and National got in third.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 39 | Location 464-468 | Added on Tuesday, September 12, 2017 10:48:54 AM
+
+The reader looked at the ad and wondered, How could they have the finest rent-a-car service when they’re not on the top rung of my ladder? Then Avis did the one thing you have to do to make progress inside the mind of the prospect. They acknowledged their position on the ladder. “Avis is only No. 2 in rent-a-cars. So why go with us? We try harder.” For 13 years in a row, Avis had lost money. Then, when it admitted to being No. 2, it started to make money, lots of money.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 40 | Location 471-472 | Added on Tuesday, September 12, 2017 10:49:55 AM
+
+Many marketing people have misread the Avis story. They assume the company was successful because it tried harder (i.e., it had the better service). But that wasn’t it at all. Avis was successful because it related itself to the position of Hertz in the mind.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 41 | Location 483-487 | Added on Tuesday, September 12, 2017 10:51:44 AM
+
+How many rungs are there on your ladder? It depends on whether your product is a high-interest or a low-interest product. Products you use every day (cigarettes, cola, beer, toothpaste, cereal) tend to be high-interest products with many rungs on their ladders. Products that are purchased infrequently (furniture, lawn mowers, luggage) usually have few rungs on their ladders. Products that involve a great deal of personal pride (automobiles, watches, cameras) are also high-interest products with many rungs on their ladders even though they are purchased infrequently.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 41 | Location 491-493 | Added on Tuesday, September 12, 2017 10:52:34 AM
+
+There’s a relationship between market share and your position on the ladder in the prospect’s mind. You tend to have twice the market share of the brand below you and half the market share of the brand above you.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 42 | Location 500-503 | Added on Tuesday, September 12, 2017 10:55:11 AM
+
+What’s the maximum number of rungs on a ladder? There seems to be a rule of seven in the prospect’s mind. Ask someone to name all the brands he or she remembers in a given category. Rarely will anyone name more than seven. And that’s for a high-interest category. According to Harvard psychologist Dr. George A. Miller, the average human mind cannot deal with more than seven units at a time.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 42 | Location 500-504 | Added on Tuesday, September 12, 2017 10:55:01 AM
+
+What’s the maximum number of rungs on a ladder? There seems to be a rule of seven in the prospect’s mind. Ask someone to name all the brands he or she remembers in a given category. Rarely will anyone name more than seven. And that’s for a high-interest category. According to Harvard psychologist Dr. George A. Miller, the average human mind cannot deal with more than seven units at a time. Which is why seven is a popular number for lists that have to be remembered.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 44 | Location 518-520 | Added on Tuesday, September 12, 2017 10:56:46 AM
+
+8 The Law of Duality In the long run, every market becomes a two-horse race.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 45 | Location 521-522 | Added on Tuesday, September 12, 2017 10:56:56 AM
+
+Early on, a new category is a ladder of many rungs. Gradually, the ladder becomes a two-rung affair.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 46 | Location 542-542 | Added on Tuesday, September 12, 2017 10:58:35 AM
+
+In a maturing industry, third place is a difficult position to be in.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 46 | Location 544-546 | Added on Tuesday, September 12, 2017 10:59:20 AM
+
+Take video games. In the late eighties, the market was dominated by Nintendo with a 75 percent share. The two also-rans were Sega and NEC. Today Nintendo and Sega are neck and neck, and NEC is way behind. In the long run, marketing is a two-game race.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 46 | Location 544-546 | Added on Tuesday, September 12, 2017 11:01:51 AM
+
+Take video games. In the late eighties, the market was dominated by Nintendo with a 75 percent share. The two also-rans were Sega and NEC. Today Nintendo and Sega are neck and neck, and NEC is way behind. In the long run, marketing is a two-game race.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 46 | Location 545-546 | Added on Tuesday, September 12, 2017 10:59:15 AM
+
+neck, and NEC is way behind. In the long run, marketing is a two-game race. Time
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 47 | Location 546-548 | Added on Tuesday, September 12, 2017 10:59:32 AM
+
+Time frames, however, can vary. The fast-moving video game market played itself out in two or three seasons. The long-distance telephone market might take two or three decades.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 48 | Location 561-564 | Added on Tuesday, September 12, 2017 11:01:48 AM
+
+Look at the history of the automobile in the United States. In 1904, 195 different cars were assembled by 60 companies. Within the following 10 years, 531 companies were formed and 346 perished. By 1923, only 108 car makers remained. This number dropped to 44 by 1927. Today, Ford and General Motors dominate the domestic industry, with Chrysler’s future in doubt.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 49 | Location 572-574 | Added on Tuesday, September 12, 2017 11:03:15 AM
+
+We repeat: The customer believes that marketing is a battle of products. It’s this kind of thinking that keeps the two brands on top: “They must be the best, they’re the leaders.”
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 50 | Location 576-578 | Added on Tuesday, September 12, 2017 11:03:20 AM
+
+9 The Law of the Opposite If you’re shooting for second place, your strategy is determined by the leader.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-589 | Added on Tuesday, September 12, 2017 11:04:18 AM
+
+When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-589 | Added on Tuesday, September 12, 2017 11:04:23 AM
+
+When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-591 | Added on Tuesday, September 12, 2017 11:04:45 AM
+
+When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group. In other words, by positioning yourself against the leader, you take business away from all the other alternatives to No. 1. If old people drink Coke and young people drink Pepsi, there’s nobody left to drink Royal Crown cola.
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-591 | Added on Tuesday, September 12, 2017 11:04:47 AM
+
+When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group. In other words, by positioning yourself against the leader, you take business away from all the other alternatives to No. 1. If old people drink Coke and young people drink Pepsi <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 51 | Location 587-593 | Added on Tuesday, September 12, 2017 11:04:52 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 54 | Location 625-626 | Added on Tuesday, September 12, 2017 11:11:25 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 56 | Location 637-640 | Added on Tuesday, September 12, 2017 11:11:36 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 57 | Location 642-644 | Added on Tuesday, September 12, 2017 11:11:49 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 58 | Location 661-667 | Added on Tuesday, September 12, 2017 11:14:10 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 59 | Location 673-675 | Added on Tuesday, September 12, 2017 11:15:48 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 60 | Location 679-681 | Added on Tuesday, September 12, 2017 11:16:51 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 60 | Location 689-693 | Added on Tuesday, September 12, 2017 11:17:27 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 61 | Location 699-702 | Added on Tuesday, September 12, 2017 11:18:40 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 61 | Location 699-702 | Added on Tuesday, September 12, 2017 11:18:42 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 62 | Location 704-706 | Added on Tuesday, September 12, 2017 11:18:47 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 63 | Location 710-713 | Added on Tuesday, September 12, 2017 11:19:19 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 63 | Location 713-715 | Added on Tuesday, September 12, 2017 11:19:56 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 65 | Location 738-747 | Added on Tuesday, September 12, 2017 11:25:13 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 68 | Location 771-774 | Added on Tuesday, September 12, 2017 11:25:33 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 69 | Location 776-776 | Added on Tuesday, September 12, 2017 11:25:55 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 69 | Location 780-781 | Added on Tuesday, September 12, 2017 11:27:18 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 69 | Location 780-781 | Added on Tuesday, September 12, 2017 11:29:37 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 71 | Location 804-811 | Added on Tuesday, September 12, 2017 11:29:25 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 72 | Location 818-818 | Added on Tuesday, September 12, 2017 11:30:22 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 73 | Location 838-840 | Added on Tuesday, September 12, 2017 11:31:45 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 73 | Location 841-846 | Added on Tuesday, September 12, 2017 11:32:11 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 76 | Location 863-866 | Added on Tuesday, September 12, 2017 11:33:44 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 77 | Location 868-869 | Added on Tuesday, September 12, 2017 11:34:37 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 77 | Location 868-869 | Added on Tuesday, September 12, 2017 11:36:08 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 77 | Location 869-874 | Added on Tuesday, September 12, 2017 11:36:44 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 77 | Location 871-874 | Added on Tuesday, September 12, 2017 11:36:02 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 77 | Location 871-874 | Added on Tuesday, September 12, 2017 11:36:25 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 79 | Location 893-898 | Added on Tuesday, September 12, 2017 11:38:40 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 80 | Location 920-926 | Added on Tuesday, September 12, 2017 11:40:29 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 80 | Location 920-926 | Added on Tuesday, September 12, 2017 11:40:44 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 82 | Location 947-948 | Added on Tuesday, September 12, 2017 11:44:09 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 82 | Location 947-948 | Added on Tuesday, September 12, 2017 11:44:12 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 82 | Location 947-948 | Added on Tuesday, September 12, 2017 11:44:17 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 83 | Location 959-959 | Added on Tuesday, September 12, 2017 11:43:54 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 84 | Location 961-963 | Added on Tuesday, September 12, 2017 11:44:39 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 85 | Location 975-979 | Added on Tuesday, September 12, 2017 11:46:05 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 86 | Location 985-990 | Added on Tuesday, September 12, 2017 11:48:42 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 88 | Location 1003-1006 | Added on Tuesday, September 12, 2017 11:49:07 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 89 | Location 1014-1016 | Added on Tuesday, September 12, 2017 11:49:50 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 90 | Location 1024-1028 | Added on Tuesday, September 12, 2017 11:51:43 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 91 | Location 1042-1047 | Added on Tuesday, September 12, 2017 11:54:06 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 92 | Location 1048-1051 | Added on Tuesday, September 12, 2017 11:54:10 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 93 | Location 1058-1061 | Added on Tuesday, September 12, 2017 11:59:41 AM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 98 | Location 1107-1109 | Added on Tuesday, September 12, 2017 12:06:05 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 99 | Location 1120-1121 | Added on Tuesday, September 12, 2017 12:07:57 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 99 | Location 1120-1122 | Added on Tuesday, September 12, 2017 12:08:00 PM
+
+ <You have reached the clipping limit for this item>
+==========
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
+- Your Highlight on page 99 | Location 1120-1122 | Added on Tuesday, September 12, 2017 12:08:07 PM
+
+ <You have reached the clipping limit for this item>
 ==========
 The 48 Laws of Power (Greene, Robert)
 - Your Highlight on Location 147-148 | Added on Friday, December 25, 2015 4:17:37 PM
