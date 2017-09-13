@@ -35,6 +35,6 @@ while read line; do
 done < "$input.clean" > "$output"
 
 if [[ -f $output ]]; then
-  rm "$input.clean"
+  rm "$input.clean" "$input"
 fi
 

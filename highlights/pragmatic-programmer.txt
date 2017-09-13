@@ -1,7 +1,7 @@
 ______________________________
 
   Pragmatic Programmer
-  by Andrew Hunt, David Thomas
+  by Andrew Hunt & David Thomas
 ______________________________
 
  pg 213 - While You Are Coding
