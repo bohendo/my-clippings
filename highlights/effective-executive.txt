@@ -4,12 +4,6 @@ ______________________________
   by Peter Drucker
 ______________________________
 
- pg 1 - Brilliant men are often strikingly ineffectual; they fail to realize that the brilliant insight is not by itself achievement.
-
- pg 1 - Intelligence, imagination, and knowledge are essential resources, but only effectiveness converts them into results.
-
- pg 7 - In one business, the market research man may have a staff of two hundred people, whereas the market research man of the closest competitor is all by himself and has only a secretary for his staff. This should make little difference in the contribution expected of the two men. It is an administrative detail. Two hundred people, of course, can do a great deal more work than one man. But it does not follow that they produce and contribute more. Knowledge work is not defined by quantity. Neither is knowledge work defined by its costs. Knowledge work is defined by its results. And for these, the size of the group and the magnitude of the managerial job are not even symptoms.
-
  loc 188 - People endowed with tremendous brilliance are often “strikingly ineffectual.”
 
  loc 209 - Do what you’re made for, yes, but then get better and better; eradicate weakness, yes, but only within strength.
@@ -55,4 +49,10 @@ ______________________________
  loc 464 - Effective executives put their best people on opportunities rather than on problems.
 
  loc 517 - Effectiveness is a discipline. And, like every discipline, effectiveness can be learned and must be earned.
+
+ loc 526 - Brilliant men are often strikingly ineffectual; they fail to realize that the brilliant insight is not by itself achievement.
+
+ loc 530 - Intelligence, imagination, and knowledge are essential resources, but only effectiveness converts them into results.
+
+ loc 613 - In one business, the market research man may have a staff of two hundred people, whereas the market research man of the closest competitor is all by himself and has only a secretary for his staff. This should make little difference in the contribution expected of the two men. It is an administrative detail. Two hundred people, of course, can do a great deal more work than one man. But it does not follow that they produce and contribute more. Knowledge work is not defined by quantity. Neither is knowledge work defined by its costs. Knowledge work is defined by its results. And for these, the size of the group and the magnitude of the managerial job are not even symptoms.
 

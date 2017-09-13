@@ -4,8 +4,6 @@ ______________________________
   by Arnold Schwarzenegger
 ______________________________
 
- pg 12 - Anything that causes you to overreact or underreact can control you, and often does.
-
  loc 167 - He felt I wasn’t normal. And of course he was right. With my desire and my drive, I definitely wasn’t normal. Normal people can be happy with a regular life. I was different.
 
  loc 197 - “It’s not your body, Arnold. Your body can’t change that much from one day to the next. It’s in your mind. On some days your goals are just clearer. On the bad days you need someone to help get you going.
@@ -29,6 +27,8 @@ ______________________________
  loc 373 - I was always honest about my weak points. This helped me grow. I think it’s the key to success in everything: be honest; know where you’re weak; admit it.
 
  loc 443 - “No, no, no,” he said and laughed. “You can’t do that. Those guys are big bulls. They’re big animals—so huge you wouldn’t believe it. You don’t want to compete against them. Not yet.” He talked as though they were years and years ahead of me. But as far as I was concerned, he had promised me a trip to London to the contest, and I was going to do what I wanted. “If I go over there, I’m going to compete,” I told him, “not to watch.” He laughed and said, “Sure.”
+
+ loc 443 - Anything that causes you to overreact or underreact can control you, and often does.
 
  loc 553 - All that year, training for the Mr. Universe contest, I had not seriously expected to win (which was a kind of thinking I was never again to accept from myself):
 

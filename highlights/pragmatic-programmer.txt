@@ -4,165 +4,9 @@ ______________________________
   by Andrew Hunt & David Thomas
 ______________________________
 
- pg 213 - While You Are Coding
-
- pg 215 - 31. Programming by Coincidence
-
- pg 215 - Programming by Coincidence
-
- pg 215 - No matter what he does, it just doesn't ever seem to work right. Fred doesn't know why the code is failing because he didn't know why it worked in the first place.
-
- pg 216 - "It works now, better leave well enough alone...." It's easy to be fooled by this line of thought. Why should you take the risk of messing with something that's working? Well, we can think of several reasons: It may not really be working—it might just look like it is. The boundary condition you rely on may be just an accident. In different circumstances (a different screen resolution, perhaps), it might behave differently. Undocumented behavior may change with the next release of the library. Additional and unnecessary calls make your code slower. Additional calls also increase the risk of introducing new bugs of their own.
-
- pg 227 - Also be wary of premature optimization. It's always a good idea to make sure an algorithm really is a bottleneck before investing your precious time trying to improve it.
-
- pg 229 - Refactoring
-
- pg 229 - As a program evolves, it will become necessary to rethink earlier decisions and rework portions of the code. This process is perfectly natural. Code needs to evolve; it's not a static thing.
-
- pg 230 - When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being "wrong," don't hesitate to change it.
-
- pg 231 - think of the code that needs refactoring as a "growth." Removing it requires invasive surgery. You can go in now, and take it out while it is still small. Or, you could wait while it grows and spreads—but removing it then will be both more expensive and more dangerous.
-
- pg 232 - Tip 47 Refactor Early, Refactor Often Keep track of the things that need to be refactored. If you can't refactor something immediately, make sure that it gets placed on the schedule.
-
- pg 232 - Don't try to refactor and add functionality at the same time.
-
- pg 233 - Make sure you have good tests before you begin refactoring. Run the tests as often as possible. That way you will know quickly if your changes have broken anything.
-
- pg 233 - Take short, deliberate steps: move a field from one class to another, fuse two similar methods into a superclass. Refactoring often involves making many localized changes that result in a larger-scale change. If you keep your steps small, and test after each step, you will avoid prolonged debugging.
-
  loc 237 - "Kaizen" is a Japanese term that captures the concept of continuously making many small improvements
 
- pg 238 - Tip 48 Design to Test When you design a module, or even a single routine, you should design both its contract and the code to test that contract.
-
- pg 239 - by building the tests before you implement the code, you get to try out the interface before you commit to it.
-
- pg 241 - At the end of the debugging session, you need to formalize the ad hoc test. If the code broke once, it is likely to break again.
-
- pg 242 - Log messages should be in a regular, consistent format; you may want to parse them automatically to deduce processing time or logic paths that the program took.
-
- pg 243 - All software you write will be tested—if not by you and your team, then by the eventual users—so you might as well plan on testing it thoroughly.
-
- pg 243 - Testing is more cultural than technical; we can instill this testing culture in a project regardless of the language being used. Tip 49 Test Your Software, or Your Users Will
-
- pg 245 - if you do use a wizard, and you don't understand all the code that it produces, you won't be in control of your own application. You won't be able to maintain it, and you'll be struggling when it comes time to debug. Tip 50 Don't Use Wizard Code You Don't Understand
-
- pg 247 - Before the Project
-
- pg 248 - The Requirements Pit
-
- pg 248 - Perfection is achieved, not when there is nothing left to add, but when there is nothing left to take away.... • Antoine de St. Exupery, Wind, Sand, and Stars, 1939
-
- pg 249 - Our recommendation is to document these policies separately from the requirement, and hyperlink the two.
-
- pg 249 - Policies change regularly, so we probably don't want to hardwire them into our requirements. Our recommendation is to document these policies separately from the requirement, and hyperlink the two. Make the requirement the general statement, and give the developers the policy information as an example of the type of thing they'll need to support in the implementation. Eventually, policy may end up as metadata in the application.
-
- pg 250 - It's important to discover the underlying reason why users do a particular thing, rather than just the way they currently do it. At the end of the day, your development has to solve their business problem, not just meet their stated requirements.
-
- pg 250 - There's a simple technique for getting inside your users' requirements that isn't used often enough: become a user.
-
- pg 251 - Tip 52 Work with a User to Think Like a User The requirements mining process is also the time to start to build a rapport with your user base, learning their expectations and hopes for the system you are building.
-
- pg 254 - Good requirements documents remain abstract. Where requirements are concerned, the simplest statement that accurately reflects the business need is best.
-
- pg 256 - It's easy to get sucked into the "just one more feature" maelstrom, but by tracking requirements you can get a clearer picture that "just one more feature" is really the fifteenth new feature added this month.
-
- pg 256 - Create and maintain a project glossary—one place that defines all the specific terms and vocabulary used in a project. All participants in the project, from end users to support staff, should use the glossary to ensure consistency.
-
- pg 258 - Solving Impossible Puzzles
-
- pg 259 - The key to solving puzzles is both to recognize the constraints placed on you and to recognize the degrees of freedom you do have, for in those you'll find your solution.
-
- pg 260 - Tip 55 Don't Think Outside the Box—Find the Box When faced with an intractable problem, enumerate all the possible avenues you have before you. Don't dismiss anything, no matter how unusable or stupid it sounds. Now go through the list and explain why a certain path cannot be taken. Are you sure? Can you prove it?
-
- pg 261 - Not Until You're Ready
-
- pg 262 - Tip 56 Listen to Nagging Doubts—Start When You're Ready
-
- pg 262 - So how can you tell when you're simply procrastinating, rather than responsibly waiting for all the pieces to fall into place? A technique that has worked for us in these circumstances is to start prototyping. Choose an area that you feel will be difficult and begin producing some kind of proof of concept.
-
- pg 263 - The Specification Trap
-
- pg 264 - First, it's naive to assume that a specification will ever capture every detail and nuance of a system or its requirement.
-
- pg 265 - Second, there is a problem with the expressive power of language itself.
-
- pg 265 - Write a short description that tells someone how to tie bows in their shoelaces.
-
- pg 265 - Here's a challenge for you. Write a short description that tells someone how to tie bows in their shoelaces.
-
- pg 265 - Tip 57 Some Things Are Better Done than Described
-
- pg 265 - Finally, there is the straightjacket effect. A design that leaves the coder no room for interpretation robs the programming effort of any skill and art.
-
- pg 266 - be aware that you reach a point of diminishing, or even negative, returns as the specifications get more and more detailed.
-
- pg 267 - Circles and Arrows
-
- pg 268 - Tip 58 Don't Be a Slave to Formal Methods
-
- pg 269 - Although there is an indication that some methods have benefits, these benefits start to manifest themselves only after a significant productivity and quality drop while the technique is adopted and its users train themselves. Never underestimate the cost of adopting new tools and methods.
-
- pg 270 - Tip 59 Expensive Tools Do Not Produce Better Designs
-
- pg 271 - Pragmatic Projects
-
- pg 272 - Pragmatic Teams
-
- pg 276 - It is a mistake to think that the activities of a project—analysis, design, coding, and testing—can happen in isolation. They can't. These are different views of the same problem, and artificially separating them can cause a boatload of trouble.
-
- pg 276 - Tip 60 Organize Around Functionality, Not Job Functions
-
- pg 276 - Divide your people into small teams, each responsible for a particular functional aspect of the final system. Let the teams organize themselves internally, building on individual strengths as they can.
-
- pg 281 - Tip 61 Don't Use Manual Procedures People just aren't as repeatable as computers are. Nor should we expect them to be. A shell script or batch file will execute the same instructions, in the same order, time after time. It can be put under source control, so you can examine changes to the procedure over time as well ("but it used to work...").
-
- pg 282 - There are several advantages in using makefiles. It is a scripted, automatic procedure. We can add in hooks to generate code for us, and run regression tests automatically. IDEs have their advantages, but with IDEs alone it can be hard to achieve the level of automation that we're looking for.
-
- pg 288 - Ruthless Testing
-
- pg 289 - Tip 62 Test Early. Test Often. Test Automatically. We want to start testing as soon as we have code.
-
- pg 289 - "Code a little, test a little" is a popular saying in the Smalltalk world,[6] and we can adopt that mantra as our own by writing test code at the same time (or even before) we write the production code.
-
- pg 290 - Tip 63 Coding Ain't Done 'Til All the Tests Run Just because you have finished hacking out a piece of code doesn't mean you can go tell your boss or your client that it's done. It's not. First of all, code is never really done. More importantly, you can't claim that it is usable by anyone until it passes all of the available tests.
-
- pg 290 - There are several major types of software testing that you need to perform: Unit testing Integration testing Validation and verification Resource exhaustion, errors, and recovery Performance testing Usability testing
-
- pg 291 - With good contracts in place and well tested, any integration issues can be detected easily. Otherwise, integration becomes a fertile breeding ground for bugs. In fact, it is often the single largest source of bugs in the system.
-
- pg 296 - Think of our set of test suites as an elaborate security system, designed to sound the alarm when a bug shows up. How better to test a security system than to try to break in?
-
- pg 297 - Tip 64 Use Saboteurs to Test Your Testing If you are really serious about testing, you might want to appoint a project saboteur.
-
- pg 297 - Tip 64 Use Saboteurs to Test Your Testing If you are really serious about testing, you might want to appoint a project saboteur. The saboteur's role is to take a separate copy of the source tree, introduce bugs on purpose, and verify that the tests will catch them.
-
- pg 299 - Tip 66 Find Bugs Once Once a human tester finds a bug, it should be the last time a human tester finds that bug. The automated tests should be modified to check for that particular bug from then on, every time, with no exceptions,
-
- pg 300 - It's All Writing
-
- pg 302 - In general, comments should discuss why something is done, its purpose and its goal. The code already shows how it is done, so commenting on this is redundant—and is a violation of the DRY principle.
-
- pg 302 - Remember that you (and others after you) will be reading the code many hundreds of times, but only writing it a few times. Take the time to spell out connectionPool instead of cp.
-
- pg 303 - Here's a list of things that should not appear in source comments. A list of the functions exported by code in the file. There are programs that analyze source for you. Use them, and the list is guaranteed to be up to date.
-
- pg 306 - We can generate API-level documentation from source code using tools such as JavaDoc and DOC++ in a similar fashion. The model is the source code: one view of the model can be compiled; other views are meant to be printed out or viewed on the Web. Our goal is always to work on the model—whether the model is the code itself or some other document—and have all views updated automatically
-
- pg 310 - Great Expectations
-
- pg 310 - A project that falls below their expectations is deemed a failure, no matter how good the deliverable is in absolute terms. However, like the parent of the child expecting the cheap doll, go too far and you'll be a failure, too.
-
- pg 310 - A project that falls below their expectations is deemed a failure, no matter how good the deliverable is in absolute terms. However, like the parent of the child expecting the cheap doll, go too far and you'll be a failure, too. Tip 69 Gently Exceed Your Users' Expectations
-
- pg 313 - Pride and Prejudice
-
- pg 313 - If we are responsible for a design, or a piece of code, we do a job we can be proud of. Tip 70 Sign Your Work
-
  loc 313 - The greatest of all weaknesses is the fear of appearing weak. • J. B. Bossuet,
-
- pg 314 - Anonymity, especially on large projects, can provide a breeding ground for sloppiness, mistakes, sloth, and bad code
 
  loc 364 - One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears.
 
@@ -507,4 +351,160 @@ ______________________________
  loc 2948 - The view is an interpretation of the model (perhaps a subset)—it doesn't need to be graphical. The controller is more of a coordination mechanism, and doesn't have to be related to any sort of input device.
 
  loc 2992 - 30. Blackboards
+
+ loc 3071 - While You Are Coding
+
+ loc 3091 - 31. Programming by Coincidence
+
+ loc 3091 - Programming by Coincidence
+
+ loc 3103 - No matter what he does, it just doesn't ever seem to work right. Fred doesn't know why the code is failing because he didn't know why it worked in the first place.
+
+ loc 3121 - "It works now, better leave well enough alone...." It's easy to be fooled by this line of thought. Why should you take the risk of messing with something that's working? Well, we can think of several reasons: It may not really be working—it might just look like it is. The boundary condition you rely on may be just an accident. In different circumstances (a different screen resolution, perhaps), it might behave differently. Undocumented behavior may change with the next release of the library. Additional and unnecessary calls make your code slower. Additional calls also increase the risk of introducing new bugs of their own.
+
+ loc 3265 - Also be wary of premature optimization. It's always a good idea to make sure an algorithm really is a bottleneck before investing your precious time trying to improve it.
+
+ loc 3287 - Refactoring
+
+ loc 3289 - As a program evolves, it will become necessary to rethink earlier decisions and rework portions of the code. This process is perfectly natural. Code needs to evolve; it's not a static thing.
+
+ loc 3306 - When you come across a stumbling block because the code doesn't quite fit anymore, or you notice two things that should really be merged, or anything else at all strikes you as being "wrong," don't hesitate to change it.
+
+ loc 3322 - think of the code that needs refactoring as a "growth." Removing it requires invasive surgery. You can go in now, and take it out while it is still small. Or, you could wait while it grows and spreads—but removing it then will be both more expensive and more dangerous.
+
+ loc 3325 - Tip 47 Refactor Early, Refactor Often Keep track of the things that need to be refactored. If you can't refactor something immediately, make sure that it gets placed on the schedule.
+
+ loc 3337 - Don't try to refactor and add functionality at the same time.
+
+ loc 3337 - Make sure you have good tests before you begin refactoring. Run the tests as often as possible. That way you will know quickly if your changes have broken anything.
+
+ loc 3349 - Take short, deliberate steps: move a field from one class to another, fuse two similar methods into a superclass. Refactoring often involves making many localized changes that result in a larger-scale change. If you keep your steps small, and test after each step, you will avoid prolonged debugging.
+
+ loc 3420 - Tip 48 Design to Test When you design a module, or even a single routine, you should design both its contract and the code to test that contract.
+
+ loc 3424 - by building the tests before you implement the code, you get to try out the interface before you commit to it.
+
+ loc 3463 - At the end of the debugging session, you need to formalize the ad hoc test. If the code broke once, it is likely to break again.
+
+ loc 3474 - Log messages should be in a regular, consistent format; you may want to parse them automatically to deduce processing time or logic paths that the program took.
+
+ loc 3484 - All software you write will be tested—if not by you and your team, then by the eventual users—so you might as well plan on testing it thoroughly.
+
+ loc 3490 - Testing is more cultural than technical; we can instill this testing culture in a project regardless of the language being used. Tip 49 Test Your Software, or Your Users Will
+
+ loc 3522 - if you do use a wizard, and you don't understand all the code that it produces, you won't be in control of your own application. You won't be able to maintain it, and you'll be struggling when it comes time to debug. Tip 50 Don't Use Wizard Code You Don't Understand
+
+ loc 3540 - Before the Project
+
+ loc 3554 - The Requirements Pit
+
+ loc 3554 - Perfection is achieved, not when there is nothing left to add, but when there is nothing left to take away.... • Antoine de St. Exupery, Wind, Sand, and Stars, 1939
+
+ loc 3572 - Our recommendation is to document these policies separately from the requirement, and hyperlink the two.
+
+ loc 3572 - Policies change regularly, so we probably don't want to hardwire them into our requirements. Our recommendation is to document these policies separately from the requirement, and hyperlink the two. Make the requirement the general statement, and give the developers the policy information as an example of the type of thing they'll need to support in the implementation. Eventually, policy may end up as metadata in the application.
+
+ loc 3584 - It's important to discover the underlying reason why users do a particular thing, rather than just the way they currently do it. At the end of the day, your development has to solve their business problem, not just meet their stated requirements.
+
+ loc 3587 - There's a simple technique for getting inside your users' requirements that isn't used often enough: become a user.
+
+ loc 3595 - Tip 52 Work with a User to Think Like a User The requirements mining process is also the time to start to build a rapport with your user base, learning their expectations and hopes for the system you are building.
+
+ loc 3645 - Good requirements documents remain abstract. Where requirements are concerned, the simplest statement that accurately reflects the business need is best.
+
+ loc 3673 - It's easy to get sucked into the "just one more feature" maelstrom, but by tracking requirements you can get a clearer picture that "just one more feature" is really the fifteenth new feature added this month.
+
+ loc 3678 - Create and maintain a project glossary—one place that defines all the specific terms and vocabulary used in a project. All participants in the project, from end users to support staff, should use the glossary to ensure consistency.
+
+ loc 3706 - Solving Impossible Puzzles
+
+ loc 3725 - The key to solving puzzles is both to recognize the constraints placed on you and to recognize the degrees of freedom you do have, for in those you'll find your solution.
+
+ loc 3732 - Tip 55 Don't Think Outside the Box—Find the Box When faced with an intractable problem, enumerate all the possible avenues you have before you. Don't dismiss anything, no matter how unusable or stupid it sounds. Now go through the list and explain why a certain path cannot be taken. Are you sure? Can you prove it?
+
+ loc 3755 - Not Until You're Ready
+
+ loc 3761 - Tip 56 Listen to Nagging Doubts—Start When You're Ready
+
+ loc 3772 - So how can you tell when you're simply procrastinating, rather than responsibly waiting for all the pieces to fall into place? A technique that has worked for us in these circumstances is to start prototyping. Choose an area that you feel will be difficult and begin producing some kind of proof of concept.
+
+ loc 3787 - The Specification Trap
+
+ loc 3799 - First, it's naive to assume that a specification will ever capture every detail and nuance of a system or its requirement.
+
+ loc 3805 - Second, there is a problem with the expressive power of language itself.
+
+ loc 3810 - Write a short description that tells someone how to tie bows in their shoelaces.
+
+ loc 3810 - Here's a challenge for you. Write a short description that tells someone how to tie bows in their shoelaces.
+
+ loc 3813 - Tip 57 Some Things Are Better Done than Described
+
+ loc 3815 - Finally, there is the straightjacket effect. A design that leaves the coder no room for interpretation robs the programming effort of any skill and art.
+
+ loc 3828 - be aware that you reach a point of diminishing, or even negative, returns as the specifications get more and more detailed.
+
+ loc 3842 - Circles and Arrows
+
+ loc 3854 - Tip 58 Don't Be a Slave to Formal Methods
+
+ loc 3872 - Although there is an indication that some methods have benefits, these benefits start to manifest themselves only after a significant productivity and quality drop while the technique is adopted and its users train themselves. Never underestimate the cost of adopting new tools and methods.
+
+ loc 3882 - Tip 59 Expensive Tools Do Not Produce Better Designs
+
+ loc 3895 - Pragmatic Projects
+
+ loc 3909 - Pragmatic Teams
+
+ loc 3968 - It is a mistake to think that the activities of a project—analysis, design, coding, and testing—can happen in isolation. They can't. These are different views of the same problem, and artificially separating them can cause a boatload of trouble.
+
+ loc 3971 - Tip 60 Organize Around Functionality, Not Job Functions
+
+ loc 3973 - Divide your people into small teams, each responsible for a particular functional aspect of the final system. Let the teams organize themselves internally, building on individual strengths as they can.
+
+ loc 4037 - Tip 61 Don't Use Manual Procedures People just aren't as repeatable as computers are. Nor should we expect them to be. A shell script or batch file will execute the same instructions, in the same order, time after time. It can be put under source control, so you can examine changes to the procedure over time as well ("but it used to work...").
+
+ loc 4048 - There are several advantages in using makefiles. It is a scripted, automatic procedure. We can add in hooks to generate code for us, and run regression tests automatically. IDEs have their advantages, but with IDEs alone it can be hard to achieve the level of automation that we're looking for.
+
+ loc 4144 - Ruthless Testing
+
+ loc 4149 - Tip 62 Test Early. Test Often. Test Automatically. We want to start testing as soon as we have code.
+
+ loc 4155 - "Code a little, test a little" is a popular saying in the Smalltalk world,[6] and we can adopt that mantra as our own by writing test code at the same time (or even before) we write the production code.
+
+ loc 4162 - Tip 63 Coding Ain't Done 'Til All the Tests Run Just because you have finished hacking out a piece of code doesn't mean you can go tell your boss or your client that it's done. It's not. First of all, code is never really done. More importantly, you can't claim that it is usable by anyone until it passes all of the available tests.
+
+ loc 4168 - There are several major types of software testing that you need to perform: Unit testing Integration testing Validation and verification Resource exhaustion, errors, and recovery Performance testing Usability testing
+
+ loc 4179 - With good contracts in place and well tested, any integration issues can be detected easily. Otherwise, integration becomes a fertile breeding ground for bugs. In fact, it is often the single largest source of bugs in the system.
+
+ loc 4261 - Think of our set of test suites as an elaborate security system, designed to sound the alarm when a bug shows up. How better to test a security system than to try to break in?
+
+ loc 4264 - Tip 64 Use Saboteurs to Test Your Testing If you are really serious about testing, you might want to appoint a project saboteur.
+
+ loc 4264 - Tip 64 Use Saboteurs to Test Your Testing If you are really serious about testing, you might want to appoint a project saboteur. The saboteur's role is to take a separate copy of the source tree, introduce bugs on purpose, and verify that the tests will catch them.
+
+ loc 4301 - Tip 66 Find Bugs Once Once a human tester finds a bug, it should be the last time a human tester finds that bug. The automated tests should be modified to check for that particular bug from then on, every time, with no exceptions,
+
+ loc 4316 - It's All Writing
+
+ loc 4337 - In general, comments should discuss why something is done, its purpose and its goal. The code already shows how it is done, so commenting on this is redundant—and is a violation of the DRY principle.
+
+ loc 4345 - Remember that you (and others after you) will be reading the code many hundreds of times, but only writing it a few times. Take the time to spell out connectionPool instead of cp.
+
+ loc 4356 - Here's a list of things that should not appear in source comments. A list of the functions exported by code in the file. There are programs that analyze source for you. Use them, and the list is guaranteed to be up to date.
+
+ loc 4397 - We can generate API-level documentation from source code using tools such as JavaDoc and DOC++ in a similar fashion. The model is the source code: one view of the model can be compiled; other views are meant to be printed out or viewed on the Web. Our goal is always to work on the model—whether the model is the code itself or some other document—and have all views updated automatically
+
+ loc 4449 - Great Expectations
+
+ loc 4456 - A project that falls below their expectations is deemed a failure, no matter how good the deliverable is in absolute terms. However, like the parent of the child expecting the cheap doll, go too far and you'll be a failure, too.
+
+ loc 4456 - A project that falls below their expectations is deemed a failure, no matter how good the deliverable is in absolute terms. However, like the parent of the child expecting the cheap doll, go too far and you'll be a failure, too. Tip 69 Gently Exceed Your Users' Expectations
+
+ loc 4495 - Pride and Prejudice
+
+ loc 4498 - If we are responsible for a design, or a piece of code, we do a job we can be proud of. Tip 70 Sign Your Work
+
+ loc 4507 - Anonymity, especially on large projects, can provide a breeding ground for sloppiness, mistakes, sloth, and bad code
 
