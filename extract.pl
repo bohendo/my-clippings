@@ -33,7 +33,7 @@ my $indexfd; # index file descriptor
 my %tr; # index TRanslator
 
 # temp storage
-my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
+my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content) = '';
 my $state;
 
 
@@ -56,16 +56,18 @@ sub loadIndex {
     close($indexfd) or die "Error: couldn't close '$indexfile' $!\n";
   }
 
+  # Load the raw index file into memory
   open($indexfd, "< $indexfile") or die "Error: couldn't open '$indexfile' $!\n";
   @index = <$indexfd>;
   close($indexfd) or die "Error: couldn't close '$indexfile' $!\n";
 
+  # Parse the raw index file into a perl hash table
   foreach (@index) {
 
     s/[\s]*$//g; # remove trailing whitespace
     s/^[\xef\xbb\xbf]*//g; # remove leading BOM
   
-    if ($_ eq '') { next; }                # skip empty rows  
+    if ($_ eq '') { next; }                 # skip empty rows
     elsif ($state == 1) { $rawtitle = $_; } # first line is the raw title aka hash key
     elsif ($state == 2) { $title = $_; }    # second line is the clean title
     elsif ($state == 3) { $author = $_;     # third line is the clean author
@@ -91,7 +93,7 @@ sub loadIndex {
 ## Read My Clippings (from stdin or as 1st arg)
 
 # reset temp storage
-($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
+($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $loc) = '';
 $state = 1; # state: 1-title/author, 2-type/location/date, 3-highlight/note
 
 while ($_ = <$ifd>) {
@@ -124,9 +126,6 @@ while ($_ = <$ifd>) {
       my $templine = "";
       my $isDupe = 0;
 
-      $labl = ($page ne "") ? "pg" : "loc";
-      $num = ($labl eq "pg") ? $page : $loc;
-
       # Open $ofile and a temporary file to copy to
       open($ofd, "< $ofile") or die "Error: couldn't open $ofile. $!\n";
       open($tempfd, "> $tempfile") or die "Error: couldn't open $tempfile. $!\n";
@@ -136,15 +135,15 @@ while ($_ = <$ifd>) {
       ## Stop when we find a good spot to insert our new content
       while (<$ofd>) {
         if (/\s((?:pg)|(?:loc))\s(\d+)\s-\s(.*)/) {
-          if ($2 == $num && ( $3 eq $content || $3 eq "My Note: $content") ) {
+          if ($2 == $loc && ( $3 eq $content || $3 eq "My Note: $content") ) {
             # print "duplicate detected!\n";
             $isDupe = 1;
             last; # abort
-          } elsif ($2 <= $num) {
+          } elsif ($2 <= $loc) {
             print $tempfd $_;
-            # print "new info at $num comes after $2\n";
+            # print "new info at $loc comes after $2\n";
           } else {
-            # print "new info at $num goes here: $2\n";
+            # print "new info at $loc goes here: $2\n";
             $templine = $_;
             last;
           }
@@ -155,8 +154,8 @@ while ($_ = <$ifd>) {
 
       ##############################
       ## Add this line of content
-      if ($type eq "Highlight") { print $tempfd " $labl $num - $content\n"; }
-      elsif ($type eq "Note") { print $tempfd " $labl $num - My Note: $content\n"; }
+      if ($type eq "Highlight") { print $tempfd " loc $loc - $content\n"; }
+      elsif ($type eq "Note") { print $tempfd " loc $loc - My Note: $content\n"; }
 
       # if this is a duplicate we just added a copy above
       print $tempfd "\n$templine" unless($isDupe);
@@ -259,18 +258,13 @@ while ($_ = <$ifd>) {
       die "Error: could not get type for: '$_'\n";
     }  
 
-    # Get Page
-    if (/page\s([\d]+)/) {
-      $page = $1; # print "page: $page\n";
-    } else {
-      $page = ""; # print "no page..\n";
-    }
-
     # Get Location
     if (/Location\s([\d]+)/) {
       $loc = $1; # print "location: $loc\n";
+    } elsif (/[Pp]age\s([\d]+)/) {
+      $loc = $1; # print "page: $loc\n";
     } else {
-      $loc = ""; # print "no location..\n";
+      die "Error: could not get location for: '$_'\n";
     }
 
     $state += 1;
