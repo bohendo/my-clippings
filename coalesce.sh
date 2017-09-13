@@ -27,8 +27,13 @@ sed 's/==========\([^=]\)/==========\n\1/g' |\
 
 # Sort numerically so books w same title will sort by page/location
 # Note: the above logic is flawed, currently sorts 100, 12, 2
+sort -n |\
+
 # Remove any duplicate lines (we're idempotent!)
-sort -n | uniq |\
+uniq |\
+
+# Remove any lines that have been throttled by DRM
+sed '/<You have reached the clipping limit for this item>/d' |\
 
 # Put the newlines back where they were originally and we're done
 sed 's/==========$/\n==========/g' |\

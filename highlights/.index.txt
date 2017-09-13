@@ -275,10 +275,6 @@ computer-security
 Computer Security
 Stallings & Brown
 
-The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two
-22 Immutable Laws of Marketing
-Al Ries
-
 Thinking, Fast and Slow
 Thinking Fast and Slow
 Daniel Kahneman
@@ -334,3 +330,11 @@ Andrew Hunt & David Thomas
 Ruby on Rails Tutorial (Rails 5)
 Ruby on Rails
 Michael Hartl
+
+The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two
+22 Immutable Laws of Marketing
+Al Ries & Jack Trout
+
+THE 22 IMMUTABLE LAWS OF MARKETING: EXPOSED AND EXPLAINED BY THE WORLD'S TWO
+22 Immutable Laws of Marketing
+Al Ries & Jack Trout

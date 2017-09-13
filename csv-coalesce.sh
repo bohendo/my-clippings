@@ -26,11 +26,11 @@ while read line; do
   loc=`echo $line | awk -F "\",\"" '{print $2}' | tr -d '"'`
   hlt=`echo $line | awk -F "\",\"" '{print $4}' | tr -d '"'`
 
-  echo "=========="
   echo "$title ($author)"
   echo "- Your Highlight on $loc | Added someday at sometime PM"
   echo ""
   echo "$hlt"
+  echo "=========="
   
 done < "$input.clean" > "$output"
 
