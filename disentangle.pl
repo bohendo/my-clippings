@@ -33,7 +33,7 @@ my $indexfd; # index file descriptor
 my %tr; # index TRanslator
 
 # temp storage
-my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content) = '';
+my ($rawtitle, $title, $author, $key, $type, $loc, $content) = '';
 my $state;
 
 
@@ -93,7 +93,7 @@ sub loadIndex {
 ## Read My Clippings (from stdin or as 1st arg)
 
 # reset temp storage
-($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $loc) = '';
+($rawtitle, $title, $author, $key, $type, $loc, $content, $loc) = '';
 $state = 1; # state: 1-title/author, 2-type/location/date, 3-highlight/note
 
 while ($_ = <$ifd>) {
@@ -114,7 +114,7 @@ while ($_ = <$ifd>) {
     $ofile = "$outfolder/" . lc "$title.txt";
     $ofile =~ s/\s/-/g;
 
-    # print "GOT\ntitle: $title\nauthor: $author\ntype: $type\nloc: $loc\npage: $page\ncontent: $content\n\n";
+    # print "GOT\ntitle: $title\nauthor: $author\ntype: $type\nloc: $loc\ncontent: $content\n\n";
 
     ##############################
     ## Add this content to an existing file
@@ -184,15 +184,14 @@ while ($_ = <$ifd>) {
       print $ofd "\n______________________________\n\n";
 
       # Add this file's first piece of content
-      if ($page ne "") { print $ofd " pg $page - $content\n\n"; }
-      else { print $ofd " loc $loc - $content\n\n"; }  
+      print $ofd " loc $loc - $content\n\n";
       close($ofd) or die "Error: couldn't close $ofile. $!\n";
     }
 
     ##############################
     ## Reset in preparation for the next piece of content
 
-    ($rawtitle, $title, $author, $key, $type, $loc, $page, $content) = "";
+    ($rawtitle, $title, $author, $key, $type, $loc, $content) = "";
     $state = 1; 
   }
 
