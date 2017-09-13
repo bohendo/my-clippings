@@ -10,30 +10,32 @@ use utf8; # Process strings within this script as utf-8
 binmode(STDOUT, ":utf8"); # write to STDOUT as utf-8
 
 ##############################
-## Variables
+## Glossary
 
-my $infile = "my-clippings.txt";
-open(my $infd, "< $infile") or die "Error: couldn't open $infile. $!\n";
+# Our input file needs to exist or no point in running this script
+my $ifd; # aka input file descriptor
+open($ifd, "< my-clippings.txt") or die "Error: couldn't open my-clippings.txt. $!\n";
 
-my $outfolder = "highlights";
+my $outfolder = "highlights"; # folder where our index and book-specific files live
 
-my $outfd; # file descriptor for outfile
-my $outfile; # temp storage for book file we're writing to
+my $ofile; # book file we're writing to at the moment
+my $ofd; # output file descriptor
 
-my $tempfd; # file descriptor for tempfile
-my $tempfile; # backup copy of outfile
+my $tempfile; # backup copy of book file, used while writing
+my $tempfd; # temp file descriptor
 
+my $kbinput; # temp storage for data from keyboard
 my $kb; # keyboard file descriptor
-my $kbinput; # temp storage for data from above
 
-my $indexfd; # index file descriptor
 my $indexfile = "$outfolder/.index.txt"; # index filename
+my $indexfd; # index file descriptor
 
 my %tr; # index TRanslator
 
 # temp storage
 my ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
 my $state;
+
 
 ##############################
 ## loadIndex: parse .index.txt to generate %tr
@@ -92,7 +94,7 @@ sub loadIndex {
 ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
 $state = 1; # state: 1-title/author, 2-type/location/date, 3-highlight/note
 
-while ($_ = <$infd>) {
+while ($_ = <$ifd>) {
 
   ##############################
   ## line cleanup
@@ -107,8 +109,8 @@ while ($_ = <$infd>) {
 
   if ($_ eq "==========") { 
 
-    $outfile = "$outfolder/" . lc "$title.txt";
-    $outfile =~ s/\s/-/g;
+    $ofile = "$outfolder/" . lc "$title.txt";
+    $ofile =~ s/\s/-/g;
 
     # print "GOT\ntitle: $title\nauthor: $author\ntype: $type\nloc: $loc\npage: $page\ncontent: $content\n\n";
 
@@ -116,23 +118,23 @@ while ($_ = <$infd>) {
     ## Add this content to an existing file
   
     if ($type eq "Bookmark") {} # BTW skip bookmarks
-    elsif ( -e $outfile) {
+    elsif ( -e $ofile) {
 
-      $tempfile = "$outfile.tmp";
+      $tempfile = "$ofile.tmp";
       my $templine = "";
       my $isDupe = 0;
 
       $labl = ($page ne "") ? "pg" : "loc";
       $num = ($labl eq "pg") ? $page : $loc;
 
-      # Open $outfile and a temporary file to copy to
-      open($outfd, "< $outfile") or die "Error: couldn't open $outfile. $!\n";
+      # Open $ofile and a temporary file to copy to
+      open($ofd, "< $ofile") or die "Error: couldn't open $ofile. $!\n";
       open($tempfd, "> $tempfile") or die "Error: couldn't open $tempfile. $!\n";
 
       ##############################
       ## Copy over the first half of outfile, 
       ## Stop when we find a good spot to insert our new content
-      while (<$outfd>) {
+      while (<$ofd>) {
         if (/\s((?:pg)|(?:loc))\s(\d+)\s-\s(.*)/) {
           if ($2 == $num && ( $3 eq $content || $3 eq "My Note: $content") ) {
             # print "duplicate detected!\n";
@@ -161,31 +163,31 @@ while ($_ = <$infd>) {
     
       ##############################
       # copy over the rest of the current file & cleanup
-      while (<$outfd>) { print $tempfd $_; }  
+      while (<$ofd>) { print $tempfd $_; }  
 
       close($tempfd) or die "Error: couldn't close $tempfile. $!\n";
-      close($outfd) or die "Error: couldn't close $outfile. $!\n";
+      close($ofd) or die "Error: couldn't close $ofile. $!\n";
 
       # replace our old outfile with our new one
-      unlink $outfile;
-      rename $tempfile, $outfile;
+      unlink $ofile;
+      rename $tempfile, $ofile;
 
     ##############################
     ## Create a new file and initialize it with this content
 
     } else {
       # initialize a file for this new book
-      open($outfd, "> $outfile") or die "Error: couldn't open $outfile. $!\n";
+      open($ofd, "> $ofile") or die "Error: couldn't open $ofile. $!\n";
 
       # Add the title & author to the file header
-      print $outfd "______________________________\n\n";
-      print $outfd "  $title\n  by $author";
-      print $outfd "\n______________________________\n\n";
+      print $ofd "______________________________\n\n";
+      print $ofd "  $title\n  by $author";
+      print $ofd "\n______________________________\n\n";
 
       # Add this file's first piece of content
-      if ($page ne "") { print $outfd " pg $page - $content\n\n"; }
-      else { print $outfd " loc $loc - $content\n\n"; }  
-      close($outfd) or die "Error: couldn't close $outfile. $!\n";
+      if ($page ne "") { print $ofd " pg $page - $content\n\n"; }
+      else { print $ofd " loc $loc - $content\n\n"; }  
+      close($ofd) or die "Error: couldn't close $ofile. $!\n";
     }
 
     ##############################
