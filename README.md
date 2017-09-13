@@ -24,7 +24,7 @@ coalesce.sh  extract.pl  highlights  my-clippings.txt  README.md
 
 ### `extract.pl`
 
-This script takes a single clippings file as it's only argument. It separates the kindle-readable clippings monolith into a collection of files in the highlights directory which each contain all the highlights for one book in a much more human-readable format.
+It separates the kindle-readable clippings monolith into a collection of files in the highlights directory which each contain all the highlights for one book in a much more human-readable format. This script does not take any arguments but it expects to see a file called "my-clippings.txt" in the same folder. 
 
 Each book has a user-definable display name. When `extract.pl` encounters a book that's not in it's `highlights/.index.txt` file, it will prompt the user for a display title which will be used as the filename for that book's highlights. Empty display titles default to the book's full title but be careful, some of these are really long.
 

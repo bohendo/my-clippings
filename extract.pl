@@ -12,6 +12,9 @@ binmode(STDOUT, ":utf8"); # write to STDOUT as utf-8
 ##############################
 ## Variables
 
+my $infile = "my-clippings.txt";
+open(my $infd, "< $infile") or die "Error: couldn't open $infile. $!\n";
+
 my $outfolder = "highlights";
 
 my $outfd; # file descriptor for outfile
@@ -89,8 +92,7 @@ sub loadIndex {
 ($rawtitle, $title, $author, $key, $type, $loc, $page, $content, $num, $labl) = '';
 $state = 1; # state: 1-title/author, 2-type/location/date, 3-highlight/note
 
-# <> will look for a file as the first argument or listen to STDIN
-while (<>) {
+while ($_ = <$infd>) {
 
   ##############################
   ## line cleanup
