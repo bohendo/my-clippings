@@ -3,10 +3,6 @@
 input="My Clippings.txt"
 output="my-clippings.txt"
 
-# Sanity Checks
-if [[ ! -f "$input" ]]; then echo "Nothing to coalesce"; exit;
-fi
-
 # Move $output to a temporary read location so we can 
 #   write to this filename at the other end of our pipe
 if [[ -f "$output" ]]; then mv "$output" ".$output.backup"
