@@ -4,11 +4,11 @@ ______________________________
   by Al Ries & Jack Trout
 ______________________________
 
- loc 82 - 1 The Law of Leadership It’s better to be first than it is to be better.
+ loc 82 - Law 1: The Law of Leadership. It’s better to be first than it is to be better.
 
  loc 135 - “FedEx this package to the Coast.” If you’re introducing the first brand in a new category, you should always try to select a name that can work generically. (Lawyers advise the opposite, but what do they know about the laws of marketing?)
 
- loc 162 - 2 The Law of the Category If you can’t be first in a category, set up a new category you can be first in.
+ loc 162 - Law 2: The Law of the Category. If you can’t be first in a category, set up a new category you can be first in.
 
  loc 181 - The most successful computer company of the seventies and eighties, next to IBM, was Digital Equipment Corporation. IBM was first in computers. DEC was first in minicomputers.
 
@@ -16,7 +16,7 @@ ______________________________
 
  loc 193 - When you launch a new product, the first question to ask yourself is not “How is this new product better than the competition?” but “First what?” In other words, what category is this new product first in?
 
- loc 205 - 3 The Law of the Mind It’s better to be first in the mind than it is to be first in the marketplace
+ loc 205 - Law 3: The Law of the Mind. It’s better to be first in the mind than it is to be first in the marketplace
 
  loc 211 - Du Mont invented the first commercial television set. Duryea introduced the first automobile. Hurley introduced the first washing machine. All are gone. Is something wrong with the law of leadership in chapter 1? No, but the law of the mind modifies it. It’s better to be first in the prospect’s mind than first in the marketplace. Which, if anything, understates the importance of being first in the mind. Being first in the mind is everything in marketing. Being first in the marketplace is important only to the extent that it allows you to get in the mind first. For example, IBM wasn’t first in the marketplace with the mainframe computer. Remington Rand was first, with UNIVAC. But thanks to a massive marketing effort, IBM got into the mind first and won the computer battle early. The law of the mind follows from the law of perception. If marketing is a battle of perception, not product, then the mind takes precedence over the marketplace.
 
@@ -24,7 +24,7 @@ ______________________________
 
  loc 232 - The single most wasteful thing you can do in marketing is try to change a mind.
 
- loc 245 - 4 The Law of Perception Marketing is not a battle of products, it’s a battle of perception.
+ loc 245 - Law 4: The Law of Perception. Marketing is not a battle of products, it’s a battle of perception.
 
  loc 252 - There is no objective reality. There are no facts. There are no best products. All that exists in the world of marketing are perceptions in the minds of the customer or prospect. The perception is the reality. Everything else is an illusion.
 
@@ -34,7 +34,7 @@ ______________________________
 
  loc 307 - What makes the battle even more difficult is that customers frequently make buying decisions based on second-hand perceptions. Instead of using their own perceptions, they base their buying decisions on someone else’s perception of reality. This is the “everybody knows” principle. Everybody knows that the Japanese make higher-quality cars than the Americans do. So people make buying decisions based on the fact that everybody knows the Japanese make higher-quality cars. When you ask shoppers whether they have had any personal experience with a product, most often they say they haven’t. And, more often than not, their own experience is often twisted to conform to their perceptions.
 
- loc 325 - 5 The Law of Focus The most powerful concept in marketing is owning a word in the prospect’s mind.
+ loc 325 - Law 5: The Law of Focus. The most powerful concept in marketing is owning a word in the prospect’s mind.
 
  loc 333 - In a way, the law of leadership—it’s better to be first than to be better—enables the first brand or company to own a word in the mind of the prospect. But the word the leader owns is so simple that it’s invisible. The leader owns the word that stands for the category.
 
@@ -52,7 +52,7 @@ ______________________________
 
  loc 391 - Does any company proclaim itself as the “unquality” corporation? No, everybody stands for quality. As a result, nobody does.
 
- loc 416 - 6 The Law of Exclusivity  Two companies cannot own the same word in the prospect’s mind.
+ loc 416 - Law 6: The Law of Exclusivity. Two companies cannot own the same word in the prospect’s mind.
 
  loc 420 - Volvo owns safety. Many other automobile companies, including Mercedes-Benz and General Motors, have tried to run marketing campaigns based on safety. Yet no one except Volvo has succeeded in getting into the prospect’s mind with a safety message.
 
@@ -66,7 +66,7 @@ ______________________________
 
  loc 445 - market study showed that the most popular attribute for fast food was “fast” (no big surprise there). So Burger King did what most red-blooded marketers do. It turned to its advertising agency and said, “If the world wants fast, our advertising should tell them we’re fast.” What was overlooked in the research was that McDonald’s was already perceived as being the fastest hamburger chain in the country. Fast belonged to McDonald’s. Undaunted by this, Burger King launched its campaign with the slogan “Best food for fast times.” The program quickly became a disaster very nearly on a par with the one that involved “Herb.”
 
- loc 453 - 7 The Law of the Ladder The strategy to use depends on which rung you occupy on the ladder.
+ loc 453 - Law 7: The Law of the Ladder. The strategy to use depends on which rung you occupy on the ladder.
 
  loc 459 - For each category, there is a product ladder in the mind. On each rung is a brand name. Take the car rental category. Hertz got into the mind first and wound up on the top rung. Avis got in second and National got in third.
 
@@ -80,9 +80,7 @@ ______________________________
 
  loc 500 - What’s the maximum number of rungs on a ladder? There seems to be a rule of seven in the prospect’s mind. Ask someone to name all the brands he or she remembers in a given category. Rarely will anyone name more than seven. And that’s for a high-interest category. According to Harvard psychologist Dr. George A. Miller, the average human mind cannot deal with more than seven units at a time.
 
- loc 500 - What’s the maximum number of rungs on a ladder? There seems to be a rule of seven in the prospect’s mind. Ask someone to name all the brands he or she remembers in a given category. Rarely will anyone name more than seven. And that’s for a high-interest category. According to Harvard psychologist Dr. George A. Miller, the average human mind cannot deal with more than seven units at a time. Which is why seven is a popular number for lists that have to be remembered.
-
- loc 518 - 8 The Law of Duality In the long run, every market becomes a two-horse race.
+ loc 518 - Law 8: The Law of Duality. In the long run, every market becomes a two-horse race.
 
  loc 521 - Early on, a new category is a ladder of many rungs. Gradually, the ladder becomes a two-rung affair.
 
@@ -90,15 +88,13 @@ ______________________________
 
  loc 544 - Take video games. In the late eighties, the market was dominated by Nintendo with a 75 percent share. The two also-rans were Sega and NEC. Today Nintendo and Sega are neck and neck, and NEC is way behind. In the long run, marketing is a two-game race.
 
- loc 545 - neck, and NEC is way behind. In the long run, marketing is a two-game race. Time
-
  loc 546 - Time frames, however, can vary. The fast-moving video game market played itself out in two or three seasons. The long-distance telephone market might take two or three decades.
 
  loc 561 - Look at the history of the automobile in the United States. In 1904, 195 different cars were assembled by 60 companies. Within the following 10 years, 531 companies were formed and 346 perished. By 1923, only 108 car makers remained. This number dropped to 44 by 1927. Today, Ford and General Motors dominate the domestic industry, with Chrysler’s future in doubt.
 
  loc 572 - We repeat: The customer believes that marketing is a battle of products. It’s this kind of thinking that keeps the two brands on top: “They must be the best, they’re the leaders.”
 
- loc 576 - 9 The Law of the Opposite If you’re shooting for second place, your strategy is determined by the leader.
+ loc 576 - Law 9: The Law of the Opposite. If you’re shooting for second place, your strategy is determined by the leader.
 
  loc 587 - When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group. In other words, by positioning yourself against the leader, you take business away from all the other alternatives to No. 1. If old people drink Coke and young people drink Pepsi, there’s nobody left to drink Royal Crown cola. Yet, too many potential No. 2 brands try to emulate the leader. This usually is an error. You must present yourself as the alternative.
 
@@ -106,7 +102,7 @@ ______________________________
 
  loc 587 - When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group. In other words, by positioning yourself against the leader, you take business away from all the other alternatives to No. 1. If old people drink Coke and young people drink Pepsi, there’s nobody left to drink Royal Crown cola.
 
- loc 637 - 10 The Law of Division Over time, a category will divide and become two or more categories.
+ loc 637 - Law 10: The Law of Division. Over time, a category will divide and become two or more categories.
 
  loc 642 - A category starts off as a single entity. Computers, for example. But over time, the category breaks up into other segments. Mainframes, minicomputers, workstations, personal computers, laptops, notebooks, pen computers.
 
@@ -120,7 +116,7 @@ ______________________________
 
  loc 699 - You can be too early to exploit a new category. Back in the fifties the Nash Rambler was America’s first small car. But American Motors didn’t have either the courage or the money to hang in there long enough for the category to develop. It’s better to be early than late. You can’t get into the prospect’s mind first unless you’re prepared to spend some time waiting for things to develop.
 
- loc 704 - 11 The Law of Perspective Marketing effects take place over an extended period of time.
+ loc 704 - Law 11: The Law of Perspective. Marketing effects take place over an extended period of time.
 
  loc 710 - Chemically, alcohol is a strong depressant. But in the short term, by depressing a person’s inhibitions, alcohol acts like a stimulant. Many marketing moves exhibit the same phenomenon. The long-term effects are often the exact opposite of the short-term effects.
 
@@ -128,7 +124,7 @@ ______________________________
 
  loc 738 - In the short term, line extension invariably increases sales. The beer industry clearly illustrates this effect. In the early seventies, Miller High Life was barreling along with sales increases averaging 27 percent a year. Miller’s success was fueled by “Miller Time,” a blue-collar campaign focused on rewarding yourself at the end of the day with a Miller beer. Then Miller got greedy and in 1974 introduced Miller Lite, a brilliant concept (chapter 2: The Law of the Category) buried under a line extended name. In the short term the two Millers could coexist: the blue-collar beer (High Life) and the yuppie beer (Lite). But in the long term, line extension was bound to undermine one or the other brand. The high-water mark for Miller High Life was 1979, five years after the introduction of Miller Lite. In those five years Miller High Life’s annual sales almost tripled, from 8.6 million to 23.6 million barrels. This was the short-term effect of line extension. The long-term effect was grim. From a high of 23.6 million barrels in 1979, Miller High Life declined 13 years in a row to just 5.8 million barrels in 1991. And the decline is bound to continue.
 
- loc 771 - 12 The Law of Line Extension There’s an irresistible pressure to extend the equity of a brand.
+ loc 771 - Law 12: The Law of Line Extension. There’s an irresistible pressure to extend the equity of a brand.
 
  loc 776 - By far the most violated law in our book is the law of line extension.
 
@@ -140,7 +136,7 @@ ______________________________
 
  loc 841 - More is less. The more products, the more markets, the more alliances a company makes, the less money it makes. “Full-speed ahead in all directions” seems to be the call from the corporate bridge. When will companies learn that line extension ultimately leads to oblivion? Less is more. If you want to be successful today, you have to narrow the focus in order to build a position in the prospect’s mind. What does IBM stand for? It used to stand for “mainframe computers.” Today it stands for everything, which means it stands for nothing.
 
- loc 863 - 13 The Law of Sacrifice You have to give up something in order to get something.
+ loc 863 - Law 13: The Law of Sacrifice. You have to give up something in order to get something.
 
  loc 868 - There are three things to sacrifice: product line, target market, and constant change.
 
@@ -154,13 +150,13 @@ ______________________________
 
  loc 959 - Good things come to those who sacrifice.
 
- loc 961 - 14 The Law of Attributes For every attribute, there is an opposite, effective attribute.
+ loc 961 - Law 14: The Law of Attributes. For every attribute, there is an opposite, effective attribute.
 
  loc 975 - Cavity prevention is the most important attribute in toothpaste. It’s the one to own. But the law of exclusivity points to the simple truth that once an attribute is successfully taken by your competition, it’s gone. You must move on to a lesser attribute and live with a smaller share of the category. Your job is to seize a different attribute, dramatize the value of your attribute, and thus increase your share.
 
  loc 985 - When an upstart from France brought an opposite attribute to the category in the form of a “disposable” razor, Gillette could have laughed and wheeled out its research on how America wants hefty, expensive, high-technology razors. But it didn’t. Instead, Gillette jumped in with a disposable razor of its own, called Good News. By spending heavily, Gillette was able to win the battle of the disposables. Today the Gillette Good News razor dominates the disposable category, which has grown to dominate the razor blade business. Moral: You can’t predict the size of a new attribute’s share, so never laugh.
 
- loc 1003 - 15 The Law of Candor When you admit a negative, the prospect will give you a positive.
+ loc 1003 - Law 15: The Law of Candor. When you admit a negative, the prospect will give you a positive.
 
  loc 1014 - First and foremost, candor is very disarming. Every negative statement you make about yourself is instantly accepted as truth. Positive statements, on the other hand, are looked at as dubious at best. Especially in an advertisement.
 
@@ -168,11 +164,11 @@ ______________________________
 
  loc 1042 - The law of candor must be used carefully and with great skill. First, your “negative” must be widely perceived as a negative. It has to trigger an instant agreement with your prospect’s mind. If the negative doesn’t register quickly, your prospect will be confused and will wonder, “What’s this all about?” Next, you have to shift quickly to the positive. The purpose of candor isn’t to apologize. The purpose of candor is to set up a benefit that will convince your prospect. This law only proves the old maxim: Honesty is the best policy.
 
- loc 1048 - 16 The Law of Singularity In each situation, only one move will produce substantial results.
+ loc 1048 - Law 16: The Law of Singularity. In each situation, only one move will produce substantial results.
 
  loc 1058 - Whether you try hard or try easy, the differences are marginal. Furthermore, the bigger the company, the more the law of averages wipes out any real advantage of a trying-harder approach. History teaches that the only thing that works in marketing is the single, bold stroke. Furthermore, in any given situation there is only one move that will produce substantial results.
 
- loc 1107 - 17 The Law of Unpredictability Unless you write your competitors’ plans, you can’t predict the future.
+ loc 1107 - Law 17: The Law of Unpredictability. Unless you write your competitors’ plans, you can’t predict the future.
 
  loc 1120 - Most of corporate America’s problems are not related to short-term marketing thinking. The problem is short-term financial thinking.
 
@@ -180,7 +176,7 @@ ______________________________
 
  loc 1160 - A natural move would be to introduce a new generic. IBM’s best opportunity might be to name its new line of high-powered workstations “PMs,” just as it did with its very successful “PCs.” “PM” could stand for “personal mainframe.” These two generic words dramatically capture the speed and power of these new desktop machines. They are also words that IBM owns in the mind. The combination would be very powerful. The only problem with a concept like this probably lies inside IBM itself. The term personal mainframe would strike terror in IBM’s mainframe division as well as in its personal computer division. We suggest that the phones would ring and the case would quickly be made that a “personal mainframe” would undermine these two important sources of income. It’s probably true that a personal mainframe product would undermine IBM’s two other main sources of revenue, but a company must be flexible enough to attack itself with a new idea. Change isn’t easy, but it’s the only way to cope with an unpredictable future.
 
- loc 1173 - 18 The Law of Success Success often leads to arrogance, and arrogance to failure.
+ loc 1173 - Law 18: The Law of Success. Success often leads to arrogance, and arrogance to failure.
 
  loc 1177 - Ego is the enemy of successful marketing. Objectivity is what’s needed.
 
@@ -196,7 +192,7 @@ ______________________________
 
  loc 1228 - Marketing is too important to be turned over to an underling. If you delegate anything, you should delegate the chairmanship of the next fund-raising drive. (The vice president of the United States, not the president, attends the state funerals.) The next thing to cut back on are the meetings. Instead of talking things over, walk out and see for yourself. As Gorbachev told Reagan, “It is better to see once than to hear a hundred times.”
 
- loc 1234 - 19 The Law of Failure Failure is to be expected and accepted.
+ loc 1234 - Law 19: The Law of Failure. Failure is to be expected and accepted.
 
  loc 1241 - The Japanese seem to be able to admit a mistake early and then make the necessary changes. Their consensus management style tends to eliminate the ego. Since a large number of people have a small piece of a big decision, there is no stigma that can be considered career damaging. In other words, it’s a lot easer to live with “We were all wrong” than the devastating “I was wrong.” This egoless approach is a major factor in making the Japanese such relentless marketers. It’s not that they don’t make mistakes, but when they do, they admit them, fix them, and just keep coming.
 
@@ -214,7 +210,7 @@ ______________________________
 
  loc 1332 - Real revolutions don’t arrive at high noon with marching bands and coverage on the 6:00 P.M. news. Real revolutions arrive unannounced in the middle of the night and kind of sneak up on you.
 
- loc 1335 - 21 The Law of Acceleration Successful programs are not built on fads, they’re built on trends.
+ loc 1335 - Law 21: The Law of Acceleration. Successful programs are not built on fads, they’re built on trends.
 
  loc 1339 - A fad is a wave in the ocean, and a trend is the tide. A fad gets a lot of hype, and a trend gets very little. Like a wave, a fad is very visible, but it goes up and down in a big hurry. Like the tide, a trend is almost invisible, but it’s very powerful over the long term.
 
@@ -222,7 +218,7 @@ ______________________________
 
  loc 1352 - Here’s the paradox. If you were faced with a rapidly rising business, with all the characteristics of a fad, the best thing you could do would be to dampen the fad. By dampening the fad, you stretch the fad out and it becomes more like a trend.
 
- loc 1367 - 22 The Law of Resources Without adequate funding an idea won’t get off the ground.
+ loc 1367 - Law 22: The Law of Resources. Without adequate funding an idea won’t get off the ground.
 
  loc 1374 - Marketing is a game fought in the mind of the prospect. You need money to get into a mind. And you need money to stay in the mind once you get there. You’ll get further with a mediocre idea and a million dollars than with a great idea alone.
 
