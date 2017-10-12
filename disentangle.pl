@@ -111,7 +111,7 @@ while ($_ = <$ifd>) {
 
   if ($_ eq "==========") { 
 
-    $ofile = "$outfolder/" . lc "$title.txt";
+    $ofile = "$outfolder/" . lc "$title.md";
     $ofile =~ s/\s/-/g;
 
     # print "GOT\ntitle: $title\nauthor: $author\ntype: $type\nloc: $loc\ncontent: $content\n\n";
