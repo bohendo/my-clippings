@@ -154,8 +154,8 @@ while ($_ = <$ifd>) {
 
       ##############################
       ## Add this line of content
-      if ($type eq "Highlight") { print $tempfd " loc $loc - $content\n"; }
-      elsif ($type eq "Note") { print $tempfd " loc $loc - My Note: $content\n"; }
+      if ($type eq "Highlight") { print $tempfd " - loc $loc - $content\n"; }
+      elsif ($type eq "Note") { print $tempfd " - loc $loc - My Note: $content\n"; }
 
       # if this is a duplicate we just added a copy above
       print $tempfd "\n$templine" unless($isDupe);
@@ -179,12 +179,13 @@ while ($_ = <$ifd>) {
       open($ofd, "> $ofile") or die "Error: couldn't open $ofile. $!\n";
 
       # Add the title & author to the file header
-      print $ofd "______________________________\n\n";
-      print $ofd "  $title\n  by $author";
-      print $ofd "\n______________________________\n\n";
+      print $ofd "\n---";
+      print $ofd "\n#  $title";
+      print $ofd "\n## by $author";
+      print $ofd "\n---\n\n";
 
       # Add this file's first piece of content
-      print $ofd " loc $loc - $content\n\n";
+      print $ofd " - loc $loc - $content\n\n";
       close($ofd) or die "Error: couldn't close $ofile. $!\n";
     }
 
