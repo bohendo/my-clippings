@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Coalesces my-clippings.csv into my-clippings.txt as if it were My\ Clippings.txt
+# Transforms my-clippings.csv into My Clippings.txt
 
 input="my-clippings.csv"
 output="My Clippings.txt"
@@ -27,7 +27,7 @@ while read line; do
   hlt=`echo $line | awk -F "\",\"" '{print $4}' | tr -d '"'`
 
   echo "$title ($author)"
-  echo "- Your Highlight on $loc | Added someday at sometime PM"
+  echo "- Your Highlight on $loc | Added on Someday at Sometime PM"
   echo ""
   echo "$hlt"
   echo "=========="
