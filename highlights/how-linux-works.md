@@ -80,11 +80,11 @@ ______________________________
 
  loc 1376 - Programs access data from a block device in fixed chunks. The sda1 in the preceding example is a disk device, a type of block device.
 
+ loc 1380 - Character devices work with data streams. You can only read characters from or write characters to character devices, as previously demonstrated with /dev/null. Character devices don’t have a size; when you read from or write to one, the kernel usually performs a read or write operation on the device. Printers directly attached to your computer are represented by character devices. It’s important to note that during character device interaction, the kernel cannot back up and reexamine the data stream after it has passed data to a device or process. Pipe device Named pipes are like character devices, with another process at the other end of the I/O stream instead of a kernel driver. Socket device Sockets are special-purpose interfaces that are frequently used for interprocess communication. They’re often found outside of the /dev directory. Socket files represent Unix domain sockets; you’ll learn more about those in Chapter 10. The numbers before the dates in the first two lines of Example 3-1 are the major and minor device numbers that help the kernel identify the device. Similar devices usually have the same major number, such as sda3 and sdb1 (both of which are hard disk partitions).
+
  loc 1380 - Character devices work with data streams. You can only read characters from or write characters to character devices, as previously demonstrated with /dev/null.
 
  loc 1380 - Character devices work with data streams. You can only read characters from or write characters to character devices, as previously demonstrated with /dev/null. Character devices don’t have a size; when you read from or write to one, the kernel usually performs a read or write operation on the device.
-
- loc 1380 - Character devices work with data streams. You can only read characters from or write characters to character devices, as previously demonstrated with /dev/null. Character devices don’t have a size; when you read from or write to one, the kernel usually performs a read or write operation on the device. Printers directly attached to your computer are represented by character devices. It’s important to note that during character device interaction, the kernel cannot back up and reexamine the data stream after it has passed data to a device or process. Pipe device Named pipes are like character devices, with another process at the other end of the I/O stream instead of a kernel driver. Socket device Sockets are special-purpose interfaces that are frequently used for interprocess communication. They’re often found outside of the /dev directory. Socket files represent Unix domain sockets; you’ll learn more about those in Chapter 10. The numbers before the dates in the first two lines of Example 3-1 are the major and minor device numbers that help the kernel identify the device. Similar devices usually have the same major number, such as sda3 and sdb1 (both of which are hard disk partitions).
 
  loc 1386 - Named pipes are like character devices, with another process at the
 
@@ -105,6 +105,148 @@ ______________________________
  loc 1592 - Some rudimentary operations are possible with the OSS dsp and audio devices. For example, the computer plays any WAV file that you send to /dev/dsp. However, the hardware may not do what you expect due to frequency mismatches.
 
  loc 1596 - Linux sound is a messy subject due to the many layers involved.
+
+ loc 2550 - can be difficult to see what is happening. There are two ways to view the kernel’s boot and runtime diagnostic messages. You can: Look at the kernel system log file. You’ll often find this in /var/log/ kern.log, but depending on how your system is configured, it might also be lumped together with a lot of other system logs in /var/log/messages or elsewhere. Use the dmesg command, but be sure to pipe the output to less because there will be much more than a screen’s worth.
+
+ loc 2550 - There are two ways to view the kernel’s boot and runtime diagnostic messages. You can: Look at the kernel system log file. You’ll often find this in /var/log/ kern.log, but depending on how your system is configured, it might also be lumped together with a lot of other system logs in /var/log/messages or elsewhere. Use the dmesg command, but be sure to pipe the output to less because there will be much more than a screen’s worth.
+
+ loc 2613 - The task of a boot loader sounds simple: It loads the kernel into memory, and then starts the kernel with a set of kernel parameters.
+
+ loc 2656 - GRUB stands for Grand Unified Boot Loader.
+
+ loc 2683 - Only the root kernel parameter will be the root filesystem when you boot your system. In the GRUB configuration, that kernel parameter is somewhere after the image name of the linux command. Every other reference to root in the configuration is to the GRUB root, which exists only inside of GRUB. The GRUB “root” is the filesystem where GRUB searches for kernel and RAM filesystem image files.
+
+ loc 2704 - With no arguments, the output is a list of devices known to GRUB: grub> ls (hd0) (hd0,msdos1) (hd0,msdos5) In this case, there is one main disk device denoted by (hd0) and the partitions (hd0,msdos1) and (hd0,msdos5). The msdos prefix on the partitions tells you that the disk contains
+
+ loc 2728 - grub> ls ($root)/ The output is a short list of file and directory names on that partition’s filesystem, such as etc/, bin/, and dev/. You should realize that this is now a completely different function of the GRUB ls: Before, you were listing devices, partition tables, and perhaps some filesystem header information. Now you’re actually looking at the contents of filesystems.
+
+ loc 2749 - The GRUB configuration directory contains the central configuration file (grub.cfg) and numerous loadable modules with a .mod suffix.
+
+ loc 2751 - The directory is usually /boot/grub or /boot/grub2. We won’t modify grub.cfg directly; instead, we’ll use the grub-mkconfig command
+
+ loc 2775 - To see how the configuration generation works, look at the very beginning of grub.cfg. There should be comment lines such as this: ### BEGIN /etc/grub.d/00_header ### Upon further inspection, you’ll find that every file in /etc/grub.d is a shell script that produces a piece of the grub.cfg file. The grub-mkconfig command itself is a shell script that runs everything in /etc/grub.d.
+
+ loc 2874 - In addition to the partition information described in 4.1 Partitioning Disk Devices, the Master Boot Record (MBR) includes a small area (441 bytes) that the PC BIOS loads and executes after its Power-On Self-Test (POST). Unfortunately, this is too little storage to house almost any boot loader, so additional space is necessary, resulting in what is sometimes called a multi-stage boot loader. In this case the initial piece of code in the MBR does nothing other than load the rest of the boot loader code.
+
+ loc 2874 - In addition to the partition information described in 4.1 Partitioning Disk Devices, the Master Boot Record (MBR) includes a small area (441 bytes) that the PC BIOS loads and executes after its Power-On Self-Test (POST). Unfortunately, this is too little storage to house almost any boot loader, so additional space is necessary, resulting in what is sometimes called a multi-stage boot loader. In this case the initial piece of code in the MBR does nothing other than load the rest of the boot loader code. The remaining pieces of the boot loader are usually stuffed into the space between the MBR and the first partition on the disk.
+
+ loc 2890 - Booting is radically different on UEFI systems and, for the most part, much easier to understand. Rather than executable boot code residing outside of a filesystem, there is always a special filesystem called the EFI System Partition (ESP), which contains a directory named efi. Each boot loader has its own identifier and a corresponding subdirectory, such as efi/microsoft, efi/apple, or efi/grub. A boot loader file has an .efi extension and resides in one of these subdirectories, along with other supporting files.
+
+ loc 2904 - The PC BIOS or firmware initializes the hardware and searches its boot-order storage devices for boot code. Upon finding the boot code, the BIOS/firmware loads and executes it. This is where GRUB begins. The GRUB core loads. The core initializes. At this point, GRUB can now access disks and filesystems. GRUB identifies its boot partition and loads a configuration there. GRUB gives the user a chance to change the configuration. After a timeout or user action, GRUB executes the configuration (the sequence of commands outlined in 5.5.2 GRUB Configuration). In the course of executing the configuration, GRUB may load additional code (modules) in the boot partition. GRUB executes a boot command to load and execute the kernel as specified by the configuration’s linux command.
+
+ loc 2932 - User space starts in roughly this order: init Essential low-level services such as udevd and syslogd Network configuration Mid- and high-level services (cron, printing, and so on) Login prompts, GUIs, and other high-level applications
+
+ loc 2955 - systemd is goal oriented. You define a target that you want to achieve, along with its dependencies, and when you want to reach the target. systemd satisfies the dependencies and resolves the target. systemd can also defer the start of a service until it is absolutely needed.
+
+ loc 2987 - your system has /usr/lib/systemd and /etc/systemd directories, you have systemd.
+
+ loc 2987 - If your system has /usr/lib/systemd and /etc/systemd directories, you have systemd.
+
+ loc 2999 - what happens when systemd runs at boot time: systemd loads its configuration. systemd determines its boot goal, which is usually named default.target. systemd determines all of the dependencies of the default boot goal, dependencies of these dependencies, and so on. systemd activates the dependencies and the boot goal. After boot, systemd can react to system events (such as uevents) and activate additional components.
+
+ loc 3005 - Most systemd configurations deliberately try to avoid any kind of startup sequence, preferring to use other methods to resolve strict dependencies.
+
+ loc 3031 - To accommodate the need for flexibility and fault tolerance, systemd offers a myriad of dependency types and styles.
+
+ loc 3033 - Let’s first look at the basic types: Requires Strict dependencies. When activating a unit with a Requires dependency unit, systemd attempts to activate the dependency unit. If the dependency unit fails, systemd deactivates the dependent unit. Wants. Dependencies for activation only. Upon activating a unit, systemd activates the unit’s Wants dependencies, but it doesn’t care if those dependencies fail. Requisite. Units that must already be active. Before activating a unit with a Requisite dependency, systemd first checks the status of the dependency. If the dependency has not been activated, systemd fails on activation of the unit with the dependency. Conflicts. Negative dependencies. When activating a unit with a Conflict dependency, systemd automatically deactivates the dependency if it is active. Simultaneous activation of two conflicting units fails.
+
+ loc 3082 - there are two main directories for systemd configuration: the system unit directory (globally configured, usually /usr/lib/systemd/system) and a system configuration directory (local definitions, usually /etc/systemd/system).
+
+ loc 3086 - when given the choice between modifying something in /usr and /etc, always change /etc.
+
+ loc 3097 - Unit files are derived from the XDG Desktop Entry Specification (for .desktop files, which are very similar to .ini files on Microsoft systems), with section names in brackets ([]) and variable and value assignments (options) in each section.
+
+ loc 3123 - When you enable a unit, systemd reads the [Install] section; in this case, enabling the sshd.service unit causes systemd to see the WantedBy dependency for multi-user.target. In response, systemd creates a symbolic link to sshd.service in the system configuration directory as follows: ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user. target.wants/sshd.service' Notice that the symbolic link is placed into a subdirectory corresponding
+
+ loc 3123 - When you enable a unit, systemd reads the [Install] section; in this case, enabling the sshd.service unit causes systemd to see the WantedBy dependency for multi-user.target. In response, systemd creates a symbolic link to sshd.service in the system configuration directory as follows: ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user. target.wants/sshd.service' Notice that the symbolic link is placed into a subdirectory corresponding to the dependent unit (multi-user.target in this case). The [Install] section is usually responsible for the the .wants and .requires directories in the system configuration directory (/etc/systemd/system).
+
+ loc 3136 - When you enable a unit, you are installing it into systemd’s configuration, making semipermanent changes that will survive a reboot. But you don’t always need to explicitly enable a unit. If the unit file has an [Install] section, you must enable it with systemctl enable; otherwise, the existence of the file is enough to enable
+
+ loc 3136 - When you enable a unit, you are installing it into systemd’s configuration, making semipermanent changes that will survive a reboot. But you don’t always need to explicitly enable a unit. If the unit file has an [Install] section, you must enable it with systemctl enable; otherwise, the existence of the file is enough to enable it.
+
+ loc 3148 - specifier is another variable-like feature often found in unit files. Specifiers start with a percent (%). For example, the %n specifier is the current unit name, and the %H specifier is the current hostname.
+
+ loc 3148 - A specifier is another variable-like feature often found in unit files. Specifiers start with a percent (%). For example, the %n specifier is the current unit name, and the %H specifier is the current hostname.
+
+ loc 3185 - You can view control groups without the rest of the unit status with the systemd-cgls command.
+
+ loc 3187 - You can view a unit’s entire journal with this command:
+
+ loc 3187 - You can view a unit’s entire journal with this command: $ journalctl _SYSTEMD_UNIT=unit (This syntax is a bit odd because journalctl can access the logs of more than just a systemd unit.)
+
+ loc 3187 - You can view a unit’s entire journal with this command: $ journalctl _SYSTEMD_UNIT=unit
+
+ loc 3200 - Requests to activate, reactivate, and restart units are known as jobs in systemd, and they are essentially unit state changes. You can check the current jobs on a system with $ systemctl list-jobs
+
+ loc 3333 - if a service unit file has the same prefix as a .socket file (in this case, echo), systemd knows to activate that service unit when there’s activity on the socket unit. In this case, systemd creates an instance of echo@.service when there’s activity on echo.socket.
+
+ loc 3355 - Because the echo@.service unit supports multiple simultaneous instances, there’s an @ in the name
+
+ loc 3365 - Although the service unit could do all of the work of accepting the connection, it wouldn’t have the @ in its name if it did. In that case, it would take complete control of the socket, and systemd wouldn’t attempt to listen on the network port again until the service unit has finished.
+
+ loc 3797 - To make the machine halt immediately, run this: # shutdown -h now On most machines and versions of Linux, a halt cuts the power to the machine. You can also reboot the machine. For a reboot, use -r instead of -h. The shutdown process takes several seconds. You should never reset or power off a machine during this stage.
+
+ loc 3813 - Regardless of the init implementation or configuration, the procedure generally goes like this: init asks every process to shut down cleanly. If a process doesn’t respond after a while, init kills it, first trying a TERM signal. If the TERM signal doesn’t work, init uses the KILL signal on any stragglers. The system locks system files into place and makes other preparations for shutdown. The system unmounts all filesystems other than the root. The system remounts the root filesystem read-only. The system writes all buffered data out to the filesystem with the sync program. The final step is to tell the kernel to reboot or stop with the reboot(2) system call.
+
+ loc 3832 - if the root is on a RAID array connected to a third-party controller, the kernel needs the driver for that controller first. Unfortunately, there are so many storage controller drivers that distributions can’t include all of them in their kernels, so many drivers are shipped as loadable modules. But loadable modules are files, and if your kernel doesn’t have a filesystem mounted in the first place, it can’t load the driver modules that it needs. The workaround is to gather a small collection of kernel driver modules along with a few other utilities into an archive. The boot loader loads this archive into memory before running the kernel. Upon start, the kernel reads the contents of the archive into a temporary RAM filesystem (the initramfs), mounts it at /, and performs the user-mode handoff to the init on the initramfs.
+
+ loc 3832 - if the root is on a RAID array connected to a third-party controller, the kernel needs the driver for that controller first. Unfortunately, there are so many storage controller drivers that distributions can’t include all of them in their kernels, so many drivers are shipped as loadable modules. But loadable modules are files, and if your kernel doesn’t have a filesystem mounted in the first place, it can’t load the driver modules that it needs. The workaround is to gather a small collection of kernel driver modules along with a few other utilities into an archive. The boot loader loads this archive into memory before running the kernel. Upon start, the kernel reads the contents of the archive into a temporary RAM filesystem (the initramfs), mounts it at /, and performs the user-mode handoff to the init on the initramfs. Then, the utilities included in the initramfs allow the kernel to load the necessary driver modules for the real root filesystem.
+
+ loc 3835 - The workaround is to gather a small collection of kernel driver modules along with a few other utilities into an archive. The boot loader loads this archive into memory before running the kernel. Upon start, the kernel reads the contents of the archive into a temporary RAM filesystem (the initramfs), mounts it at /, and
+
+ loc 3926 - The base rsyslogd configuration file is /etc/rsyslog.conf,
+
+ loc 3926 - The base rsyslogd configuration file is /etc/rsyslog.conf, but
+
+ loc 3926 - The base rsyslogd configuration file is /etc/rsyslog.conf, but you’ll find certain configurations in other directories, such as /etc/rsyslog.d. The
+
+ loc 3961 - the syntax of rsyslogd extends the traditional syslogd syntax.
+
+ loc 3973 - Troubleshooting One of the easiest ways to test the system logger is to send a log message manually with the logger command,
+
+ loc 3974 - One of the easiest ways to test the system logger is to send a log message manually with the logger command, as shown here: $ logger -p daemon.info something bad just happened
+
+ loc 3994 - Usernames exist only in user space, so any program that works with a username generally needs to be able to map the username to a user ID if it wants to refer to a user when talking to the kernel.
+
+ loc 3997 - The plaintext file /etc/passwd maps usernames to user IDs.
+
+ loc 4003 - Each line represents one user and has seven fields separated by colons. The fields are as follows: The username. The user’s encrypted password. On most Linux systems, the password is not actually stored in the passwd file, but
+
+ loc 4010 - clear text.) An x in the second passwd file field indicates that the encrypted password is stored in the shadow file. A star (*) indicates that the user cannot log in, and if the field is blank (that is, you see two colons in a row, like ::), no password is required to log in. (Beware of blank passwords. You should never have a user without a password.)
+
+ loc 4010 - An x in the second passwd file field indicates that the encrypted password is stored in the shadow file. A star (*) indicates that the user cannot log in, and if the field is blank (that is, you see two colons in a row, like ::), no password is required to log in. (Beware of blank passwords. You
+
+ loc 4010 - An x in the second passwd file field indicates that the encrypted password is stored in the shadow file. A star (*) indicates that the user cannot log in, and if the field is blank (that is, you see two colons in a row, like ::), no password is required to log in. (Beware of blank passwords. You should never have a user without a password.)
+
+ loc 4026 - A user in /etc/passwd and a corresponding home directory are collectively known as an account.
+
+ loc 4055 - Most organizations frown on editing passwd directly because it’s too easy to make a mistake.
+
+ loc 4055 - Most organizations frown on editing passwd directly because it’s too easy to make a mistake. It’s much easier (and safer) to make changes to users using separate commands available from the terminal
+
+ loc 4205 - To run a job once in the future without using cron, use the at service.
+
+ loc 4210 - To check that the job has been scheduled, use atq. To remove it, use atrm. You can also schedule jobs days into the future by adding the date
+
+ loc 4210 - To check that the job has been scheduled, use atq. To remove it, use atrm. You can also schedule jobs days into the future by adding the date in DD.MM.YY format, for example, at 22:30 30.09.15.
+
+ loc 4238 - Think of the effective user ID as the actor and the real user ID as the owner. The real user ID defines the user that can interact with the running process—most significantly, which user can kill and send signals to a process.
+
+ loc 4256 - sudo and many other setuid programs explicitly change the effective and real user IDs with one of the setuid() system calls.
+
+ loc 4316 - Pluggable Authentication Modules (PAM), a system of shared libraries for authentication
+
+ loc 4327 - You’ll normally find PAM’s application configuration files in the /etc/pam.d directory (older systems may use a single /etc/pam.conf file).
+
+ loc 4391 - Don’t confuse the terms function and action when working with PAM. The function is the high-level goal: what the user application wants PAM to do (authenticate a user, for example). An action is a specific step that PAM takes in order to reach that goal. Just remember that the user application invokes the function first and that PAM takes care of the particulars with actions.
+
+ loc 4396 - For details, see the pam.conf(5) manual page;
+
+ loc 4437 - pam_unix.so simply tries to guess the algorithm, usually by asking the libcrypt library to do the dirty work of trying a whole bunch of things until something works or there’s nothing left to try.
+
+ loc 4448 - There are three basic kinds of hardware resources: CPU, memory, and I/O. Processes vie for these resources, and the kernel’s job is to allocate resources fairly.
+
+ loc 4482 - The lsof command lists open files and the processes using them. Because Unix places a lot of emphasis on files, lsof is among the most useful tools for finding trouble spots. But lsof doesn’t stop at regular files—it can list network resources, dynamic libraries, pipes, and more.
 
  loc 4983 - computer transmits data over a network in small chunks called packets, which consist of two parts: a header and a payload. The header contains identifying information such as the origin/destination hosts and basic protocol. The payload, on the other hand, is the actual application data that the computer wants to send (for example, HTML or image data).
 
@@ -202,9 +344,9 @@ ______________________________
 
  loc 6481 - On Unix systems, a process uses a socket to identify when and how it’s talking to the network. Sockets are the interface that processes use to access the network through the kernel; they represent the boundary between user space and kernel space. They’re often also used for interprocess communication (IPC).
 
- loc 6510 - It’s important to remember that a Unix domain socket is not a network socket, and there’s no network behind one.
-
  loc 6510 - It’s important to remember that a Unix domain socket is not a network socket, and there’s no network behind one. You don’t even need networking to be configured to use one.
+
+ loc 6510 - It’s important to remember that a Unix domain socket is not a network socket, and there’s no network behind one.
 
  loc 6515 - Developers like Unix domain sockets for IPC for two reasons. First, they allow developers the option to use special socket files in the filesystem to control access, so any process that doesn’t have access to a socket file can’t use it. And because there’s no interaction with the network, it’s simpler and less prone to conventional network intrusion.
 

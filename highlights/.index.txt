@@ -338,3 +338,15 @@ Al Ries & Jack Trout
 THE 22 IMMUTABLE LAWS OF MARKETING: EXPOSED AND EXPLAINED BY THE WORLD'S TWO
 22 Immutable Laws of Marketing
 Al Ries & Jack Trout
+
+Anything You Want: 40 Lessons for a New Kind of Entrepreneur
+Anything You Want
+Derek Sivers
+
+Attack of the 50 Foot Blockchain: Bitcoin, Blockchain, Ethereum & Smart Contracts
+Attack of the 50ft Blackchain
+David Gerard
+
+Docker Deep Dive: Updated October 2017
+Docker Deep Dive
+Nigel Poulton
