@@ -3980,39 +3980,19 @@ Countdown to Zero Day_ Stuxnet and the Launch of the World's First Digital Weapo
 The IR-1s were already fragile by design, and the slightest imperfection could set them off—dust in the chamber, for example, could cause them to self-destruct. The head of Iran’s Atomic Energy Organization, Gholam Reza Aghazadeh, revealed during an interview in 2006 that in the early days of the enrichment program, the IR-1s had disintegrated frequently due to germs on the machine.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 7 | Location 112-113 | Added on Tuesday, October 17, 2017 10:57:39 AM
-
-The fact that every VM requires its own dedicated OS is a major flaw. Every OS consumes CPU, RAM and storage that could otherwise be used to power more applications.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 7 | Location 112-113 | Added on Tuesday, October 17, 2017 10:57:46 AM
 
 The fact that every VM requires its own dedicated OS is a major flaw. Every OS consumes CPU, RAM and storage that could otherwise be used to power more applications.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 7 | Location 108-108 | Added on Tuesday, October 17, 2017 10:58:18 AM
-
-brand new oversized server every time the business asked for a
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 9 | Location 138-140 | Added on Tuesday, October 17, 2017 11:00:58 AM
-
-The core Windows technologies required to implement containers are collectively referred to as Windows Containers. The user-space tooling to work with these Windows Containers is Docker. This makes the Docker experience on Windows almost exactly the same as Docker on Linux.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 9 | Location 145-148 | Added on Tuesday, October 17, 2017 11:01:51 AM
 
-At the time of writing this revision of the book, it is possible to run Linux containers on Windows machines. For example, Docker for Windows (a product offering from Docker, Inc. designed for Windows 10) can switch modes between Windows containers and Linux containers. This is an area that is developing fast and you should consult the Docker documentation for the latest.
+At the time of writing this revision of the book, it is possible to run Linux containers on Windows machines... This is an area that is developing fast and you should consult the Docker documentation for the latest.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 9 | Location 149-151 | Added on Tuesday, October 17, 2017 11:02:24 AM
 
 There is currently no such thing as Mac containers. However, you can run Linux containers on your Mac using the Docker for Mac product. This works by seamlessly running your containers inside of a lightweight Linux VM running on your Mac.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 10 | Location 154-157 | Added on Tuesday, October 17, 2017 11:02:49 AM
-
-But as good as VMware and the VM model is, it’s not perfect. Following the success of VMware and hypervisors came a newer more efficient and lightweight virtualization technology called containers. But containers were initially hard to implement and were only found in the data centers of web giants that had Linux kernel engineers on staff. Then along came Docker Inc. and suddenly container virtualization technologies were available to the masses.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 10 | Location 154-157 | Added on Tuesday, October 17, 2017 11:02:56 AM
@@ -4023,16 +4003,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 13 | Location 186-187 | Added on Tuesday, October 17, 2017 11:05:38 AM
 
 In the same way that ESXi is the core hypervisor technology that runs virtual machines, the Docker Engine is the core container runtime that runs containers.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 16 | Location 219-223 | Added on Tuesday, October 17, 2017 11:08:12 AM
-
-One of the core philosophies at Docker, Inc. is often referred to as Batteries included but removable. This is a way of saying you can swap out a lot of the native Docker stuff and replace it with stuff from 3rd parties. A good example of this is the networking stack. The core Docker product ships with built-in networking. But the networking stack is pluggable meaning you can rip out the native Docker networking and replace it with something else from a 3rd party. Plenty of people do that.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 16 | Location 219-221 | Added on Tuesday, October 17, 2017 11:08:27 AM
-
-One of the core philosophies at Docker, Inc. is often referred to as Batteries included but removable. This is a way of saying you can swap out a lot of the native Docker stuff and replace it with stuff from 3rd parties.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 16 | Location 219-221 | Added on Tuesday, October 17, 2017 11:08:31 AM
@@ -4050,39 +4020,14 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 You’ll often hear people use terms like co-opetition (a balance of co-operation and competition) and frenemy (a mix of a friend and an enemy) when talking about the container ecosystem. This is great! Healthy competition is the mother of innovation!
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 17 | Location 230-230 | Added on Tuesday, October 17, 2017 11:09:23 AM
+- Your Highlight on page 17 | Location 230-234 | Added on Tuesday, October 17, 2017 11:09:23 AM
 
-The Open Container Initiative (OCI)
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 17 | Location 233-234 | Added on Tuesday, October 17, 2017 11:09:41 AM
-
-The OCI is a relatively new governance council responsible for standardizing the most fundamental components of container infrastructure such as image format and container runtime
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 18 | Location 243-243 | Added on Tuesday, October 17, 2017 11:11:05 AM
-
-though, this threatened to fracture the ecosystem
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 18 | Location 243-244 | Added on Tuesday, October 17, 2017 11:11:13 AM
-
-ecosystem and present users and customers with a dilemma. While competition is usually a good thing, competing standards is usually not. They cause confusion and slowdown user adoption.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 18 | Location 243-244 | Added on Tuesday, October 17, 2017 11:11:20 AM
-
-While competition is usually a good thing, competing standards is usually not. They cause confusion and slowdown user adoption. Not good for anybody.
+The Open Container Initiative (OCI) is a relatively new governance council responsible for standardizing the most fundamental components of container infrastructure such as image format and container runtime
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 18 | Location 238-241 | Added on Tuesday, October 17, 2017 11:11:27 AM
 
 The TLDR of this history according to Nigel is that a company called CoreOS didn’t like the way Docker did certain things. So they did something about it! They created a new open standard called appc that defined things like image format and container runtime.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 18 | Location 243-244 | Added on Tuesday, October 17, 2017 11:11:38 AM
-
-While competition is usually a good thing, competing standards is usually not. They cause confusion and slowdown user adoption. Not good for anybody.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 18 | Location 243-246 | Added on Tuesday, October 17, 2017 11:11:43 AM
@@ -4100,44 +4045,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 501-502 | Added on Tuesday, October 17, 2017 11:21:09 AM
+- Your Highlight on page 40 | Location 503-514 | Added on Tuesday, October 17, 2017 11:22:00 AM
 
-In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 501-502 | Added on Tuesday, October 17, 2017 11:21:16 AM
-
-In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 501-502 | Added on Tuesday, October 17, 2017 11:21:25 AM
-
-In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 501-502 | Added on Tuesday, October 17, 2017 11:21:30 AM
-
-In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 501-502 | Added on Tuesday, October 17, 2017 11:21:36 AM
-
-In a default Linux installation, the client talks to the daemon via a local IPC/Unix socket at /var/run/docker.sock. On
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 503-504 | Added on Tuesday, October 17, 2017 11:22:00 AM
-
-You can test that the client and daemon are running and can talk to each other with the docker version command.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 40 | Location 514-514 | Added on Tuesday, October 17, 2017 11:22:08 AM
-
-If you get a response back from the Client and Server components you should be good to go.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 41 | Location 517-518 | Added on Tuesday, October 17, 2017 11:22:20 AM
-
-A good way to think of a Docker image is as an object that contains an OS filesystem and an application.
+You can test that the client and daemon are running and can talk to each other with the docker version command... If you get a response back from the Client and Server components you should be good to go.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 41 | Location 517-520 | Added on Tuesday, October 17, 2017 11:23:13 AM
@@ -4165,16 +4075,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 The goal of libcontainer was to be a platform-agnostic tool that provided Docker with access to the fundamental container building-blocks that exist inside the OS. Libcontainer replaced LXC as the default execution driver in Docker 0.9.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 59 | Location 792-795 | Added on Tuesday, October 17, 2017 11:35:47 AM
-
-their own tool called libcontainer as a replacement for LXC. The goal of libcontainer was to be a platform-agnostic tool that provided Docker with access to the fundamental container building-blocks that exist inside the OS. Libcontainer replaced LXC as the default execution driver in Docker 0.9.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 59 | Location 793-795 | Added on Tuesday, October 17, 2017 11:35:51 AM
-
-The goal of libcontainer was to be a platform-agnostic tool that provided Docker with access to the fundamental container building-blocks that exist inside the OS. Libcontainer replaced LXC as the default execution driver in Docker 0.9.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 59 | Location 801-803 | Added on Tuesday, October 17, 2017 11:36:24 AM
 
 This work of breaking apart and re-factoring the Docker engine is an ongoing process. However, it has already seen all of the container execution and container runtime code entirely removed from the daemon and refactored into small, specialized tools.
@@ -4195,31 +4095,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 runc is small. It’s effectively a lightweight CLI that wraps around libcontainer. It has a single purpose in life - to create containers. And it’s damn good at it. And fast!
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 61 | Location 818-819 | Added on Tuesday, October 17, 2017 11:38:53 AM
-
-runc is small. It’s effectively a lightweight CLI that wraps around libcontainer. It has a single purpose in life - to create containers. And it’s damn good at it. And fast!
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 61 | Location 818-820 | Added on Tuesday, October 17, 2017 11:38:56 AM
-
-runc is small. It’s effectively a lightweight CLI that wraps around libcontainer. It has a single purpose in life - to create containers. And it’s damn good at it. And fast! We often refer to runc as a container runtime.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 61 | Location 813-814 | Added on Tuesday, October 17, 2017 11:39:29 AM
-
-the containerd component of the Docker Engine makes sure Docker images are presented to runc as valid OCI bundles.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 62 | Location 824-827 | Added on Tuesday, October 17, 2017 11:39:26 AM
-
-It’s helpful to think of containerd as a container supervisor - the component that is responsible for container lifecycle operations such as; starting and stopping containers, pausing and un-pausing them, and destroying them. Like runc, containerd is small, lightweight, and designed for a single task in life - containerd is only interested container lifecycle operations.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 62 | Location 824-827 | Added on Tuesday, October 17, 2017 11:39:42 AM
-
-It’s helpful to think of containerd as a container supervisor - the component that is responsible for container lifecycle operations such as; starting and stopping containers, pausing and un-pausing them, and destroying them. Like runc, containerd is small, lightweight, and designed for a single task in life - containerd is only interested container lifecycle operations.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 62 | Location 824-827 | Added on Tuesday, October 17, 2017 11:39:47 AM
 
 It’s helpful to think of containerd as a container supervisor - the component that is responsible for container lifecycle operations such as; starting and stopping containers, pausing and un-pausing them, and destroying them. Like runc, containerd is small, lightweight, and designed for a single task in life - containerd is only interested container lifecycle operations.
@@ -4230,19 +4105,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 When you type commands like this into the Docker CLI, the Docker client converts them into the appropriate API payload and POSTs them to the correct API endpoint. The API is implemented in the daemon. It is the same rich, versioned, REST API that has become a hallmark of Docker and is accepted in the industry as the de facto container API.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 65 | Location 851-856 | Added on Tuesday, October 17, 2017 11:43:40 AM
-
-The shim is integral to the implementation of daemonless containers (the thing we just mentioned about decoupling running containers from the daemon for things like upgrading the daemon without killing containers). We mentioned earlier that containerd uses runc to create new containers. In fact, it forks a new instance of runc for every container it creates. However, once each container is created, its parent runc process exits. This means we can run hundreds of containers without having to run hundreds of runc instances. Once a container’s parent runc process exits, the associated containerd-shim process becomes the container’s parent process.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 65 | Location 851-856 | Added on Tuesday, October 17, 2017 11:43:44 AM
 
 The shim is integral to the implementation of daemonless containers (the thing we just mentioned about decoupling running containers from the daemon for things like upgrading the daemon without killing containers). We mentioned earlier that containerd uses runc to create new containers. In fact, it forks a new instance of runc for every container it creates. However, once each container is created, its parent runc process exits. This means we can run hundreds of containers without having to run hundreds of runc instances. Once a container’s parent runc process exits, the associated containerd-shim process becomes the container’s parent process.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 69 | Location 887-889 | Added on Tuesday, October 17, 2017 11:46:33 AM
-
-Images are made up of multiple layers that get stacked on top of each other and represented as a single object. Inside of the image is a cut-down operating system (OS) and all of the files and dependencies required to run an application. Because containers are intended to be fast and lightweight, images tend to be small.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 69 | Location 887-889 | Added on Tuesday, October 17, 2017 11:46:39 AM
@@ -4253,11 +4118,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 70 | Location 893-893 | Added on Tuesday, October 17, 2017 11:47:35 AM
 
 images are considered build-time constructs whereas containers are run-time constructs.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 71 | Location 906-909 | Added on Tuesday, October 17, 2017 11:51:10 AM
-
-Docker images do not ship with 6 different shells for you to choose from - they usually ship with a single minimalist shell, or no shell at all. They also don’t contain a kernel - all containers running on a Docker host share access to the host’s kernel. For these reasons, we sometimes say images contain just enough operating system (usually just OS-related files and filesystem objects).
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 71 | Location 911-912 | Added on Tuesday, October 17, 2017 11:51:24 AM
@@ -4272,7 +4132,7 @@ The process of getting images onto a Docker host is called pulling.
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 74 | Location 951-952 | Added on Tuesday, October 17, 2017 11:52:55 AM
 
-Docker images are stored in image registries. The most common registry is Docker Hub (https://hub.docker.com
+Docker images are stored in image registries. The most common registry is Docker Hub (https://hub.docker.com)
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 74 | Location 954-955 | Added on Tuesday, October 17, 2017 11:53:17 AM
@@ -4287,7 +4147,7 @@ Most of the popular operating systems and applications have their own official r
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 77 | Location 992-993 | Added on Tuesday, October 17, 2017 11:55:17 AM
 
-you do not specify an image tag after the repository name, Docker will assume you are referring to the image tagged as latest.
+If you do not specify an image tag after the repository name, Docker will assume you are referring to the image tagged as latest.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 77 | Location 993-995 | Added on Tuesday, October 17, 2017 11:55:35 AM
@@ -4317,12 +4177,7 @@ Another way to see the layers of an image is to inspect the image with the docke
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 86 | Location 1116-1118 | Added on Tuesday, October 17, 2017 12:02:50 PM
 
-you push the fixed image back to its repository with the same tag as the vulnerable image! How are you going to know which of your production systems are running the vulnerable image and which are running the patched image? Both images have the same tag! This is where image digests come to the rescue.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 88 | Location 1144-1148 | Added on Tuesday, October 17, 2017 12:04:14 PM
-
-The image itself is really just a configuration object that lists the layers and as well as some metadata. The layers that make up an image are fully independent and have no concept of being part of a collective image. Each image is identified by a crypto ID that is a hash of the config object. Each layer is identified by a crypto ID that is a hash of the content it contains. This means that changing the contents of the image, or any of its layers, will cause the associated crypto hashes to change. As a result, images and layers are immutable.
+You push the fixed image back to its repository with the same tag as the vulnerable image! How are you going to know which of your production systems are running the vulnerable image and which are running the patched image? Both images have the same tag! This is where image digests come to the rescue.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 88 | Location 1144-1148 | Added on Tuesday, October 17, 2017 12:04:36 PM
@@ -4332,12 +4187,12 @@ The image itself is really just a configuration object that lists the layers and
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 88 | Location 1155-1156 | Added on Tuesday, October 17, 2017 12:05:03 PM
 
-each layer also gets something called a distribution hash. This is a hash of the compressed version of the layer. When a layer is pushed and pulled from the registry, its distribution hash is included, and this is what is used to verify that the layer arrived without being tampered with.
+Each layer also gets something called a distribution hash. This is a hash of the compressed version of the layer. When a layer is pushed and pulled from the registry, its distribution hash is included, and this is what is used to verify that the layer arrived without being tampered with.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 89 | Location 1161-1166 | Added on Tuesday, October 17, 2017 12:06:52 PM
 
-the Registry API supports a fat manifest as well as an image manifest. Fat manifests list the architectures supported by a particular image, whereas image manifests list the layers that make up a particular image. Let’s look at a quick example. Assume you are running Docker on Linux x64. When you pull an image from Docker hub, your Docker client makes the relevant API requests to the Docker Registry API running on Docker Hub. If a fat manifest exists for that image, it will be parsed to see if an entry exists for Linux on x64. If it exists, the image manifest for that image is retrieved and parsed for the actual layers that make up the image.
+The Registry API supports a fat manifest as well as an image manifest. Fat manifests list the architectures supported by a particular image, whereas image manifests list the layers that make up a particular image. Let’s look at a quick example. Assume you are running Docker on Linux x64. When you pull an image from Docker hub, your Docker client makes the relevant API requests to the Docker Registry API running on Docker Hub. If a fat manifest exists for that image, it will be parsed to see if an entry exists for Linux on x64. If it exists, the image manifest for that image is retrieved and parsed for the actual layers that make up the image.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 92 | Location 1203-1203 | Added on Tuesday, October 17, 2017 12:08:47 PM
@@ -4362,17 +4217,7 @@ When we started the Ubuntu container in the previous section we told it to run t
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 105 | Location 1452-1453 | Added on Tuesday, October 17, 2017 12:21:47 PM
 
-a container cannot exist without a running process - killing the Bash shell would kill the container’s only process, resulting in the container also being killed.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 105 | Location 1452-1453 | Added on Tuesday, October 17, 2017 12:21:50 PM
-
-a container cannot exist without a running process - killing the Bash shell would kill the container’s only process, resulting in the container also being killed.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 105 | Location 1452-1453 | Added on Tuesday, October 17, 2017 12:21:54 PM
-
-if you type exit to exit the Bash shell, the container will also exit (terminate). The reason for this is that a container cannot exist without a running process - killing the Bash shell would kill the container’s only process, resulting in the container also being killed.
+A container cannot exist without a running process - killing the Bash shell would kill the container’s only process, resulting in the container also being killed.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 108 | Location 1533-1534 | Added on Tuesday, October 17, 2017 12:25:51 PM
@@ -4387,7 +4232,7 @@ I should point out that volumes are the preferred way to store persistent data i
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 111 | Location 1587-1591 | Added on Tuesday, October 17, 2017 12:28:30 PM
 
-docker container stop sends a SIGTERM signal to the process with PID 1 inside of the container. As we just said, this gives the process a chance to clean things up and gracefully shut itself down. If it doesn’t exit within 10 seconds it will receive a SIGKILL. This is effectively the bullet to the head. But hey, it got 10 seconds to sort itself out first! docker container rm <container> -f doesn’t bother asking nicely with a SIGTERM, it just goes straight to the SIGKILL.
+Docker container stop sends a SIGTERM signal to the process with PID 1 inside of the container. As we just said, this gives the process a chance to clean things up and gracefully shut itself down. If it doesn’t exit within 10 seconds it will receive a SIGKILL. This is effectively the bullet to the head. But hey, it got 10 seconds to sort itself out first! docker container rm <container> -f doesn’t bother asking nicely with a SIGTERM, it just goes straight to the SIGKILL.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 113 | Location 1618-1618 | Added on Tuesday, October 17, 2017 12:30:47 PM
@@ -4437,22 +4282,12 @@ Comment lines in a Dockerfile start with the # character. All non-comment lines 
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 129 | Location 1817-1822 | Added on Tuesday, October 17, 2017 12:46:12 PM
 
-The docker image build command parses the Dockerfile one-line-at-a-time starting from the top. Some Instructions create new layers, whereas others just add metadata to the image. Examples of instructions that create new layers are FROM, RUN, and COPY. Examples of instructions that create metadata include EXPSOE, WORKDIR, ENV, and ENTRYPOINT. The basic premise is this - if an instruction is adding content such as files and programs to the image, it will create a new layer. If it is adding instructions on how to build the image and run the application, it will create metadata.
+The `docker image build` command parses the Dockerfile one-line-at-a-time starting from the top. Some Instructions create new layers, whereas others just add metadata to the image. Examples of instructions that create new layers are FROM, RUN, and COPY. Examples of instructions that create metadata include EXPSOE, WORKDIR, ENV, and ENTRYPOINT. The basic premise is this - if an instruction is adding content such as files and programs to the image, it will create a new layer. If it is adding instructions on how to build the image and run the application, it will create metadata.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 129 | Location 1822-1823 | Added on Tuesday, October 17, 2017 12:46:20 PM
 
 You can view the instructions that were used to build the image with the docker image history command.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 133 | Location 1900-1900 | Added on Tuesday, October 17, 2017 12:57:04 PM
-
-production.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 133 | Location 1900-1900 | Added on Tuesday, October 17, 2017 12:57:05 PM
-
-production.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 133 | Location 1898-1900 | Added on Tuesday, October 17, 2017 12:57:09 PM
@@ -4465,24 +4300,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 Multi-stage builds were new with Docker 17.05 and are an excellent feature for building small production-worthy images.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 143 | Location 2008-2011 | Added on Tuesday, October 17, 2017 1:03:13 PM
-
-A swarm consists of one or more nodes. These can be physical servers, VMs, or cloud instances. The only requirement is that all nodes in a swarm can communicate with each other over reliable networks. Nodes are then configured as managers or workers. Managers look after the state of the cluster and are in charge of dispatching tasks to workers. Workers accept tasks from managers and execute them.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 143 | Location 2008-2011 | Added on Tuesday, October 17, 2017 1:03:19 PM
 
 A swarm consists of one or more nodes. These can be physical servers, VMs, or cloud instances. The only requirement is that all nodes in a swarm can communicate with each other over reliable networks. Nodes are then configured as managers or workers. Managers look after the state of the cluster and are in charge of dispatching tasks to workers. Workers accept tasks from managers and execute them.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 143 | Location 2008-2009 | Added on Tuesday, October 17, 2017 1:03:22 PM
-
-A swarm consists of one or more nodes. These can be physical servers, VMs, or cloud instances. The only requirement is that all nodes in a swarm can communicate with each other over reliable networks.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 143 | Location 2009-2011 | Added on Tuesday, October 17, 2017 1:03:25 PM
-
-Nodes are then configured as managers or workers. Managers look after the state of the cluster and are in charge of dispatching tasks to workers. Workers accept tasks from managers and execute them.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 143 | Location 2011-2014 | Added on Tuesday, October 17, 2017 1:03:40 PM
@@ -4540,16 +4360,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 All services are constantly monitored by the swarm - the swarm runs a reconciliation loop that constantly compares the actual state of the service to the desired state. If the two states match, the world is a happy place and no further action is needed. If they don’t match, the swarm takes actions so that they do. Put another way, the swarm is constantly making sure that actual state matches desired state.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 153 | Location 2177-2179 | Added on Tuesday, October 17, 2017 1:16:35 PM
-
-service, use the docker service inspect command. $ docker service inspect --pretty web-fe
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 154 | Location 2178-2179 | Added on Tuesday, October 17, 2017 1:16:40 PM
-
-docker service inspect --pretty web-fe
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 157 | Location 2238-2239 | Added on Tuesday, October 17, 2017 1:18:44 PM
 
 An overlay network essentially creates a new layer 2 network that we can place containers on, and all containers on it will be able to communicate with each other. This works even if the Docker hosts they’re running on are on different underlying networks.
@@ -4557,22 +4367,17 @@ An overlay network essentially creates a new layer 2 network that we can place c
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 162 | Location 2323-2326 | Added on Tuesday, October 17, 2017 1:24:32 PM
 
-If you run a docker inspect --pretty command against the service you’ll see the update parallelism and update delay settings you just used are now part of the service definition. This means future updates that you push will automatically use these settings unless you override them as part of the docker service update command.
+If you run a `docker inspect --pretty` command against the service you’ll see the update parallelism and update delay settings you just used are now part of the service definition. This means future updates that you push will automatically use these settings unless you override them as part of the docker service update command.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 165 | Location 2365-2366 | Added on Tuesday, October 17, 2017 1:27:06 PM
 
-docker swarm join-token reveals the commands and tokens required to join workers and managers to existing swarms.
+`docker swarm join-token` reveals the commands and tokens required to join workers and managers to existing swarms.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 165 | Location 2371-2372 | Added on Tuesday, October 17, 2017 1:28:00 PM
 
-docker service inspect gives very detailed information on a service. It accepts the --pretty flag to limit the information returned to the most important information.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 168 | Location 2387-2389 | Added on Tuesday, October 17, 2017 1:29:52 PM
-
-Docker overlay networking - The TLDR In the real world it’s vital that containers can communicate with each other reliably and securely,
+`docker service inspect` gives very detailed information on a service. It accepts the `--pretty` flag to limit the information returned to the most important information.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 168 | Location 2388-2390 | Added on Tuesday, October 17, 2017 1:30:00 PM
@@ -4585,19 +4390,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 Run a docker network inspect to see the Subnet assigned to the overlay.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 179 | Location 2583-2584 | Added on Tuesday, October 17, 2017 1:38:23 PM
+- Your Highlight on page 179 | Location 2583-2585 | Added on Tuesday, October 17, 2017 1:38:23 PM
 
-Docker overlay networking uses VXLAN tunnels to create virtual Layer 2 overlay networks.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 179 | Location 2585-2585 | Added on Tuesday, October 17, 2017 1:38:28 PM
-
-VXLANs let you create a virtual Layer 2 network on top of an existing Layer 3 infrastructure.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 180 | Location 2591-2592 | Added on Tuesday, October 17, 2017 1:38:44 PM
-
-Each end of the VXLAN tunnel is terminated by a VXLAN Tunnel Endpoint (VTEP). It’s this VTEP that performs the encapsulation/de-encapsulation
+Docker overlay networking uses VXLAN tunnels to create virtual Layer 2 overlay networks... VXLANs let you create a virtual Layer 2 network on top of an existing Layer 3 infrastructure.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 180 | Location 2591-2592 | Added on Tuesday, October 17, 2017 1:38:56 PM
@@ -4607,12 +4402,7 @@ Each end of the VXLAN tunnel is terminated by a VXLAN Tunnel Endpoint (VTEP). It
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 180 | Location 2589-2592 | Added on Tuesday, October 17, 2017 1:39:04 PM
 
-To create the virtual Layer 2 overlay network a VXLAN tunnel is created through the underlying Layer 3 IP infrastructure. You might hear the term underlay network used to refer to the underlying Layer 3 infrastructure. Each end of the VXLAN tunnel is terminated by a VXLAN Tunnel Endpoint (VTEP). It’s this VTEP that performs the encapsulation/de-encapsulation
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 181 | Location 2596-2597 | Added on Tuesday, October 17, 2017 1:39:54 PM
-
-network namespace is like a container, but instead of running an application it runs an isolated network stack - one that’s sandboxed from the network stack on the host itself.
+To create the virtual Layer 2 overlay network, a VXLAN tunnel is created through the underlying Layer 3 IP infrastructure. You might hear the term underlay network used to refer to the underlying Layer 3 infrastructure. Each end of the VXLAN tunnel is terminated by a VXLAN Tunnel Endpoint (VTEP). It’s this VTEP that performs the encapsulation/de-encapsulation
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 181 | Location 2596-2597 | Added on Tuesday, October 17, 2017 1:39:57 PM
@@ -4630,14 +4420,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 Each container then gets its own virtual Ethernet (veth) adapter that is also plumbed into the local Br0 virtual switch.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 183 | Location 2615-2618 | Added on Tuesday, October 17, 2017 1:44:45 PM
-
-the VTEP. Now that the Br0 switch has learned how to forward traffic to C2 all future packets for C2 will be transmitted directly to the VTEP interface. The VTEP interface knows about C2 because all newly started containers have their network details propagated to other nodes in the swarm using the network’s built-in gossip protocol.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 183 | Location 2610-2617 | Added on Tuesday, October 17, 2017 1:45:33 PM
 
-Container C1 creates the ping requests and sets the destination IP address to be the 10.0.0.4 address of C2. It sends the traffic over its veth interface which is connected to the Br0 virtual switch. The virtual switch doesn’t know where to send the packet as it doesn’t have an entry in its MAC address table (ARP table) that corresponds to the destination IP address. As a result, it floods the packet to all ports. The VTEP interface connected to Br0 knows how to forward the frame so responds with its own MAC address. This is a proxy ARP reply and results in the Br0 switch learning how to forward the packet and it updates its ARP table mapping 10.0.0.4 to the MAC address of the VTEP. Now that the Br0 switch has learned how to forward traffic to C2 all future packets for C2 will be transmitted directly to the VTEP interface.
+Container C1 creates the ping requests and sets the destination IP address to be the 10.0.0.4 address of C2. It sends the traffic over its veth interface which is connected to the Br0 virtual switch. The virtual switch doesn’t know where to send the packet as it doesn’t have an entry in its MAC address table (ARP table) that corresponds to the destination IP address. As a result, it floods the packet to all ports. The VTEP interface connected to Br0 knows how to forward the frame so responds with its own MAC address. This is a proxy ARP reply and results in the Br0 switch learning how to forward the packet and it updates its ARP table mapping 10.0.0.4 to the MAC address of the VTEP. Now that the Br0 switch has learned how to forward traffic to C2 all future packets for C2 will be transmitted directly to the VTEP interface. The VTEP interface knows about C2 because all newly started containers have their network details propagated to other nodes in the swarm using the network’s built-in gossip protocol.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 184 | Location 2619-2624 | Added on Tuesday, October 17, 2017 1:51:46 PM
@@ -4645,49 +4430,14 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 At a fairly high level this encapsulation includes adding a VXLAN header to the Ethernet frame. The VXLAN header contains the VXLAN network ID (VNID) which is used to map frames from VLANs to VXLANs and vice versa. Each VLAN gets mapped to VNID so that on the receiving end the packet can be de-encapsulated and forwarded on to the correct VLAN. This obviously maintains network isolation. The encapsulation also wraps the frame in a IP/UDP packet with the IP address of the VTEP on node2 in the destination IP field and the UDP port 4789 socket information. This encapsulation allows the data to be sent across the underlying networks without the underlying networks having to know anything about VXLAN.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 188 | Location 2660-2662 | Added on Tuesday, October 17, 2017 1:57:07 PM
-
-following with zero configuration required; cryptographic node IDs, mutual authentication, automatic CA configuration, automatic certificate rotation, encrypted cluster store, encrypted networks, and more.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 188 | Location 2660-2662 | Added on Tuesday, October 17, 2017 1:57:10 PM
-
-following with zero configuration required; cryptographic node IDs, mutual authentication, automatic CA configuration, automatic certificate rotation, encrypted cluster store, encrypted networks, and more.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 188 | Location 2660-2662 | Added on Tuesday, October 17, 2017 1:57:13 PM
 
 Docker Swarm Mode is secure by default. You get all of the following with zero configuration required; cryptographic node IDs, mutual authentication, automatic CA configuration, automatic certificate rotation, encrypted cluster store, encrypted networks, and more.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 192 | Location 2694-2695 | Added on Tuesday, October 17, 2017 2:00:08 PM
-
-moment. But the most important thing to understand is that Docker containers are an organized collection of namespaces. Let me repeat that… A Docker container is an organized collection of namespaces.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 192 | Location 2694-2695 | Added on Tuesday, October 17, 2017 2:00:13 PM
-
-moment. But the most important thing to understand is that Docker containers are an organized collection of namespaces. Let me repeat that… A Docker container is an organized collection of namespaces.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 192 | Location 2694-2695 | Added on Tuesday, October 17, 2017 2:00:17 PM
-
-Docker containers are an organized collection of namespaces. Let me repeat that… A Docker container is an organized collection of namespaces.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 192 | Location 2694-2695 | Added on Tuesday, October 17, 2017 2:01:50 PM
-
-Docker containers are an organized collection of namespaces. Let me repeat that… A Docker container is an organized collection of namespaces.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 192 | Location 2694-2697 | Added on Tuesday, October 17, 2017 2:01:56 PM
 
 Docker containers are an organized collection of namespaces. Let me repeat that… A Docker container is an organized collection of namespaces. For example, every container is made up of its own pid, net, mnt, ipc, uts, and potentially user namespace.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 193 | Location 2699-2701 | Added on Tuesday, October 17, 2017 2:01:42 PM
-
-Process ID namespace: Docker uses the pid namespace to provide isolated process trees for each container. Every container gets its own process tree meaning that every container can have its own PID 1. PID namespaces also mean that a container cannot see or access to
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 193 | Location 2699-2702 | Added on Tuesday, October 17, 2017 2:01:46 PM
@@ -4697,7 +4447,7 @@ Process ID namespace: Docker uses the pid namespace to provide isolated process 
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 194 | Location 2717-2719 | Added on Tuesday, October 17, 2017 2:02:57 PM
 
-In the real world (not the silly hotel analogy) containers are isolated from each other but all share a common set of OS resources - things like CPU, RAM and disk I/O. Cgroups let us set limits on each of these so that a single container cannot use all of the CPU, RAM, or storage I/O of the Linux host.
+In the real world containers are isolated from each other but all share a common set of OS resources - things like CPU, RAM and disk I/O. Cgroups let us set limits on each of these so that a single container cannot use all of the CPU, RAM, or storage I/O of the Linux host.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 195 | Location 2721-2724 | Added on Tuesday, October 17, 2017 2:03:48 PM
@@ -4720,24 +4470,9 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 Swarm Mode is the future of Docker.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 203 | Location 2811-2812 | Added on Tuesday, October 17, 2017 2:09:27 PM
-
-Swarm join tokens The only thing that is needed to join managers and workers to an existing Swarm is the relevant join token. For this reason, it is vital that you keep your join-tokens safe! No posting them on public GitHub pages!
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 203 | Location 2811-2812 | Added on Tuesday, October 17, 2017 2:09:33 PM
 
 The only thing that is needed to join managers and workers to an existing Swarm is the relevant join token. For this reason, it is vital that you keep your join-tokens safe!
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 203 | Location 2814-2815 | Added on Tuesday, October 17, 2017 2:09:47 PM
-
-It’s worth understanding the format of the Swarm join token. Every join token is comprised of 4 distinct fields separated by dashes (-): PREFIX - VERSION - SWARM ID - TOKEN
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 203 | Location 2814-2815 | Added on Tuesday, October 17, 2017 2:10:00 PM
-
-It’s worth understanding the format of the Swarm join token. Every join token is comprised of 4 distinct fields separated by dashes (-): PREFIX - VERSION - SWARM ID - TOKEN
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 203 | Location 2814-2817 | Added on Tuesday, October 17, 2017 2:10:14 PM
@@ -4747,7 +4482,7 @@ Every join token is comprised of 4 distinct fields separated by dashes (-): PREF
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 204 | Location 2820-2822 | Added on Tuesday, October 17, 2017 2:10:51 PM
 
-The following example revokes the existing manager join token and issues a new one. $ docker swarm join-token --rotate manager
+The following example revokes the existing manager join token and issues a new one: `docker swarm join-token --rotate manager`
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 204 | Location 2826-2827 | Added on Tuesday, October 17, 2017 2:11:05 PM
@@ -4757,7 +4492,7 @@ Join tokens are stored in the cluster config database which is encrypted by defa
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 205 | Location 2846-2847 | Added on Tuesday, October 17, 2017 2:12:33 PM
 
-The organization O field stores the Swarm ID The organizational unit OU field stores the nodes role in the Swarm The canonical name CN field stores the nodes crypto ID.
+The organization O field stores the Swarm ID, the organizational unit OU field stores the nodes role in the Swarm, the canonical name CN field stores the nodes crypto ID.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 207 | Location 2861-2863 | Added on Tuesday, October 17, 2017 2:13:32 PM
@@ -4768,11 +4503,6 @@ Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 214 | Location 2934-2935 | Added on Tuesday, October 17, 2017 2:17:32 PM
 
 Docker 1.13 introduced Docker Secrets, effectively making secrets first-class citizens in the Docker ecosystem.
-==========
-Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
-- Your Highlight on page 214 | Location 2934-2935 | Added on Tuesday, October 17, 2017 2:17:37 PM
-
-Docker 1.13 introduced Docker Secrets, effectively making secrets first-class citizens in the Docker ecosystem. For example, there is a whole new docker secret sub-command dedicated to managing secrets.
 ==========
 Docker Deep Dive: Updated October 2017 (Poulton, Nigel)
 - Your Highlight on page 214 | Location 2936-2938 | Added on Tuesday, October 17, 2017 2:17:50 PM
@@ -14955,312 +14685,312 @@ The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ri
 “FedEx this package to the Coast.” If you’re introducing the first brand in a new category, you should always try to select a name that can work generically. (Lawyers advise the opposite, but what do they know about the laws of marketing?)
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 587 | Added someday at sometime PM
+- Your Highlight on Location 587 | Added on someday at sometime PM
 
 When you look at customers in a given product category, there seem to be two kinds of people. There are those who want to buy from the leader and there are those who don’t want to buy from the leader. A potential No. 2 has to appeal to the latter group. In other words, by positioning yourself against the leader, you take business away from all the other alternatives to No. 1. If old people drink Coke and young people drink Pepsi, there’s nobody left to drink Royal Crown cola. Yet, too many potential No. 2 brands try to emulate the leader. This usually is an error. You must present yourself as the alternative.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 637 | Added someday at sometime PM
+- Your Highlight on Location 637 | Added on someday at sometime PM
 
 Law 10: The Law of Division. Over time, a category will divide and become two or more categories.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 642 | Added someday at sometime PM
+- Your Highlight on Location 642 | Added on someday at sometime PM
 
 A category starts off as a single entity. Computers, for example. But over time, the category breaks up into other segments. Mainframes, minicomputers, workstations, personal computers, laptops, notebooks, pen computers.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 661 | Added someday at sometime PM
+- Your Highlight on Location 661 | Added on someday at sometime PM
 
 Instead of understanding this concept of division, many corporate leaders hold the naive belief that categories are combining. Synergy and its kissing cousin the corporate alliance are the buzzwords in the boardrooms of America. IBM, according to the New York Times, is poised “to take advantage of the coming convergence of whole industries, including television, music, publishing and computing.” “IBM’s strongest suit,” says the Times, “in the expected convergence of cable and telephone networks with computer and television manufacturers may be technology that it has developed to create extremely high-speed networks.” (See chapter 20: The Law of Hype.) It won’t happen. Categories are dividing, not combining.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 673 | Added someday at sometime PM
+- Your Highlight on Location 673 | Added on someday at sometime PM
 
 Companies make a mistake when they try to take a well-known brand name in one category and use the same brand name in another category. A classic example is the fate that befell Volkswagen, the company that introduced the small-car category to America.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 678 | Added someday at sometime PM
+- Your Highlight on Location 678 | Added on someday at sometime PM
 
 “Different Volks for different folks,” said the advertising, which featured five different models, including the Beetle, the 412 Sedan, the Dasher, the Thing, and even a station wagon. Needless to say, the only thing that kept selling was the “small” thing, the Beetle.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 689 | Added someday at sometime PM
+- Your Highlight on Location 689 | Added on someday at sometime PM
 
 One of Volkswagen’s competitors, Honda, decided to go up-market. Rather than use the Honda name in the luxury-car market, it introduced the Acura. It even took the expensive step of setting up separate Acura dealerships to avoid confusion with Honda. The Acura became the first Japanese luxury car in the United States, where today Honda sells many more Acuras than Volkswagen sells Volkswagens. Honda now has the leading brand in two categories.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 699 | Added someday at sometime PM
+- Your Highlight on Location 699 | Added on someday at sometime PM
 
 You can be too early to exploit a new category. Back in the fifties the Nash Rambler was America’s first small car. But American Motors didn’t have either the courage or the money to hang in there long enough for the category to develop. It’s better to be early than late. You can’t get into the prospect’s mind first unless you’re prepared to spend some time waiting for things to develop.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 704 | Added someday at sometime PM
+- Your Highlight on Location 704 | Added on someday at sometime PM
 
 Law 11: The Law of Perspective. Marketing effects take place over an extended period of time.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 710 | Added someday at sometime PM
+- Your Highlight on Location 710 | Added on someday at sometime PM
 
 Chemically, alcohol is a strong depressant. But in the short term, by depressing a person’s inhibitions, alcohol acts like a stimulant. Many marketing moves exhibit the same phenomenon. The long-term effects are often the exact opposite of the short-term effects.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 713 | Added someday at sometime PM
+- Your Highlight on Location 713 | Added on someday at sometime PM
 
 Obviously, in the short term, a sale increases business. But there’s more and more evidence to show that sales decrease business in the long term by educating customers not to buy at “regular” prices.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 738 | Added someday at sometime PM
+- Your Highlight on Location 738 | Added on someday at sometime PM
 
 In the short term, line extension invariably increases sales. The beer industry clearly illustrates this effect. In the early seventies, Miller High Life was barreling along with sales increases averaging 27 percent a year. Miller’s success was fueled by “Miller Time,” a blue-collar campaign focused on rewarding yourself at the end of the day with a Miller beer. Then Miller got greedy and in 1974 introduced Miller Lite, a brilliant concept (chapter 2: The Law of the Category) buried under a line extended name. In the short term the two Millers could coexist: the blue-collar beer (High Life) and the yuppie beer (Lite). But in the long term, line extension was bound to undermine one or the other brand. The high-water mark for Miller High Life was 1979, five years after the introduction of Miller Lite. In those five years Miller High Life’s annual sales almost tripled, from 8.6 million to 23.6 million barrels. This was the short-term effect of line extension. The long-term effect was grim. From a high of 23.6 million barrels in 1979, Miller High Life declined 13 years in a row to just 5.8 million barrels in 1991. And the decline is bound to continue.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 771 | Added someday at sometime PM
+- Your Highlight on Location 771 | Added on someday at sometime PM
 
 Law 12: The Law of Line Extension. There’s an irresistible pressure to extend the equity of a brand.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 776 | Added someday at sometime PM
+- Your Highlight on Location 776 | Added on someday at sometime PM
 
 By far the most violated law in our book is the law of line extension.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 804 | Added someday at sometime PM
+- Your Highlight on Location 804 | Added on someday at sometime PM
 
 In a narrow sense, line extension involves taking the brand name of a successful product (e.g., A-1 steak sauce) and putting it on a new product you plan to introduce (e.g., A-1 poultry sauce). It sounds so logical. “We make A-1, a great sauce that gets the dominant share of the steak business. But people are switching from beef to chicken, so let’s introduce a poultry product. And what better name to use than A-1. That way people will know the poultry sauce comes from the makers of that great steak sauce, A-1.” But marketing is a battle of perception, not product. In the mind, A-1 is not the brand name, but the steak sauce itself. “Would you pass me the A-1?” asks the diner. Nobody replies: “A-1 what?” In spite of an $18 million advertising budget, the A-1 poultry launch was a dismal failure.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 818 | Added someday at sometime PM
+- Your Highlight on Location 818 | Added on someday at sometime PM
 
 Invariably, the leader in any category is the brand that is not line extended.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 838 | Added someday at sometime PM
+- Your Highlight on Location 838 | Added on someday at sometime PM
 
 Why does top management believe that line extension works, in spite of the overwhelming evidence to the contrary? One reason is that while line extension is a loser in the long term, it can be a winner in the short term (chapter 11: The Law of Perspective). Management is also blinded by an intense loyalty to the company or brand.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 841 | Added someday at sometime PM
+- Your Highlight on Location 841 | Added on someday at sometime PM
 
 More is less. The more products, the more markets, the more alliances a company makes, the less money it makes. “Full-speed ahead in all directions” seems to be the call from the corporate bridge. When will companies learn that line extension ultimately leads to oblivion? Less is more. If you want to be successful today, you have to narrow the focus in order to build a position in the prospect’s mind. What does IBM stand for? It used to stand for “mainframe computers.” Today it stands for everything, which means it stands for nothing.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 863 | Added someday at sometime PM
+- Your Highlight on Location 863 | Added on someday at sometime PM
 
 Law 13: The Law of Sacrifice. You have to give up something in order to get something.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 868 | Added someday at sometime PM
+- Your Highlight on Location 868 | Added on someday at sometime PM
 
 There are three things to sacrifice: product line, target market, and constant change.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 869 | Added someday at sometime PM
+- Your Highlight on Location 869 | Added on someday at sometime PM
 
 First, the product line. Where is it written that the more you have to sell, the more you sell? The full line is a luxury for a loser. If you want to be successful, you have to reduce your product line, not expand it. Take Emery Air Freight. Emery was in the air freight services business. Anything you wanted to ship you could ship via Emery. Small packages, large packages, overnight service, delayed service. From a marketing point of view, what did Federal Express do? It concentrated on one service: small packages overnight. Today Federal Express is a much bigger company than Emery.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 893 | Added someday at sometime PM
+- Your Highlight on Location 893 | Added on someday at sometime PM
 
 The world of business is populated by big, highly diversified generalists and small, narrowly focused specialists. If line extension and diversification were effective marketing strategies, you’d expect to see the generalists riding high. But they’re not. Most of them are in trouble. The generalist is weak. Take Kraft, for example. Everybody thinks Kraft is a strong brand name. In jellies and jams, Kraft has 9 percent of the market. But Smucker’s has 35 percent. Kraft means everything, but with a name like Smucker’s, it has to be jelly or jam because that’s all Smucker’s makes.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 920 | Added someday at sometime PM
+- Your Highlight on Location 920 | Added on someday at sometime PM
 
 Let’s discuss the second sacrifice, target market. Where is it written that you have to appeal to everybody? Take the cola field. Coca-Cola got into the prospect’s mind first and built a powerful position. In the late fifties, for example, Coke outsold Pepsi more than five to one. What could Pepsi-Cola do to go against Coke’s powerful position? In the early sixties Pepsi-Cola finally developed a strategy based on the concept of sacrifice. The company sacrificed everything except the teenage market. Then it brilliantly exploited this market by hiring its icons: Michael Jackson, Lionel Richie, Don Johnson. Within one generation, Pepsi closed the gap.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 947 | Added someday at sometime PM
+- Your Highlight on Location 947 | Added on someday at sometime PM
 
 Finally, the third sacrifice: constant change. Where is it written that you have to change your strategy every year at budget review time?
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 959 | Added someday at sometime PM
+- Your Highlight on Location 959 | Added on someday at sometime PM
 
 Good things come to those who sacrifice.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 961 | Added someday at sometime PM
+- Your Highlight on Location 961 | Added on someday at sometime PM
 
 Law 14: The Law of Attributes. For every attribute, there is an opposite, effective attribute.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 975 | Added someday at sometime PM
+- Your Highlight on Location 975 | Added on someday at sometime PM
 
 Cavity prevention is the most important attribute in toothpaste. It’s the one to own. But the law of exclusivity points to the simple truth that once an attribute is successfully taken by your competition, it’s gone. You must move on to a lesser attribute and live with a smaller share of the category. Your job is to seize a different attribute, dramatize the value of your attribute, and thus increase your share.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 985 | Added someday at sometime PM
+- Your Highlight on Location 985 | Added on someday at sometime PM
 
 When an upstart from France brought an opposite attribute to the category in the form of a “disposable” razor, Gillette could have laughed and wheeled out its research on how America wants hefty, expensive, high-technology razors. But it didn’t. Instead, Gillette jumped in with a disposable razor of its own, called Good News. By spending heavily, Gillette was able to win the battle of the disposables. Today the Gillette Good News razor dominates the disposable category, which has grown to dominate the razor blade business. Moral: You can’t predict the size of a new attribute’s share, so never laugh.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1003 | Added someday at sometime PM
+- Your Highlight on Location 1003 | Added on someday at sometime PM
 
 Law 15: The Law of Candor. When you admit a negative, the prospect will give you a positive.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1014 | Added someday at sometime PM
+- Your Highlight on Location 1014 | Added on someday at sometime PM
 
 First and foremost, candor is very disarming. Every negative statement you make about yourself is instantly accepted as truth. Positive statements, on the other hand, are looked at as dubious at best. Especially in an advertisement.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1024 | Added someday at sometime PM
+- Your Highlight on Location 1024 | Added on someday at sometime PM
 
 “Avis is only No. 2 in rent-a-cars.” So why go with them? They must try harder. Everybody knew that Avis was second in rent-a-cars. So why go with the obvious? Marketing is often a search for the obvious. Since you can’t change a mind once it’s made up, your marketing efforts have to be devoted to using ideas and concepts already installed in the brain. You have to use your marketing programs to “rub it in.” No program did this as brilliantly as the Avis No. 2 program.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1042 | Added someday at sometime PM
+- Your Highlight on Location 1042 | Added on someday at sometime PM
 
 The law of candor must be used carefully and with great skill. First, your “negative” must be widely perceived as a negative. It has to trigger an instant agreement with your prospect’s mind. If the negative doesn’t register quickly, your prospect will be confused and will wonder, “What’s this all about?” Next, you have to shift quickly to the positive. The purpose of candor isn’t to apologize. The purpose of candor is to set up a benefit that will convince your prospect. This law only proves the old maxim: Honesty is the best policy.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1048 | Added someday at sometime PM
+- Your Highlight on Location 1048 | Added on someday at sometime PM
 
 Law 16: The Law of Singularity. In each situation, only one move will produce substantial results.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1058 | Added someday at sometime PM
+- Your Highlight on Location 1058 | Added on someday at sometime PM
 
 Whether you try hard or try easy, the differences are marginal. Furthermore, the bigger the company, the more the law of averages wipes out any real advantage of a trying-harder approach. History teaches that the only thing that works in marketing is the single, bold stroke. Furthermore, in any given situation there is only one move that will produce substantial results.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1107 | Added someday at sometime PM
+- Your Highlight on Location 1107 | Added on someday at sometime PM
 
 Law 17: The Law of Unpredictability. Unless you write your competitors’ plans, you can’t predict the future.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1120 | Added someday at sometime PM
+- Your Highlight on Location 1120 | Added on someday at sometime PM
 
 Most of corporate America’s problems are not related to short-term marketing thinking. The problem is short-term financial thinking.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1128 | Added someday at sometime PM
+- Your Highlight on Location 1128 | Added on someday at sometime PM
 
 Good short-term planning is coming up with that angle or word that differentiates your product or company. Then you set up a coherent long-term marketing direction that builds a program to maximize that idea or angle. It’s not a long-term plan, it’s a long-term direction. Tom Monaghan’s short-term angle at Domino’s Pizza was to come up with that “home delivery” idea and build a system that delivered pizzas quickly and efficiently. His long-term direction was to build the first nationwide home delivery chain as rapidly as possible.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1173 | Added someday at sometime PM
+- Your Highlight on Location 1173 | Added on someday at sometime PM
 
 Law 18: The Law of Success. Success often leads to arrogance, and arrogance to failure.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1177 | Added someday at sometime PM
+- Your Highlight on Location 1177 | Added on someday at sometime PM
 
 Ego is the enemy of successful marketing. Objectivity is what’s needed.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1185 | Added someday at sometime PM
+- Your Highlight on Location 1185 | Added on someday at sometime PM
 
 Success is often the fatal element behind the rash of line extensions.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1192 | Added someday at sometime PM
+- Your Highlight on Location 1192 | Added on someday at sometime PM
 
 The more you identify with your brand or corporate name, the more likely you are to fall into the line extension trap. “It can’t be the name,” you might be thinking when things go wrong. “We have a great name.” Pride goeth before destruction and a haughty spirit before a fall. Proverbs 16:18.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1198 | Added someday at sometime PM
+- Your Highlight on Location 1198 | Added on someday at sometime PM
 
 Actually, ego is helpful. It can be an effective driving force in building a business. What hurts is injecting your ego in the marketing process. Brilliant marketers have the ability to think like a prospect thinks. They put themselves in the shoes of their customers. They don’t impose their own view of the world on the situation. (Keep in mind that the world is all perception anyway, and the only thing that counts in marketing is the customer’s perception.)
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1208 | Added someday at sometime PM
+- Your Highlight on Location 1208 | Added on someday at sometime PM
 
 The bigger the company, the more likely it is that the chief executive has lost touch with the front lines. This might be the single most important factor limiting the growth of a corporation. All other factors favor size. Marketing is war, and the first principle of warfare is the principle of force. The larger army, the larger company, has the advantage.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1216 | Added someday at sometime PM
+- Your Highlight on Location 1216 | Added on someday at sometime PM
 
 If you’re a busy CEO, how do you gather objective information on what is really happening? How do you get around the propensity of middle management to tell you what they think you want to hear? How do you get the bad news as well as the good? One possibility is to go “in disguise” or unannounced. This is especially useful at the distributor or retailer level. In many ways this is analogous to the king who dresses up as a commoner and mingles with his subjects. Reason: to get honest opinions of what’s happening.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1228 | Added someday at sometime PM
+- Your Highlight on Location 1228 | Added on someday at sometime PM
 
 Marketing is too important to be turned over to an underling. If you delegate anything, you should delegate the chairmanship of the next fund-raising drive. (The vice president of the United States, not the president, attends the state funerals.) The next thing to cut back on are the meetings. Instead of talking things over, walk out and see for yourself. As Gorbachev told Reagan, “It is better to see once than to hear a hundred times.”
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1234 | Added someday at sometime PM
+- Your Highlight on Location 1234 | Added on someday at sometime PM
 
 Law 19: The Law of Failure. Failure is to be expected and accepted.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1241 | Added someday at sometime PM
+- Your Highlight on Location 1241 | Added on someday at sometime PM
 
 The Japanese seem to be able to admit a mistake early and then make the necessary changes. Their consensus management style tends to eliminate the ego. Since a large number of people have a small piece of a big decision, there is no stigma that can be considered career damaging. In other words, it’s a lot easer to live with “We were all wrong” than the devastating “I was wrong.” This egoless approach is a major factor in making the Japanese such relentless marketers. It’s not that they don’t make mistakes, but when they do, they admit them, fix them, and just keep coming.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1255 | Added someday at sometime PM
+- Your Highlight on Location 1255 | Added on someday at sometime PM
 
 When the senior executive has a high salary and a short time to retirement, a bold move is highly unlikely. Even junior executives often make “safe” decisions so as to not disrupt their progress up the corporate ladder. Nobody has ever been fired for a bold move they didn’t make.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1269 | Added someday at sometime PM
+- Your Highlight on Location 1269 | Added on someday at sometime PM
 
 20 The Law of Hype The situation is often the opposite of the way it appears in the press.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1276 | Added someday at sometime PM
+- Your Highlight on Location 1276 | Added on someday at sometime PM
 
 No soft drink has received more hype than New Coke. By one estimate, New Coke received more than $1 billion worth of free publicity. Add to that the hundreds of millions of dollars spent to launch the brand, and New Coke should have been the world’s most successful product. It didn’t happen. Less than 60 days after the launch, Coca-Cola was forced to come back with the original formula, now called Coca-Cola Classic. Today Classic outsells New about 15 to 1.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1289 | Added someday at sometime PM
+- Your Highlight on Location 1289 | Added on someday at sometime PM
 
 The essence of the hype was not just that the new product was going to be successful. The essence of the hype was that existing products would now be obsolete. Polyester was going to make wool obsolete. Videotext was going to make newspapers obsolete. The personal helicopter was going to make the roads and highways obsolete.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1295 | Added someday at sometime PM
+- Your Highlight on Location 1295 | Added on someday at sometime PM
 
 The office of the future is aptly named—a concept that will remain forever in the future. These predictions violate the law of unpredictability. No one can predict the future, not even a sophisticated reporter for the Wall Street Journal. The only revolutions you can predict are the ones that have already started.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1307 | Added someday at sometime PM
+- Your Highlight on Location 1307 | Added on someday at sometime PM
 
 If you’re looking for clues to the future, look in the back of the paper for those innocuous little stories.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1332 | Added someday at sometime PM
+- Your Highlight on Location 1332 | Added on someday at sometime PM
 
 Real revolutions don’t arrive at high noon with marching bands and coverage on the 6:00 P.M. news. Real revolutions arrive unannounced in the middle of the night and kind of sneak up on you.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1335 | Added someday at sometime PM
+- Your Highlight on Location 1335 | Added on someday at sometime PM
 
 Law 21: The Law of Acceleration. Successful programs are not built on fads, they’re built on trends.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1339 | Added someday at sometime PM
+- Your Highlight on Location 1339 | Added on someday at sometime PM
 
 A fad is a wave in the ocean, and a trend is the tide. A fad gets a lot of hype, and a trend gets very little. Like a wave, a fad is very visible, but it goes up and down in a big hurry. Like the tide, a trend is almost invisible, but it’s very powerful over the long term.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1344 | Added someday at sometime PM
+- Your Highlight on Location 1344 | Added on someday at sometime PM
 
 (A fashion, on the other hand, is a fad that repeats itself.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1352 | Added someday at sometime PM
+- Your Highlight on Location 1352 | Added on someday at sometime PM
 
 Here’s the paradox. If you were faced with a rapidly rising business, with all the characteristics of a fad, the best thing you could do would be to dampen the fad. By dampening the fad, you stretch the fad out and it becomes more like a trend.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1367 | Added someday at sometime PM
+- Your Highlight on Location 1367 | Added on someday at sometime PM
 
 Law 22: The Law of Resources. Without adequate funding an idea won’t get off the ground.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1374 | Added someday at sometime PM
+- Your Highlight on Location 1374 | Added on someday at sometime PM
 
 Marketing is a game fought in the mind of the prospect. You need money to get into a mind. And you need money to stay in the mind once you get there. You’ll get further with a mediocre idea and a million dollars than with a great idea alone.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1381 | Added someday at sometime PM
+- Your Highlight on Location 1381 | Added on someday at sometime PM
 
 Ideas without money are worthless.
 ==========
 The 22 Immutable Laws of Marketing: Exposed and Explained by the World's Two (Ries, Al)
-- Your Highlight on Location 1419 | Added someday at sometime PM
+- Your Highlight on Location 1419 | Added on someday at sometime PM
 
 What about a rich company? How should it approach the law of resources? The answer is simple: Spend enough. In war, the military always errs on the high side. Do you know how many rations were left after Operation Desert Storm? A lot. So it is in marketing. You can't save your way to success. The more successful marketers front load their investment. In other words, they take no profit for two or three years as the plow all their earnings back into marketing.
 ==========
