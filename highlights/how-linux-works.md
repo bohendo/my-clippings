@@ -28,6 +28,8 @@
 
  - loc 579 - If you see a file and are unsure of its format, try using the file command to see if the system can guess:
 
+ - loc 579 - If you see a file and are unsure of its format,
+
  - loc 627 - You may wish to use a pattern such as .[^.]* or .??* to get all dot files except the current and parent directories.
 
  - loc 641 - The main difference between environment and shell variables is that the operating system passes all of your shell’s environment variables to programs that the shell runs, whereas shell variables cannot be accessed in the commands that you run. Assign an environment variable with the shell’s export command.

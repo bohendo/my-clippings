@@ -350,3 +350,23 @@ David Gerard
 Docker Deep Dive: Updated October 2017
 Docker Deep Dive
 Nigel Poulton
+
+Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)
+Clean Architecture
+Uncle Bob
+
+Dune
+Dune
+Frank Herbert
+
+Ethereum Wiki
+Ethereum Wiki
+Community
+
+The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win
+The Phoenix Project
+Gene Kim
+
+The War of Art
+War of Art
+Steven Pressfield
