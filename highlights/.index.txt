@@ -370,3 +370,7 @@ Gene Kim
 The War of Art
 War of Art
 Steven Pressfield
+
+Professional WordPress: Design and Development
+Professional WordPress
+Brad Williams
