@@ -18,8 +18,6 @@
 
  - loc 167 - Rule of thumb: The more important a call or action is to our soul's evolution, the more Resistance we will feel toward pursuing it.
 
- - loc 172 - fear doesn't go away. The warrior and the artist live by the same code of necessity, which dictates that the battle must be fought anew every day.
-
  - loc 172 - The warrior and the artist live by the same code of necessity, which dictates that the battle must be fought anew every day.
 
  - loc 178 - Resistance has no strength of its own. Every ounce of juice it possesses comes from us. We feed it with power by our fear of it. Master that fear and we conquer Resistance.
@@ -32,13 +30,7 @@
 
  - loc 232 - Creating soap opera in our lives is a symptom of Resistance. Why put in years of work designing a new software interface when you can get just as much attention by bringing home a boyfriend with a prison record?
 
- - loc 242 - I once worked as a writer for a big New York ad agency. Our boss used to tell us: Invent a disease. Come up with the disease, he said, and we can sell the cure. Attention Deficit Disorder, Seasonal Affect Disorder, Social Anxiety Disorder. These aren't diseases, they're marketing ploys. Doctors didn't discover them, copywriters did. Marketing departments did. Drug companies did. Depression and anxiety may be real. But they can also be Resistance.
-
- - loc 242 - I once worked as a writer for a big New York ad agency. Our boss used to tell us: Invent a disease. Come up with the disease, he said, and we can sell the cure. Attention Deficit Disorder, Seasonal Affect Disorder, Social Anxiety Disorder. These aren't diseases, they're marketing ploys. Doctors didn't discover them, copywriters did. Marketing departments did. Drug companies did. Depression and anxiety may be real. But they can also be Resistance. When we drug ourselves to blot out our soul's call, we are being good Americans and exemplary consumers.
-
  - loc 246 - When we drug ourselves to blot out our soul's call, we are being good Americans and exemplary consumers. We're doing exactly what TV commercials and pop materialist culture have been brainwashing us to do from birth. Instead of applying self-knowledge, self-discipline, delayed gratification and hard work, we simply consume a product.
-
- - loc 261 - Sometimes, if we're not conscious of our own Resistance, we'll pick as a mate someone who has or is successfully overcoming Resistance.
 
  - loc 261 - Sometimes, if we're not conscious of our own Resistance, we'll pick as a mate someone who has or is successfully overcoming Resistance. I'm not sure why. Maybe it's easier to endow our partner with the power that we in fact possess but are afraid to act upon. Maybe it's less threatening to believe that our beloved spouse is worthy to live out his or her unlived life, while we are not. Or maybe we're hoping to use our mate as a model.
 
@@ -49,8 +41,6 @@
  - loc 312 - The fundamentalist (or, more accurately, the beleaguered individual who comes to embrace fundamentalism) cannot stand freedom. He cannot find his way into the future, so he retreats to the past. He returns in imagination to the glory days of his race and seeks to reconstitute both them and himself in their purer, more virtuous light.
 
  - loc 318 - But the fundamentalist reserves his greatest creativity for the fashioning of Satan, the image of his foe, in opposition to which he defines and gives meaning to his own life.
-
- - loc 326 - other looks backward, seeking to return to a purer world from which he and all have fallen.
 
  - loc 333 - It may be that the human race is not ready for freedom. The air of liberty may be too rarefied for us to breathe. Certainly I wouldn't be writing this book, on this subject, if living with freedom were easy. The paradox seems to be, as Socrates demonstrated long ago, that the truly free individual is free only to the extent of his own self-mastery. While those who will not govern themselves are condemned to find masters to govern over them.
 
@@ -70,8 +60,6 @@
 
  - loc 468 - The conventional interpretation is that the amateur pursues his calling out of love, while the pro does it for money. Not the way I see it. In my view, the amateur does not love the game enough. If he did, he would not pursue it as a sideline, distinct from his "real" vocation. The professional loves it so much he dedicates his life to it. He commits full-time. That's what I mean when I say turning pro. Resistance hates it when we turn pro.
 
- - loc 473 - Someone once asked Somerset Maugham if he wrote on a schedule or only when struck by inspiration. "I write only when inspiration strikes," he replied. "Fortunately it strikes every morning at nine o'clock sharp."
-
  - loc 473 - Someone once asked Somerset Maugham if he wrote on a schedule or only when struck by inspiration. "I write only when inspiration strikes," he replied. "Fortunately it strikes every morning at nine o'clock sharp." That's a pro.
 
  - loc 476 - Maugham reckoned another, deeper truth: that by performing the mundane physical act of sitting down and starting to work, he set in motion a mysterious but infallible sequence of events that would produce inspiration, as surely as if the goddess had synchronized her watch with his.
@@ -84,13 +72,7 @@
 
  - loc 508 - The artist committing himself to his calling has volunteered for hell, whether he knows it or not. He will be dining for the duration on a diet of isolation, rejection, self-doubt, despair, ridicule, contempt, and humiliation. The artist must be like that Marine. He has to know how to be miserable. He has to love being miserable. He has to take pride in being more miserable than any soldier or swabbie or jet jockey. Because this is war, baby. And war is hell.
 
- - loc 508 - for hell, whether he knows it or not. He will be dining for the duration on a diet of isolation, rejection, self-doubt, despair, ridicule, contempt, and humiliation.
-
  - loc 548 - He flashed thumbs-down. "Miss it, man. It sucks." I was crushed. Here I was, forty-two years old, divorced, childless, having given up all normal human pursuits to chase the dream of being a writer; now I've finally got my name on a big-time Hollywood production starring Linda Hamilton, and what happens? I'm a loser, a phony; my life is worthless, and so am I. My friend Tony Keppelman snapped me out of it by asking if I was gonna quit. Hell, no! "Then be happy. You're where you wanted to be, aren't you? So you're taking a few blows. That's the price for being in the arena and not on the sidelines. Stop complaining and be grateful." That was when I realized I had become a pro. I had not yet had a success. But I had had a real failure.
-
- - loc 548 - "How's King Kong Lives?" I asked. He flashed thumbs-down. "Miss it, man. It sucks." I was crushed. Here I was, forty-two years old, divorced, childless, having given up all normal human pursuits to chase the dream of being a writer; now I've finally got my name on a big-time Hollywood production starring Linda Hamilton, and what happens? I'm a loser, a phony; my life is worthless, and so am I. My friend Tony Keppelman snapped me out of it by asking if I was gonna quit. Hell, no! "Then be happy. You're where you wanted to be, aren't you? So you're taking a few blows. That's the price for being in the arena and not on the sidelines. Stop complaining and be grateful." That was when I realized I had become a pro. I had not yet had a success. But I had had a real failure.
-
- - loc 560 - The more you love your art/calling/enterprise, the more important its accomplishment is to the evolution of your soul, the more you will fear it and the more Resistance you will experience facing it.
 
  - loc 560 - The more you love your art/calling/enterprise, the more important its accomplishment is to the evolution of your soul, the more you will fear it and the more Resistance you will experience facing it. The payoff of playing-the-game-for-money is not the money (which you may never see anyway, even after you turn pro). The payoff is that playing the game for money produces the proper professional attitude. It inculcates the lunch-pail mentality, the hard-core, hard-head, hard-hat state of mind that shows up for work despite rain or snow or dark of night and slugs it out day after day.
 
@@ -118,8 +100,6 @@
 
  - loc 809 - The Muses were nine sisters, daughters of Zeus and Mnemosyne, which means "memory." Their names are Clio, Erato, Thalia, Terpsichore, Calliope, Polyhymnia, Euterpe, Melpomene, and Urania.
 
- - loc 831 - Eternity is in love with the creations of time. – William Blake
-
  - loc 840 - "Eternity is in love with the creations of time" means, to me, that in some way these creatures of the higher sphere (or the sphere itself, in the abstract) take joy in what we time-bound beings can bring forth into physical existence in our limited material sphere.
 
  - loc 846 - The work existed only as potential — without a body, so to speak. It wasn't music yet. You couldn't play it. You couldn't hear it. It needed someone. It needed a corporeal being, a human, an artist (or more precisely a genius, in the Latin sense of "soul" or "animating spirit") to bring it into being on this material plane. So the Muse whispered in Beethoven's ear. Maybe she hummed a few bars into a million other ears. But no one else heard her. Only Beethoven got it. He brought it forth. He made the Fifth Symphony a "creation of time," which "eternity" could be "in love with."
@@ -134,13 +114,9 @@
 
  - loc 1043 - We fear discovering that we are more than we think we are. More than our parents/children/teachers think we are. We fear that we actually possess the talent that our still, small voice tells us. That we actually have the guts, the perseverance, the capacity. We fear that we truly can steer our ship, plant our flag, reach our Promised Land. We fear this because, if it's true, then we become estranged from all we know. We pass through a membrane. We become monsters and monstrous. We know that if we embrace our ideals, we must prove worthy of them.
 
- - loc 1062 - We're not born with unlimited choices. We can't be anything we want to be. We come into this world with a specific, personal destiny. We have a job to do, a calling to enact, a self to become. We are who we are from the cradle, and we're stuck with it. Our job in this lifetime is not to shape ourselves into some ideal we imagine we ought to be, but to find out
-
  - loc 1063 - We come into this world with a specific, personal destiny. We have a job to do, a calling to enact, a self to become. We are who we are from the cradle, and we're stuck with it. Our job in this lifetime is not to shape ourselves into some ideal we imagine we ought to be, but to find out who we already are and become it.
 
  - loc 1147 - The artist and the mother are vehicles, not originators. They don't create the new life, they only bear it. This is why birth is such a humbling experience. The new mom weeps in awe at the little miracle in her arms. She knows it came out of her but not from her, through her but not of her.
 
  - loc 1200 - If you were meant to cure cancer or write a symphony or crack cold fusion and you don't do it, you not only hurt yourself, even destroy yourself. You hurt your children. You hurt me. You hurt the planet. You shame the angels who watch over you and you spite the Almighty, who created you and only you with your unique gifts, for the sole purpose of nudging the human race one millimeter farther along its path back to God. Creative work is not a selfish act or a bid for attention on the part of the actor. It's a gift to the world and every being in it. Don't cheat us of your contribution. Give us what you've got.
-
- - loc 1203 - millimeter farther along its path back to God. Creative work is not a selfish act or a bid for attention on the part of the actor. It's a gift to the world and every being in it. Don't cheat us of your contribution. Give us what you've got.
 
