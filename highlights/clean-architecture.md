@@ -60,6 +60,12 @@
 
  - loc 1524 - The Common Closure Principle: Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons. This is the Single Responsibility Principle restated for components. Just as the SRP says that a class should not contain multiples reasons to change, so the Common Closure Principle (CCP) says that a component should not have multiple reasons to change.
 
+ - loc 1546 - THE COMMON REUSE PRINCIPLE Don’t force users of a component to depend on things they don’t need.
+
+ - loc 1551 - Classes are seldom reused in isolation. More typically, reusable classes collaborate with other classes that are part of the reusable abstraction. The CRP states that these classes belong together in the same component. In such a component we would expect to see classes that have lots of dependencies on each other.
+
+ - loc 1565 - The CRP says that classes that are not tightly bound to each other should not be in the same component.
+
  - loc 1572 - The REP and CCP are inclusive principles: Both tend to make components larger. The CRP is an exclusive principle, driving components to be smaller. It is the tension between these principles that good architects seek to resolve.
 
  - loc 1641 - Regardless of which component you begin at, it is impossible to follow the dependency relationships and wind up back at that component. This structure has no cycles. It is a directed acyclic graph (DAG).
