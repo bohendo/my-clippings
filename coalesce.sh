@@ -6,9 +6,16 @@ then
   input="/media/`whoami`/Kindle/documents/My Clippings.txt"
 
 # Otherwise look for clippings in the current dir
+elif [[ -f "/Volumes/Kindle/documents/My Clippings.txt" ]]
+then
+  input="/Volumes/Kindle/documents/My Clippings.txt"
+
 else
   input="My Clippings.txt"
 fi
+
+echo "Preparing to parse input: $input"
+sleep 2
 
 # Move $output to a temporary read location so we can 
 #   write to this filename at the other end of our pipe
