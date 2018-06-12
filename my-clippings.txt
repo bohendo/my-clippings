@@ -6170,11 +6170,6 @@ Civil Disobedience (Thoreau, Henry David)
 Even voting for the right is doing nothing for it. It is only expressing to men feebly your desire that it should prevail. A wise man will not leave the right to the mercy of chance, nor wish it to prevail through the power of the majority. There is but little virtue in the action of masses of men.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 552-554 | Added on Wednesday, December 6, 2017 9:08:56 AM
-
-Dijkstra showed that the use of unrestrained jumps (goto statements) is harmful to program structure. As we’ll see in the chapters that follow, he replaced those jumps with the more familiar if/then/else and do/while/until constructs.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 555-556 | Added on Wednesday, December 6, 2017 9:07:57 AM
 
 Structured programming imposes discipline on direct transfer of control.
@@ -6183,11 +6178,6 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 - Your Highlight on Location 557-561 | Added on Wednesday, December 6, 2017 9:09:38 AM
 
 Ole Johan Dahl and Kristen Nygaard. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 558-561 | Added on Wednesday, December 6, 2017 9:09:27 AM
-
-two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 562-563 | Added on Wednesday, December 6, 2017 9:08:46 AM
@@ -6208,11 +6198,6 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 - Your Highlight on Location 628-629 | Added on Wednesday, December 6, 2017 9:59:57 AM
 
 In 1968, Dijkstra wrote a letter to the editor of CACM, which was published in the March issue. The title of this letter was “Go To Statement Considered Harmful.”
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 665-668 | Added on Wednesday, December 6, 2017 10:05:50 AM
-
-purposes. Of course, not all statements are provable. The statement “This is a lie” is neither true nor false. It is one of the simplest examples of a statement that is not provable. Ultimately, we can say that mathematics is the discipline of proving provable statements true. Science, in contrast, is the discipline of proving provable
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 669-670 | Added on Wednesday, December 6, 2017 10:04:59 AM
@@ -6252,7 +6237,7 @@ One of the most common compromises in regard to immutability is to segregate the
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 941-944 | Added on Thursday, December 7, 2017 10:10:24 AM
 
-Since mutating state exposes those components to all the problems of concurrency, it is common practice to use some kind of transactional memory to protect the mutable variables from concurrent updates and race conditions. Transactional memory simply treats variables in memory the same way a database treats records on disk.1 It protects those variables with a transaction- or retry-based scheme.
+Since mutating state exposes those components to all the problems of concurrency, it is common practice to use some kind of transactional memory to protect the mutable variables from concurrent updates and race conditions. Transactional memory simply treats variables in memory the same way a database treats records on disk. It protects those variables with a transaction- or retry-based scheme.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 961-963 | Added on Thursday, December 7, 2017 10:11:35 AM
@@ -6260,99 +6245,34 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 Architects would be wise to push as much processing as possible into the immutable components, and to drive as much code as possible out of those components that must allow mutation.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-976 | Added on Thursday, December 7, 2017 10:13:26 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-977 | Added on Thursday, December 7, 2017 10:13:40 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required,
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 974-978 | Added on Thursday, December 7, 2017 10:13:44 AM
 
 Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required, we need compute only the transactions since midnight.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-976 | Added on Thursday, December 7, 2017 10:13:26 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-977 | Added on Thursday, December 7, 2017 10:13:40 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required,
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-978 | Added on Thursday, December 7, 2017 10:13:44 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required, we need compute only the transactions since midnight.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-976 | Added on Thursday, December 7, 2017 10:13:26 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-977 | Added on Thursday, December 7, 2017 10:13:40 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required,
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-978 | Added on Thursday, December 7, 2017 10:13:44 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required, we need compute only the transactions since midnight.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-976 | Added on Thursday, December 7, 2017 10:13:26 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-977 | Added on Thursday, December 7, 2017 10:13:40 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required,
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 974-978 | Added on Thursday, December 7, 2017 10:13:44 AM
-
-Event sourcing is a strategy wherein we store the transactions, but not the state. When state is required, we simply apply all the transactions from the beginning of time. Of course, we can take shortcuts. For example, we can compute and save the state every midnight. Then, when the state information is required, we need compute only the transactions since midnight.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1000-1001 | Added on Friday, December 8, 2017 8:21:33 AM
-
-architecture of the building doesn’t matter much. On the other hand, you
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1020-1023 | Added on Friday, December 8, 2017 8:24:00 AM
 
-SRP: The Single Responsibility Principle An active corollary to Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1021-1023 | Added on Friday, December 8, 2017 8:23:35 AM
-
-Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
+SRP (The Single Responsibility Principle): An active corollary to Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1023-1026 | Added on Friday, December 8, 2017 8:23:56 AM
 
-OCP: The Open-Closed Principle Bertrand Meyer made this principle famous in the 1980s. The gist is that for software systems to be easy to change, they must be designed to allow the behavior of those systems to be changed by adding new code, rather than changing existing code.
+OCP (The Open-Closed Principle): Bertrand Meyer made this principle famous in the 1980s. The gist is that for software systems to be easy to change, they must be designed to allow the behavior of those systems to be changed by adding new code, rather than changing existing code.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1026-1029 | Added on Friday, December 8, 2017 8:25:11 AM
 
-LSP: The Liskov Substitution Principle Barbara Liskov’s famous definition of subtypes, from 1988. In short, this principle says that to build software systems from interchangeable parts, those parts must adhere to a contract that allows those parts to be substituted one for another.
+LSP (The Liskov Substitution Principle): Barbara Liskov’s famous definition of subtypes, from 1988. In short, this principle says that to build software systems from interchangeable parts, those parts must adhere to a contract that allows those parts to be substituted one for another.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1029-1031 | Added on Friday, December 8, 2017 8:25:20 AM
 
-ISP: The Interface Segregation Principle This principle advises software designers to avoid depending on things that they don’t use.
+ISP (The Interface Segregation Principle): This principle advises software designers to avoid depending on things that they don’t use.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1031-1034 | Added on Friday, December 8, 2017 8:25:35 AM
 
-DIP: The Dependency Inversion Principle The code that implements high-level policy should not depend on the code that implements low-level details. Rather, details should depend on policies.
+DIP (The Dependency Inversion Principle): The code that implements high-level policy should not depend on the code that implements low-level details. Rather, details should depend on policies.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1167-1168 | Added on Friday, December 8, 2017 8:44:39 AM
@@ -6370,24 +6290,14 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 The lesson here is that depending on something that carries baggage that you don’t need can cause you troubles that you didn’t expect.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1314-1315 | Added on Monday, December 11, 2017 11:04:13 AM
-
-carries baggage that you don’t need can cause you troubles that you didn’t expect.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1319-1323 | Added on Monday, December 11, 2017 11:03:37 AM
 
 The Dependency Inversion Principle (DIP) tells us that the most flexible systems are those in which source code dependencies refer only to abstractions, not to concretions. In a statically typed language, like Java, this means that the use, import, and include statements should refer only to source modules containing interfaces, abstract classes, or some other kind of abstract declaration. Nothing concrete should be depended on.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1350-1351 | Added on Tuesday, December 12, 2017 9:48:09 AM
-
-Never mention the name of anything concrete and volatile. This is really just a restatement of the principle itself.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1366-1368 | Added on Wednesday, December 13, 2017 8:30:32 AM
 
-Note that the flow of control crosses the curved line in the opposite direction of the source code dependencies. The source code dependencies are inverted against the flow of control—which is why we refer to this principle as Dependency Inversion.
+The source code dependencies are inverted against the flow of control—which is why we refer to this principle as Dependency Inversion.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1505-1507 | Added on Monday, December 18, 2017 5:41:52 AM
@@ -6397,52 +6307,7 @@ The Reuse/Release Equivalence Principle (REP) is a principle that seems obvious,
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1524-1529 | Added on Monday, December 18, 2017 5:42:35 AM
 
-THE COMMON CLOSURE PRINCIPLE Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons. This is the Single Responsibility Principle restated for components. Just as the SRP says that a class should not contain multiples reasons to change, so the Common Closure Principle (CCP) says that a component should not have multiple reasons to change.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1525-1529 | Added on Monday, December 18, 2017 5:42:30 AM
-
-Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons. This is the Single Responsibility Principle restated for components. Just as the SRP says that a class should not contain multiples reasons to change, so the Common Closure Principle (CCP) says that a component should not have multiple reasons to change.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1545 | Added on Monday, December 18, 2017 5:59:43 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1546 | Added on Monday, December 18, 2017 5:59:48 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those things that change at different times or for different reasons.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1545 | Added on Monday, December 18, 2017 5:59:43 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1546 | Added on Monday, December 18, 2017 5:59:48 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those things that change at different times or for different reasons.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1545 | Added on Monday, December 18, 2017 5:59:43 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1546 | Added on Monday, December 18, 2017 5:59:48 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those things that change at different times or for different reasons.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1545 | Added on Monday, December 18, 2017 5:59:43 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 1545-1546 | Added on Monday, December 18, 2017 5:59:48 AM
-
-Gather together those things that change at the same times and for the same reasons. Separate those things that change at different times or for different reasons.
+The Common Closure Principle: Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons. This is the Single Responsibility Principle restated for components. Just as the SRP says that a class should not contain multiples reasons to change, so the Common Closure Principle (CCP) says that a component should not have multiple reasons to change.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1572-1575 | Added on Monday, December 18, 2017 6:04:24 AM
@@ -6457,7 +6322,7 @@ Regardless of which component you begin at, it is impossible to follow the depen
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1661-1667 | Added on Monday, December 18, 2017 6:17:19 AM
 
-This cycle creates some immediate problems. For example, the developers working on the Database component know that to release it, the component must be compatible with Entities. However, with the cycle in place, the Database component must now also be compatible with Authorizer. But Authorizer depends on Interactors. This makes Database much more difficult to release. Entities, Authorizer, and Interactors have, in effect, become one large component—which means that all of the developers working on any of those components will experience the dreaded “morning after syndrome.” They will be stepping all over one another because they must all use exactly the same release of one another’s components
+A cycle creates some immediate problems. For example, the developers working on the Database component know that to release it, the component must be compatible with Entities. However, with the cycle in place, the Database component must now also be compatible with Authorizer. But Authorizer depends on Interactors. This makes Database much more difficult to release. Entities, Authorizer, and Interactors have, in effect, become one large component—which means that all of the developers working on any of those components will experience the dreaded “morning after syndrome.” They will be stepping all over one another because they must all use exactly the same release of one another’s components
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1678-1683 | Added on Monday, December 18, 2017 6:18:51 AM
@@ -6477,7 +6342,7 @@ The issues we have discussed so far lead to an inescapable conclusion: The compo
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1699-1702 | Added on Monday, December 18, 2017 6:23:18 AM
 
-component dependency diagrams have very little do to with describing the function of the application. Instead, they are a map to the buildability and maintainability of the application. This is why they aren’t designed at the beginning of the project. There is no software to build or maintain, so there is no need for a build and maintenance map.
+Component dependency diagrams have very little do to with describing the function of the application. Instead, they are a map to the buildability and maintainability of the application. This is why they aren’t designed at the beginning of the project. There is no software to build or maintain, so there is no need for a build and maintenance map.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1723-1724 | Added on Monday, December 18, 2017 11:22:20 AM
@@ -6497,12 +6362,12 @@ The Stable Abstractions Principle (SAP) sets up a relationship between stability
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1820-1822 | Added on Monday, December 18, 2017 11:21:06 AM
 
-the SDP says that dependencies should run in the direction of stability, and the SAP says that stability implies abstraction. Thus dependencies run in the direction of abstraction.
+The Stable Dependencies Principle (SDP) says that dependencies should run in the direction of stability, and the Stable Abstractions Principle (SAP) says that stability implies abstraction. Thus dependencies run in the direction of abstraction.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1848-1850 | Added on Monday, December 18, 2017 11:27:34 AM
 
-The area around (0, 0) is a zone of exclusion called the Zone of Pain. Some software entities do, in fact, fall within the Zone of Pain. An example would be a database schema. Database schemas are notoriously volatile, extremely concrete, and highly depended on.
+On a graph of increasing stability vs increasing abstraction, The area around (0, 0) is a zone of exclusion called the Zone of Pain. Some software entities do, in fact, fall within the Zone of Pain. An example would be a database schema. Database schemas are notoriously volatile, extremely concrete, and highly depended on.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 1858-1860 | Added on Monday, December 18, 2017 11:29:40 AM
@@ -6597,7 +6462,7 @@ The critical rules and critical data are inextricably bound, so they are a good 
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 2618-2621 | Added on Tuesday, May 8, 2018 7:07:58 PM
 
-This is a use case.2 A use case is a description of the way that an automated system is used. It specifies the input to be provided by the user, the output to be returned to the user, and the processing steps involved in producing that output. A use case describes application-specific business rules as opposed to the Critical Business Rules within the Entities.
+A use case is a description of the way that an automated system is used. It specifies the input to be provided by the user, the output to be returned to the user, and the processing steps involved in producing that output. A use case describes application-specific business rules as opposed to the Critical Business Rules within the Entities.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 2626-2626 | Added on Tuesday, May 8, 2018 7:08:28 PM
@@ -6632,7 +6497,7 @@ We don’t want to pass that row structure inward across a boundary. Doing so wo
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 2829-2830 | Added on Friday, May 25, 2018 10:07:47 AM
 
-The Humble Object pattern1 is a design pattern that was originally identified as a way to help unit testers to separate behaviors that are hard to test from behaviors that are easy to test.
+The Humble Object pattern is a design pattern that was originally identified as a way to help unit testers to separate behaviors that are hard to test from behaviors that are easy to test.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 2834-2836 | Added on Friday, May 25, 2018 10:08:58 AM
@@ -6648,11 +6513,6 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 - Your Highlight on Location 2836-2837 | Added on Friday, May 25, 2018 10:09:17 AM
 
 The View is the humble object that is hard to test. The code in this object is kept as simple as possible.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 2838-2839 | Added on Friday, May 25, 2018 10:09:25 AM
-
-the application and format it for presentation so that the View can simply move it to the screen.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 2838-2839 | Added on Friday, May 25, 2018 10:09:31 AM
@@ -6675,11 +6535,6 @@ Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert
 At each architectural boundary, we are likely to find the Humble Object pattern lurking somewhere nearby.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
-- Your Highlight on Location 3031-3042 | Added on Friday, May 25, 2018 5:02:52 PM
-
-You note where boundaries may be required, and then carefully watch for the first inkling of friction because those boundaries don’t exist. At that point, you weigh the costs of implementing those boundaries versus the cost of ignoring them—and you review that decision frequently. Your goal is to implement the boundaries right at the inflection point where the cost of implementing becomes less than the cost of ignoring. It takes a watchful eye. 1. It should be just as clear that we would not apply the clean architecture approach to something as trivial as this game. After all, the entire program can probably be written in 200 lines of code or less. In this case, we’re using a simple program as a proxy for a much larger system with significant architectural boundaries. 2. If you are confused by the direction of the arrows, remember that they point in the direction of source code dependencies, not in the direction of data flow. 3. In days long past, we would have called that top component the Central Transform. See Practical Guide to Structured Systems Design, 2nd ed., Meilir Page-Jones, 1988.
-==========
-Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3031-3035 | Added on Friday, May 25, 2018 5:03:00 PM
 
 You note where boundaries may be required, and then carefully watch for the first inkling of friction because those boundaries don’t exist. At that point, you weigh the costs of implementing those boundaries versus the cost of ignoring them—and you review that decision frequently. Your goal is to implement the boundaries right at the inflection point where the cost of implementing becomes less than the cost of ignoring.
@@ -6697,12 +6552,12 @@ Functional decompositions, of the kind depicted in the service diagram in Figure
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3219-3221 | Added on Friday, May 25, 2018 5:21:45 PM
 
-architectural boundaries do not fall between services. Rather, those boundaries run through the services, dividing them into components. To deal with the cross-cutting concerns that all significant systems face, services must be designed with internal component architectures that follow the Dependency Rule,
+Architectural boundaries do not fall between services. Rather, those boundaries run through the services, dividing them into components. To deal with the cross-cutting concerns that all significant systems face, services must be designed with internal component architectures that follow the Dependency Rule,
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3245-3247 | Added on Friday, May 25, 2018 5:23:30 PM
 
-you can think of the tests as the outermost circle in the architecture. Nothing within the system depends on the tests, and the tests always depend inward on the components of the system.
+You can think of the tests as the outermost circle in the architecture. Nothing within the system depends on the tests, and the tests always depend inward on the components of the system.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3264-3266 | Added on Wednesday, June 6, 2018 10:15:35 PM
@@ -6712,7 +6567,7 @@ The first rule of software design—whether for testability or for any other rea
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3268-3272 | Added on Wednesday, June 6, 2018 10:18:23 PM
 
-create a specific API that the tests can use to verify all the business rules. This API should have superpowers that allow the tests to avoid security constraints, bypass expensive resources (such as databases), and force the system into particular testable states. This API will be a superset of the suite of interactors and interface adapters that are used by the user interface. The purpose of the testing API is to decouple the tests from the application. This decoupling encompasses
+Create a specific API that the tests can use to verify all the business rules. This API should have superpowers that allow the tests to avoid security constraints, bypass expensive resources (such as databases), and force the system into particular testable states. This API will be a superset of the suite of interactors and interface adapters that are used by the user interface. The purpose of the testing API is to decouple the tests from the application.
 ==========
 Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) (Martin, Robert C.)
 - Your Highlight on Location 3278-3279 | Added on Wednesday, June 6, 2018 10:20:12 PM
