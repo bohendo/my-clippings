@@ -364,7 +364,7 @@ Ethereum Wiki
 Community
 
 The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win
-The Phoenix Project
+Phoenix Project
 Gene Kim
 
 The War of Art

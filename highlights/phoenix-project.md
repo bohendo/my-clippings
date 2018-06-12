@@ -1,16 +1,10 @@
 
 ---
-#  The Phoenix Project
+#  Phoenix Project
 ## by Gene Kim
 ---
 
- - loc 112 - As the saying goes, if your colleague tells you they’ve decided to quit, it was voluntary. But when someone else tells you they’ve decided to quit, it was mandatory.
-
- - loc 282 - Developers are even worse than networking people. Show me a developer who isn’t crashing production systems, and I’ll show you one who can’t fog a mirror. Or more likely, is on vacation.
-
  - loc 456 - Situations like this only reinforce my deep suspicion of developers: They’re often carelessly breaking things and then disappearing, leaving Operations to clean up the mess. The only thing more dangerous than a developer is a developer conspiring with Security. The two working together gives us means, motive, and opportunity.
-
- - loc 668 - at me while she was addressing me, instead looking at Steve to see how he reacts. Or the way she basically called me out-of-touch and incompetent. Everyone
 
  - loc 669 - Everyone is silent as I force myself to take a deep breath. My anger dissipates. This is all just corporate theater. I don’t like it but accept it for what it is.
 
@@ -28,31 +22,21 @@
 
  - loc 2359 - Although the crisis might be over for Chris’ guys on the upper floors, the people like us in the basement are still bailing water. Still, I think it’s important that we get our guys to drop by the party. In order to succeed, we need to create these relationships with Chris’ team. Even if it’s only for a half hour. I grit my teeth and call Wes. As Spock once said, “Only Nixon could go to China.” And I guess I’m Nixon.
 
- - loc 2417 - At last, some good news. One of the problems of prevention is that you rarely know
-
  - loc 2417 - At last, some good news. One of the problems of prevention is that you rarely know about the disasters you averted. But here we did. Nice.
 
  - loc 2451 - All the firefighting displaced all the planned work, both projects and changes. Ah… Now I see it. What can displace planned work? Unplanned work. Of course. I laugh uproariously, which earns me a look of genuine concern from Patty, who even takes a step back from me. That’s why Erik called it the most destructive type of work. It’s not really work at all, like the others. The others are what you planned on doing, allegedly because you needed to do it. Unplanned work is what prevents you from doing it. Like matter and antimatter, in the presence of unplanned work, all planned work ignites with incandescent fury, incinerating everything around it. Like Phoenix.
-
- - loc 2510 - hope as part of your curriculum, you read The Goal by Dr. Eli Goldratt.
 
  - loc 2510 - I hope as part of your curriculum, you read The Goal by Dr. Eli Goldratt.
 
  - loc 2519 - “There are five focusing steps which Goldratt describes in The Goal: Step 1 is to identify the constraint.
 
- - loc 2521 - Remember, any improvement not made at the constraint is just an illusion,
-
  - loc 2521 - “Step 2 is to exploit the constraint,” he continues. “In other words, make sure that the constraint is not allowed to waste any time. Ever.
 
  - loc 2529 - Step 3, which is to subordinate the constraint. In the Theory of Constraints, this is typically implemented by something called Drum-Buffer-Rope. In The Goal, the main character, Alex, learns about this when he discovers that Herbie, the slowest Boy Scout in the troop, actually dictates the entire group’s marching pace. Alex moved Herbie to the front of the line to prevent kids from going on too far ahead.
 
- - loc 2552 - Being able to take needless work out of the system is more important than being able to put more work into the system. To do that, you need to know what matters to the achievement of the business objectives, whether it’s projects, operations, strategy, compliance with laws and regulations, security, or whatever.”
-
  - loc 2552 - Being able to take needless work out of the system is more important than being able to put more work into the system. To do that, you need to know what matters to the achievement of the business objectives, whether it’s projects, operations, strategy, compliance with laws and regulations, security, or whatever.” He continues, “Remember, outcomes are what matter—not the process, not controls, or, for that matter, what work you complete.”
 
  - loc 3080 - “You never see the end-to-end business process, so I guarantee you that many of the controls you want to put in aren’t even necessary.”
-
- - loc 3223 - “Obviously,” he continues, “every work center is made up of four things: the machine, the man, the method, and the measures
 
  - loc 3223 - “Obviously,” he continues, “every work center is made up of four things: the machine, the man, the method, and the measures. Suppose for the machine, we select the heat treat oven. The men are the two people required to execute the predefined steps, and we obviously will need measures based on the outcomes of executing the steps in the method.”
 
@@ -70,11 +54,9 @@
 
  - loc 4450 - “In any system of work, the theoretical ideal is single-piece flow, which maximizes throughput and minimizes variance. You get there by continually reducing batch sizes. “You’re doing the exact opposite by lengthening the Phoenix release intervals and increasing the number of features in each release. You’ve even lost the ability to control variance from one release to the next.”
 
- - loc 4567 - Back in 2009, I was a board director at a technology company, where one of our engineers went to the Velocity Conference and came back raving like a madman, full of dangerous, impossible ideas. He saw a presentation given by John Allspaw and his colleague Paul Hammond that flipped the world on its head. Allspaw and Hammond ran the IT Operations and Engineering groups at Flickr. Instead of fighting like cats and dogs, they talked about how they were working together to routinely do ten deploys a day! This is in a world when most IT organizations were mostly doing quarterly or annual deployments. Imagine that. He was doing deploys at a rate one thousand times faster than the previous state of the art.
-
  - loc 4567 - Back in 2009, I was a board director at a technology company, where one of our engineers went to the Velocity Conference and came back raving like a madman, full of dangerous, impossible ideas. He saw a presentation given by John Allspaw and his colleague Paul Hammond that flipped the world on its head. Allspaw and Hammond ran the IT Operations and Engineering groups at Flickr. Instead of fighting like cats and dogs, they talked about how they were working together to routinely do ten deploys a day! This is in a world when most IT organizations were mostly doing quarterly or annual deployments. Imagine that. He was doing deploys at a rate one thousand times faster than the previous state of the art. “Let me tell you,” he continues, “we all thought that this engineer had lost his marbles. But I learned that the practices that Allspaw and Hammond espoused are the inevitable outcome of applying the Three Ways to the IT value stream.
 
- - loc 4578 - until code is in production, no value is actually being generated, because it’s merely WIP stuck in the system.
+ - loc 4578 - Until code is in production, no value is actually being generated, because it’s merely WIP stuck in the system.
 
  - loc 4582 - “So, we now know that Allspaw and Hammond weren’t so crazy after all. Jez Humble and Dave Farley independently came to the same conclusions, and then codified the practices and principles that enable multiple deployments per day in their seminal book Continuous Delivery. Eric Ries then showed us how this capability can help the business learn and win in his Lean Startup work.”
 
