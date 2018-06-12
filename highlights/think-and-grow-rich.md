@@ -4,6 +4,8 @@
 ## by Napoleon Hill
 ---
 
+ - loc 128 - all achievement, all earned riches, have their beginning in an idea! If you are ready for the secret, you already possess one half of it; therefore you will readily recognise the other half the moment it reaches your mind.
+
  - loc 209 - That is one of the tricks of opportunity. It has a sly habit of slipping in by the back door, and often comes disguised in the form of misfortune or temporary defeat. Perhaps this is why so many fail to recognise opportunity.
 
  - loc 224 - He had no money to begin with. He had but little education. He had no influence. But he did have initiative, faith and the will to win. With these intangible forces he made himself number one man with the greatest inventor who ever lived.

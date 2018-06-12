@@ -122,3 +122,81 @@
 
  - loc 2003 - What if the decisions have already been made by someone else? What if your company has made a commitment to a certain database, or a certain web server, or a certain framework? A good architect pretends that the decision has not been made, and shapes the system such that those decisions can still be deferred or changed for as long as possible. A good architect maximizes the number of decisions not made.
 
+ - loc 2095 - The most important thing a good architecture can do to support behavior is to clarify and expose that behavior so that the intent of the system is visible at the architectural level.
+
+ - loc 2114 - Conway’s law says: Any organization that designs a system will produce a design whose structure is a copy of the organization’s communication structure.
+
+ - loc 2191 - There is true duplication, in which every change to one instance necessitates the same change to every duplicate of that instance. Then there is false or accidental duplication. If two apparently duplicated sections of code evolve along different paths—if they change at different rates, and for different reasons—then they are not true duplicates.
+
+ - loc 2200 - Resist the temptation to commit the sin of knee-jerk elimination of duplication. Make sure the duplication is real.
+
+ - loc 2228 - Dealing with service boundaries where none are needed is a waste of effort, memory, and cycles. And, yes, I know that the last two are cheap—but the first is not. My preference is to push the decoupling to the point where a service could be formed.
+
+ - loc 2371 - The direction of this line is important. It shows that the Database does not matter to the BusinessRules, but the Database cannot exist without the BusinessRules. If that seems strange to you, just remember this point: The Database component contains the code that translates the calls made by the BusinessRules into the query language of the database. It is that translation code that knows about the BusinessRules.
+
+ - loc 2424 - Boundaries are drawn where there is an axis of change. The components on one side of the boundary change at different rates, and for different reasons, than the components on the other side of the boundary.
+
+ - loc 2540 - A strict definition of “level” is “the distance from the inputs and outputs.” The farther a policy is from both the inputs and the outputs of the system, the higher its level.
+
+ - loc 2587 - Strictly speaking, business rules are rules or procedures that make or save the business money. Very strictly speaking, these rules would make or save the business money, irrespective of whether they were implemented on a computer. They would make or save money even if they were executed manually.
+
+ - loc 2593 - Critical Business Rules usually require some data to work with. For example, our loan requires a loan balance, an interest rate, and a payment schedule. We shall call this data Critical Business Data.
+
+ - loc 2595 - The critical rules and critical data are inextricably bound, so they are a good candidate for an object. We’ll call this kind of object an Entity.
+
+ - loc 2618 - This is a use case.2 A use case is a description of the way that an automated system is used. It specifies the input to be provided by the user, the output to be returned to the user, and the processing steps involved in producing that output. A use case describes application-specific business rules as opposed to the Critical Business Rules within the Entities.
+
+ - loc 2626 - Use cases control the dance of the Entities.
+
+ - loc 2635 - High-level concepts, such as Entities, know nothing of lower-level concepts, such as use cases.
+
+ - loc 2739 - In general, the further in you go, the higher level the software becomes. The outer circles are mechanisms. The inner circles are policies. The overriding rule that makes this architecture work is the Dependency Rule: Source code dependencies must point only inward, toward higher-level policies. Nothing in an inner circle can know anything at all about something in an outer circle.
+
+ - loc 2761 - The software in the interface adapters layer is a set of adapters that convert data from the format most convenient for the use cases and entities, to the format most convenient for some external agency such as the database or the web.
+
+ - loc 2786 - For example, suppose the use case needs to call the presenter. This call must not be direct because that would violate the Dependency Rule: No name in an outer circle can be mentioned by an inner circle. So we have the use case call an interface (shown in Figure 22.1 as “use case output port”) in the inner circle, and have the presenter in the outer circle implement it.
+
+ - loc 2798 - We don’t want to pass that row structure inward across a boundary. Doing so would violate the Dependency Rule because it would force an inner circle to know something about an outer circle. Thus, when we pass data across a boundary, it is always in the form that is most convenient for the inner circle.
+
+ - loc 2829 - The Humble Object pattern1 is a design pattern that was originally identified as a way to help unit testers to separate behaviors that are hard to test from behaviors that are easy to test.
+
+ - loc 2834 - Using the Humble Object pattern, we can separate these two kinds of behaviors into two different classes called the Presenter and the View.
+
+ - loc 2834 - most of the behavior of a GUI is, in fact, easy to test. Using the Humble Object pattern, we can separate these two kinds of behaviors into two different classes called the Presenter and the View.
+
+ - loc 2836 - The View is the humble object that is hard to test. The code in this object is kept as simple as possible.
+
+ - loc 2838 - the application and format it for presentation so that the View can simply move it to the screen.
+
+ - loc 2838 - The Presenter is the testable object. Its job is to accept data from the application and format it for presentation so that the View can simply move it to the screen.
+
+ - loc 2860 - Recall that we do not allow SQL in the use cases layer; instead, we use gateway interfaces that have appropriate methods. Those gateways are implemented by classes in the database layer. That implementation is the humble object.
+
+ - loc 2871 - Where should such ORM systems reside? In the database layer of course. Indeed, ORMs form another kind of Humble Object boundary between the gateway interfaces and the database.
+
+ - loc 2879 - At each architectural boundary, we are likely to find the Humble Object pattern lurking somewhere nearby.
+
+ - loc 3031 - You note where boundaries may be required, and then carefully watch for the first inkling of friction because those boundaries don’t exist. At that point, you weigh the costs of implementing those boundaries versus the cost of ignoring them—and you review that decision frequently. Your goal is to implement the boundaries right at the inflection point where the cost of implementing becomes less than the cost of ignoring. It takes a watchful eye. 1. It should be just as clear that we would not apply the clean architecture approach to something as trivial as this game. After all, the entire program can probably be written in 200 lines of code or less. In this case, we’re using a simple program as a proxy for a much larger system with significant architectural boundaries. 2. If you are confused by the direction of the arrows, remember that they point in the direction of source code dependencies, not in the direction of data flow. 3. In days long past, we would have called that top component the Central Transform. See Practical Guide to Structured Systems Design, 2nd ed., Meilir Page-Jones, 1988.
+
+ - loc 3031 - You note where boundaries may be required, and then carefully watch for the first inkling of friction because those boundaries don’t exist. At that point, you weigh the costs of implementing those boundaries versus the cost of ignoring them—and you review that decision frequently. Your goal is to implement the boundaries right at the inflection point where the cost of implementing becomes less than the cost of ignoring.
+
+ - loc 3113 - The point is that Main is a dirty low-level module in the outermost circle of the clean architecture. It loads everything up for the high level system, and then hands control over to it.
+
+ - loc 3189 - Functional decompositions, of the kind depicted in the service diagram in Figure 27.1, are very vulnerable to new features that cut across all those functional behaviors.
+
+ - loc 3219 - architectural boundaries do not fall between services. Rather, those boundaries run through the services, dividing them into components. To deal with the cross-cutting concerns that all significant systems face, services must be designed with internal component architectures that follow the Dependency Rule,
+
+ - loc 3245 - you can think of the tests as the outermost circle in the architecture. Nothing within the system depends on the tests, and the tests always depend inward on the components of the system.
+
+ - loc 3264 - The first rule of software design—whether for testability or for any other reason—is always the same: Don’t depend on volatile things.
+
+ - loc 3268 - create a specific API that the tests can use to verify all the business rules. This API should have superpowers that allow the tests to avoid security constraints, bypass expensive resources (such as databases), and force the system into particular testable states. This API will be a superset of the suite of interactors and interface adapters that are used by the user interface. The purpose of the testing API is to decouple the tests from the application. This decoupling encompasses
+
+ - loc 3278 - The role of the testing API is to hide the structure of the application from the tests. This allows the production code to be refactored and evolved in ways that don’t affect the tests.
+
+ - loc 3301 - Although software does not wear out, it can be destroyed from within by unmanaged dependencies on firmware and hardware.
+
+ - loc 3318 - You non-embedded developers essentially write firmware whenever you bury SQL in your code or when you spread platform dependencies throughout your code.
+
+ - loc 3426 - The name of the boundary between the software and the firmware is the hardware abstraction layer (HAL) (Figure 29.4). This is not a new idea: It has been in PCs since the days before Windows.
+

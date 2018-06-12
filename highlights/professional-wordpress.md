@@ -84,3 +84,109 @@
 
  - loc 3131 - The query_posts() function is used to easily modify the content returned for the default WordPress Loop. Specifically, you can modify the content returned in $wp_query after the default database query has executed, fine-tune the query parameters, and re-execute the query using query_posts().
 
+ - loc 3201 - Although you may see older code using get_posts() or query_posts() constructions, WP_Query is the preferred approach and should be the heart of custom loop syntax.
+
+ - loc 3213 - The first method for resetting post data is wp_reset_data(). This function actually restores the global $post variable to the current post in the main query. This is the preferred method when using WP_Query to create custom Loops.
+
+ - loc 3252 - It’s a good practice to add wp_reset_query() after using query_posts() in your Loop to ensure you do not run into problems down the road.
+
+ - loc 3377 - You saw how the key first step in the Loop is calling the_post(). Once invoked, you will have access to all of the data in WordPress specific to the post being displayed. This data is stored in the global $post variable. The $post variable stores the post data of the last post displayed on the page. So if your Loop displays ten posts, the $post variable will store post data for the tenth post displayed.
+
+ - loc 3415 - $authordata is a global variable that stores information about the author of the post being displayed.
+
+ - loc 3419 - The $authordata variable is created when setup_postdata() is called during the_post() function call in the Loop.
+
+ - loc 3432 - The $current_user global variable stores information on the currently logged-in user.
+
+ - loc 3455 - Rather than calling this global variable directly, there’s a handy function available called wp_is_mobile(). This function detects if the user is on a mobile device.
+
+ - loc 3461 - WordPress also stores what type of web server the website is hosted on using the $is_IIS and $is_apache global variables.
+
+ - loc 3470 - Generally speaking, template tags should be used whenever they can be. There will be certain instances where a template tag will not be available. In this case, global variables can be substituted to access the information you need.
+
+ - loc 3470 - Generally speaking, template tags should be used whenever they can be. There will be certain instances where a template tag will not be available. In this case, global variables can be substituted to access the information you need. Also, global variables are great for retrieving unfiltered data, meaning the values will bypass any plugin, altering what would normally be used against the content and giving you the original value to work with.
+
+ - loc 3485 - wp_list_pages()—Displays a list of pages as links wp_list_categories()—Displays a list of categories as links wp_tag_cloud()—Displays a tag cloud from all tags get_permalink()—Returns the permalink of a post next_posts_link()—Link to display previous posts previous_posts_link()—Link to display next posts
+
+ - loc 3585 - The default installation of WordPress contains 11 database tables. WordPress prides itself on being very lightweight and the database is the foundation for this.
+
+ - loc 3608 - There is one caveat to this, which has to do with post revisions, attachments, and custom post types. Each one of these entries is saved as a new record in the wp_posts table so they each gets its own unique ID, which means your published post IDs may not be sequential.
+
+ - loc 3636 - To retrieve all of your website content, you’ll be accessing the wp_posts table. This table stores all of your posts, pages, attachments, revisions, and more. Attachment records are stored in this table, but the actual attachments are not. They are physically stored on your hosting server as a standard file.
+
+ - loc 3637 - Attachment records are stored in this table, but the actual attachments are not. They are physically stored on your hosting server as a standard file.
+
+ - loc 3654 - One very important field is the post_status field. Currently, eight different post statuses are defined in WordPress: publish—A published post or page. inherit—A post revision. pending—Post that is pending review by an administrator or editor. private—A private post. future—A post scheduled to publish at a future date and time. draft—A post still being created that has not been published. auto-draft—A post revision that WordPress saves automatically while you are editing. trash—Content is in the trash bin and can still be recovered.
+
+ - loc 3684 - The comment_author field stores the name of the commenter. If the comment is a pingback or trackback, it will contain the name of the post that sent the ping.
+
+ - loc 3709 - To find all of the posts in the “scary stories” category, WordPress first finds the identifier for this term and taxonomy pair, selects the appropriate rows from the wp_term_relationships table, and then does a JOIN on the wp_posts and the selected rows from the relationships table: That last JOIN is SQL-ese for “extract all of the posts with identifiers in this list”
+
+ - loc 3724 - WordPress features an object class with method functions for working with the database directly. This database class is called wpdb and is located in wp-includes/wp-db.php. Any time you are querying the WordPress database in PHP code, you should use the wpdb class. The main reason for using this class is to allow WordPress to execute your queries in the safest way possible.
+
+ - loc 3733 - One of the most important functions in the wpdb class is the prepare() function. This function is used for escaping variables passed to your SQL queries. This is a critical step in preventing SQL injection attacks on your website.
+
+ - loc 3740 - $wpdb->prepare( $query, $value1 ); The $query parameter is the database query you want to run. The $value1 parameter is the first value you want to replace in the query.
+
+ - loc 3771 - Although the query() function allows you to execute any SQL query on the WordPress database, other database object class functions are more appropriate for SELECT queries. For instance, the get_var() function is used for retrieving a single variable from the database:
+
+ - loc 3778 - Although only one scalar variable is returned, the entire result set of the query is cached.
+
+ - loc 3784 - To retrieve an entire table row, you’ll want to use the get_row() function.
+
+ - loc 3807 - The WordPress database class also features specific functions for UPDATE, INSERT, and DELETE statements. These three functions eliminate the need for custom SQL queries because WordPress will create them for you based on the values passed into the function.
+
+ - loc 3827 - The update() function works very similarly to the insert() function, except you also need to set the $where clause and $where_format variables so WordPress knows which records to update and how to format: $wpdb->update( $table,
+
+ - loc 3827 - The update() function works very similarly to the insert() function, except you also need to set the $where clause and $where_format variables so WordPress knows which records to update and how to format: $wpdb->update( $table, $data, $where, $format, $where_format );
+
+ - loc 3872 - The show_errors() function must be called directly before you execute a query. The print_error() function must be called directly after you execute a query. If there are any errors in your SQL statement, the error messages are displayed. You can also call the $wpdb->hide_errors() function to hide all MySQL errors, or call the $wpdb->flush() function to delete the cached query results.
+
+ - loc 3884 - Another very powerful database variable is the $queries variable. This stores all of the queries run by WordPress. To enable this variable, you must first set the constant value SAVEQUERIES to true in your wp-config.php file.
+
+ - loc 3895 - Remember to disable the SAVEQUERIES constant option when you are finished viewing
+
+ - loc 3895 - Remember to disable the SAVEQUERIES constant option when you are finished viewing queries because storing all queries can also slow down load times.
+
+ - loc 3945 - If you ever need to change your website’s domain, you can run a query to update these two values like so: UPDATE wp_optionsSET option_value = 'http://yournewdomain.com'WHERE option_name IN ('siteurl','home') Once this query runs, your website will instantly run under the new domain. Remember that this only updates the website’s domain in WordPress. Attachment URLs in posts and pages will also need to be updated to point to the new domain.
+
+ - loc 4030 - WordPress has five predefined post types in a default installation: Post—Posts or articles generally ordered by date Page—Hierarchical static pages of content Attachment—Media uploaded to WordPress and attached to post type entries, such as images and files Revision—A revision of a post type used as backup and can be restored if needed Nav Menus—Menu items added to a nav menu using WordPress’s menu management feature
+
+ - loc 4046 - Remember that custom post types can be absolutely anything, not just public-facing pieces of content. For example, you can set up a custom post type as an error log to track errors in your application.
+
+ - loc 4079 - You should always use the init action hook when registering your custom post types.
+
+ - loc 4384 - Taxonomy can be hierarchical (that is, categories and subcategories), but it is not required. Tags are a perfect example of a taxonomy without a hierarchy.
+
+ - loc 4386 - By default, WordPress comes loaded with two taxonomies: Category—A bucket for grouping similar posts together Tag—A label attached to a post
+
+ - loc 4835 - You’ll want to utilize some important functions when creating plugins. The first of these is called the register_activation_hook() function. This function is executed when your plugin is activated in the WordPress Plugins screen.
+
+ - loc 4835 - You’ll want to utilize some important functions when creating plugins. The first of these is called the register_activation_hook() function. This function is executed when your plugin is activated in the WordPress Plugins screen. The function accepts two parameters: the path to the main plugin file and the function to execute when the plugin is activated.
+
+ - loc 4947 - You can see that you pass the __FILE__ PHP constant to the plugin_dir_path() function. This returns the full local server path to your plugin directory:
+
+ - loc 4959 - To determine the full URL to any file in your plugin directory, you’ll use the plugins_url() function
+
+ - loc 5025 - Verifying that the nonce is valid is as simple as calling the wp_verify_nonce() function and passing it your unique nonce action and name that you defined earlier. If the nonce secret key does not match the secret key created on your form, WordPress will stop processing the page and issue an error message. This primarily protects it from cross-site request forgery, or CSRF.
+
+ - loc 5134 - Any time you need to allow users to input HTML code, you should always use the wp_kses() function to verify that only acceptable HTML tags and attributes are allowed.
+
+ - loc 5153 - Two types of hooks can be used: actions and filters. Action hooks are triggered by events in WordPress. For example, an Action hook is triggered when a new post is published. Filter hooks are used to modify WordPress content before saving it to the database or displaying it to the screen. For example, a Filter hook is available for the content of the post or page. This means you can alter that content after it is retrieved from the database but before it is displayed in your browser.
+
+ - loc 5303 - Two functions are available for creating options: add_option() and update_option().
+
+ - loc 5308 - The first parameter you send to the add_option() function is the name of your option. This is a required field and must be unique from all other options saved in WordPress, including from other plugins.
+
+ - loc 5316 - Generally, the update_option() function is used for both adding and updating options in plugins.
+
+ - loc 5322 - The only required field for get_option() is the name of the option you want to retrieve.
+
+ - loc 5322 - The only required field for get_option() is the name of the option you want to retrieve. If the option exists, it is returned to display or it is stored in a variable. If the option doesn’t exist, the function returns FALSE.
+
+ - loc 5589 - need to register one setting called prowp_setting_values. The first parameter you pass is the option group. In this example, you are saving your options in the reading group with the rest of the reading options.
+
+ - loc 5590 - The first parameter you pass is the option group. In this example, you are saving your options in the reading group with the rest of the reading options.
+
+ - loc 5824 - The first step in creating your own widget is to use the appropriate hook to initialize your widget. This hook is called widgets_init and is triggered right after the default WordPress widgets have been registered:
+

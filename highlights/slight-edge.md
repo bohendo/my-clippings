@@ -38,3 +38,9 @@
 
  - loc 1078 - The difference between success and failure is not dramatic. In fact, the difference between success and failure is so subtle, so mundane, that most people miss it.
 
+ - loc 1219 - There’s a reason movies and television condense those lengthy transformations, the kind that take months or years in real life, into thirty-second montages set to great music. And it’s not just that they don’t have enough time to show how those things really unfold in real life. Even if they did have enough time, they still wouldn’t do it. Because it’s boring. The slight edge is boring. There, I said it.
+
+ - loc 1225 - Grasping the slight edge would be a whole lot simpler matter if making the right choices were a big deal. If it were a dramatic, huge, difficult thing. Why? Because then it would be obvious. You wouldn’t need this book. The challenge is that making the right choices is not dramatic. As we saw last chapter, it’s a mundane choice, and that doesn’t feel very heroic.
+
+ - loc 1233 - If making the right slight edge choices were a dramatic thing, you’d get immediate feedback. An entire movie theater audience applauding, cheering, or screaming. But that doesn’t happen. And that’s the big challenge of it: no immediate feedback.
+
