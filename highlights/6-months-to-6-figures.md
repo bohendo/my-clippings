@@ -6,6 +6,8 @@
 
  - loc 166 - My 15-year-old mind was confused. I just made a $91 dollar profit on eBay, and it took me only 15 minutes and no physical labor. My friend worked his butt off for 8 hours and made only $63? “I am never getting a normal job,” I thought to myself. Here’s what I realized years later, and it must be understood by you now. I didn’t get paid for just posting on eBay.  I got paid for the courage to think differently and take a risk.
 
+ - loc 166 - My 15-year-old mind was confused. I just made a $91 dollar profit on eBay, and it took me only 15 minutes and no physical labor. My friend worked his butt off for 8 hours and made only $63? “I am never getting a normal job,” I thought to myself. Here’s what I realized years later, and it must be understood by you now. I didn’t get paid for just posting on eBay. I got paid for the courage to think differently and take a risk.
+
  - loc 192 - Reading the book Rich Dad Poor Dad by Robert Kiyosaki gave me a whole new perspective on life and business.
 
  - loc 255 - You often hear people say “I have 20 years of experience, I should get paid more,” but in actuality, that person has 1 year of experience repeated 20 times.
