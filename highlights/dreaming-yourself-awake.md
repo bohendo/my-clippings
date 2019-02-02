@@ -4,6 +4,16 @@
 ## by Alan Wallace
 ---
 
+ - loc 124 - saw immediately that our work was complementary. Beginning
+
+ - loc 124 - saw immediately that our work was complementary. Beginning in the late 1990s I began collaborating with Stephen in ten-day public workshops that included training of the attention and dream practice. DREAM YOGA Historically, Tibetan Buddhists seem to have explored the yoga of dreaming and sleep more deeply than other contemplative traditions. Dream yoga is part of a spiritual tradition whose goal is the complete awakening called “enlightenment.” An experience beyond our normal, rational way of understanding, full enlightenment is said to include knowledge of all reality in both breadth and depth. And it is
+
+ - loc 124 - saw immediately that our work was complementary. Beginning in the late 1990s I began collaborating with Stephen in ten-day public workshops that included training of the attention and dream practice. DREAM YOGA Historically, Tibetan Buddhists seem to have explored the yoga of dreaming and sleep more deeply than other contemplative traditions. Dream yoga is part of a spiritual tradition whose goal is the complete awakening called “enlightenment.” An experience beyond our normal, rational way of understanding, full enlightenment is said to include
+
+ - loc 124 - attention. When Stephen and I talked about our research, we both saw immediately that our work was complementary. Beginning in the late 1990s I began collaborating with Stephen in ten-day public workshops that included training of the attention and dream practice. DREAM YOGA Historically, Tibetan Buddhists seem to have explored the yoga of dreaming and sleep more deeply than other contemplative traditions. Dream yoga is part of a spiritual tradition whose goal is the complete awakening called “enlightenment.” An experience beyond our normal, rational way of understanding, full enlightenment is said to include
+
+ - loc 125 - Beginning in the late 1990s I began collaborating with Stephen in ten-day public workshops that included training of the attention and dream practice. DREAM YOGA Historically, Tibetan Buddhists seem to have explored the yoga of dreaming and sleep more
+
  - loc 190 - Stability of attention is a crucial step to freedom—the freedom to transcend normal dream consciousness and recognize we are dreaming,
 
  - loc 193 - Although in shamatha we are developing concentration, it is achieved not by force but through deep relaxation.
@@ -20,7 +30,21 @@
 
  - loc 297 - Keep the length of your practice session to twenty-four minutes (called, in Sanskrit, a ghatika, which was considered the ideal length for beginning meditation training in ancient India).
 
+ - loc 297 - practice session to twenty-four minutes (called, in Sanskrit, a ghatika,
+
+ - loc 297 - minutes (called, in Sanskrit, a ghatika,
+
+ - loc 297 - ghatika,
+
+ - loc 297 - Keep the length of your practice
+
  - loc 307 - The basic technique of shamatha involves the interaction of two mental faculties: mindfulness and introspection. Mindfulness can be defined as continuous attention to a chosen object, which requires that one remember what the task is and not become distracted by other phenomena. Introspection (as the eighth-century Indian Buddhist adept Shantideva defined it) is “the repeated examination of the state of one’s body and mind.”6 Therefore introspection allows for a kind of quality control, recognizing when one’s attention strays and alerting mindfulness to reassert itself.
+
+ - loc 314 - in dreamless sleep is very restorative
+
+ - loc 320 - tactile sensations associated with the breath and also the sensations
+
+ - loc 320 - attention is allowed to be diffuse, scanning
 
  - loc 322 - At bedtime, try this practice in the supine position for a short time—five, ten, twenty minutes, or more if you like—before you go into your normal sleeping position. On the initial exhalations release first all muscular tension in the body, and once you are thoroughly relaxed physically, also release all thoughts that appear—slowly breathing out . . . out . . . out . . .—and then allow the inhalation to flow in of its own accord.
 

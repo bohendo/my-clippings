@@ -390,3 +390,31 @@ Napoleon Hill
 The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition
 The Mythical Man-Month
 Frederick & Brooks
+
+Atomic Habits
+Atomic Habits
+James Clear
+
+Harry Potter and the Methods of Rationality
+HP and the Methods of Rationality
+Eliezer Yudkowsky and Stavros Korokithakis
+
+Liar's Poker (Norton Paperback)
+Liars Poker
+Michael Lewis
+
+Lights Out: Sleep, Sugar, and Survival
+Lights Out
+T.S. Wiley
+
+Principles: Life and Work
+Principles
+Ray Dalio
+
+The Elephant in the Brain: Hidden Motives in Everyday Life
+Elephant in the Brain
+Kevin Simler
+
+The Kubernetes Book: Version 2.2 - January 2018
+Kubernetes Book
+Nigel Poulton

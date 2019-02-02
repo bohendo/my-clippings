@@ -18,3 +18,7 @@
 
  - loc 533 - Absolutely vital to Mills's concept is the transformation of programming "from private art to public practice" by making all the computer runs visible to all team members and identifying all programs and data as team property, not private property.
 
+ - loc 697 - The opportunity to be creative and inventive in implementation is not significantly diminished by working within a given external specification, and the order of creativity may even be enhanced by that discipline.
+
+ - loc 751 - The general tendency is to over-design the second system, using all the ideas and frills that were cautiously sidetracked on the first one.
+

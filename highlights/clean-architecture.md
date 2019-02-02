@@ -62,6 +62,8 @@
 
  - loc 1546 - The Common Reuse Principle (CRP): Don’t force users of a component to depend on things they don’t need.
 
+ - loc 1546 - THE COMMON REUSE PRINCIPLE Don’t force users of a component to depend on things they don’t need.
+
  - loc 1551 - Classes are seldom reused in isolation. More typically, reusable classes collaborate with other classes that are part of the reusable abstraction. The CRP states that these classes belong together in the same component. In such a component we would expect to see classes that have lots of dependencies on each other.
 
  - loc 1565 - The CRP says that classes that are not tightly bound to each other should not be in the same component.
