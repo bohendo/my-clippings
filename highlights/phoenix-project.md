@@ -1,8 +1,7 @@
 
----
 #  Phoenix Project
+
 ## by Gene Kim
----
 
  - loc 112 - As the saying goes, if your colleague tells you they’ve decided to quit, it was voluntary. But when someone else tells you they’ve decided to quit, it was mandatory.
 

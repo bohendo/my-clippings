@@ -179,10 +179,8 @@ while ($_ = <$ifd>) {
       open($ofd, "> $ofile") or die "Error: couldn't open $ofile. $!\n";
 
       # Add the title & author to the file header
-      print $ofd "\n---";
-      print $ofd "\n#  $title";
-      print $ofd "\n## by $author";
-      print $ofd "\n---\n\n";
+      print $ofd "\n#  $title\n";
+      print $ofd "\n## by $author\n\n";
 
       # Add this file's first piece of content
       print $ofd " - loc $loc - $content\n\n";
