@@ -3,8 +3,6 @@
 
 ## by Jed McKenna
 
- - loc 59 - Herman Melville’s Moby-Dick is not a book about whaling or madness or revenge, it’s a book about one
-
  - loc 59 - Herman Melville’s Moby-Dick is not a book about whaling or madness or revenge, it’s a book about one thing and one thing only: Man’s pursuit of truth; truth at any price.
 
  - loc 240 - You’ve heard the Chinese saying that’s both a blessing and a curse; May you live in interesting times. If you look at it, you’ll see that we don’t live in interesting times, but we could. That’s what your terror scenario is really about, isn’t it? The times becoming interesting? We’d have perfect seats for one of the greatest spectacles in the history of the world; the meltdown of an advanced technological civilization.
