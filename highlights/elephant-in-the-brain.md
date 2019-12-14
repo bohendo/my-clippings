@@ -10,3 +10,5 @@
 
  - loc 295 - Human social behavior is complex and often nearly inscrutable, but this book provides a framework for helping readers make sense of it, especially the parts that are otherwise counterintuitive. Why do people laugh? Who’s the most important person in the room (and how can I tell)? Why are artists sexy? Why do so many people brag about travel? Does anyone really, truly believe in creationism? If we listen to what people say about themselves, we’ll often be led astray, because people strategically misconstrue their motives. It’s only by cross-examining these motives, using data about how people behave, that we’re able to learn what’s really driving human behavior
 
+ - loc 457 - Knowledge suppression is useful only when two conditions are met: (1) when others have partial visibility into your mind; and (2) when they’re judging you, and meting out rewards or punishments, based on what they “see” in your mind.
+

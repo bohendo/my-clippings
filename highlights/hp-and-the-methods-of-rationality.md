@@ -22,3 +22,5 @@
 
  - loc 18833 - Even if it’s sad, I think that’s part of the environment that creates what Dumbledore calls a hero - people who don’t have anyone else to shove final responsibility onto, and that’s why they form the mental habit of tracking everything themselves.”*
 
+ - loc 26054 - What is deadlier than hate, and flows without limit? “Indifference,” Harry whispered aloud, the secret of a spell he would never be able to cast;
+

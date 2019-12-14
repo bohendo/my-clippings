@@ -20,6 +20,8 @@
 
  - loc 680 - the Matthew Principle (Matthew 25:29), derived from what might be the harshest statement ever attributed to Christ: “to those who have everything, more will be given; from those who have nothing, everything will be taken.” You truly know you are the Son of God when your dicta apply even to crustaceans.
 
+ - loc 680 - the Matthew Principle (Matthew 25:29), derived from what might be the harshest statement ever attributed to Christ: “to those who have everything, more will be given; from those who have nothing, everything will be taken.”
+
  - loc 737 - yin and yang are more accurately understood as chaos and order.
 
  - loc 756 - Leaves change more quickly than trees, and trees more quickly than forests. Weather changes faster than climate. If it wasn’t this way, then the conservatism of evolution would not work, as the basic morphology of arms and hands would have to change as fast as the length of arm bones and the function of fingers. It’s chaos, within order, within chaos, within higher order. The order that is most real is the order that is most unchanging—and that is not necessarily the order that is most easily seen.
@@ -28,7 +30,11 @@
 
  - loc 808 - Even money itself may prove of little use. You won’t know how to use it, because it is difficult to use money properly, particularly if you are unfamiliar with it. Money will make you liable to the dangerous temptations of drugs and alcohol, which are much more rewarding if you have been deprived of pleasure for a long period. Money will also make you a target for predators and psychopaths, who thrive on exploiting those who exist on the lower rungs of society.
 
+ - loc 808 - Even money itself may prove of little use. You won’t know how to use it, because it is difficult to use money properly, particularly if you are unfamiliar with it. Money will make you liable to the dangerous temptations of drugs and alcohol, which are much more rewarding if you have been deprived of pleasure for a long period.
+
  - loc 842 - I always ask my clinical clients first about sleep. Do they wake up in the morning at approximately the time the typical person wakes up, and at the same time every day? If the answer is no, fixing that is the first thing I recommend. It doesn’t matter so much if they go to bed at the same time each evening, but waking up at a consistent hour is a necessity. Anxiety and depression cannot be easily treated if the sufferer has unpredictable daily routines. The systems that mediate negative emotion are tightly tied to the properly cyclical circadian rhythms.
+
+ - loc 842 - always ask my clinical clients first about sleep. Do they wake up in the morning at approximately the time the typical person wakes up, and at the same time every day? If the answer is no, fixing that is the first thing I recommend. It doesn’t matter so much if they go to bed at the same time each evening, but waking up at a consistent hour is a necessity. Anxiety and depression cannot be easily treated if the sufferer has unpredictable daily routines. The systems that mediate negative emotion are tightly tied to the properly cyclical circadian rhythms.
 
  - loc 874 - So now he has learned to drink to cure his hangover. When the medication causes the disease, a positive feedback loop has been established. Alcoholism can quickly emerge under such conditions.
 
@@ -44,6 +50,8 @@
 
  - loc 1007 - It means casting dead, rigid and too tyrannical order back into the chaos in which it was generated; it means withstanding the ensuing uncertainty, and establishing, in consequence, a better, more meaningful and more productive order.
 
+ - loc 1007 - It means casting dead, rigid and too tyrannical order back into the chaos in which it was generated; it means withstanding the ensuing uncertainty, and establishing, in consequence, a better, more meaningful and more productive order. So, attend carefully to your posture. Quit drooping and hunching around. Speak your mind. Put your desires forward, as if you had a right to them—at least the same right as others. Walk tall and gaze forthrightly ahead. Dare to be dangerous. Encourage the serotonin to flow plentifully through the neural pathways desperate for its calming influence.
+
  - loc 1092 - Pain matters, more than matter matters. It is for this reason, I believe, that so many of the world’s traditions regard the suffering attendant upon existence as the irreducible truth of Being. In any case, that which we subjectively experience can be likened much more to a novel or a movie than to a scientific description of physical reality.
 
  - loc 1099 - the world of experience has primal constituents, as well. These are the necessary elements whose interactions define drama and fiction. One of these is chaos. Another is order. The third (as there are three) is the process that mediates between the two, which appears identical to what modern people call consciousness.
@@ -53,6 +61,10 @@
  - loc 1110 - Chaos is also the formless potential from which the God of Genesis 1 called forth order using language at the beginning of time. It’s the same potential from which we, made in that Image, call forth the novel and ever-changing moments of our lives. And Chaos is freedom, dreadful freedom, too.
 
  - loc 1161 - We see what things mean just as fast or faster than we see what they are. Perception of things as entities with personality also occurs before perception of things as things. This is particularly true of the action of others, living others, but we also see the non-living “objective world” as animated, with purpose and intent. This is because of the operation of what psychologists have called “the hyperactive agency detector” within us. We evolved, over millennia, within intensely social circumstances.
+
+ - loc 1161 - We see what things mean just as fast or faster than we see what they are.33 Perception of things as entities with personality also occurs before perception of things as things.
+
+ - loc 1161 - We see what things mean just as fast or faster than we see what they are.33 Perception of things as entities with personality also occurs before perception of things as things. This is particularly true of the action of others,34 living others, but we also see the non-living “objective world” as animated, with purpose and intent. This is because of the operation of what psychologists have called “the hyperactive agency detector” within us.35 We evolved, over millennia, within intensely social circumstances.
 
  - loc 1168 - The personalities we have evolved to perceive have been around, in predictable form, and in typical, hierarchical configurations, forever, for all intents and purposes. They have been male or female, for example, for a billion years
 
@@ -80,7 +92,11 @@
 
  - loc 1449 - Only man could conceive of the rack, the iron maiden and the thumbscrew. Only man will inflict suffering for the sake of suffering. That is the best definition of evil I have been able to formulate.
 
+ - loc 1450 - thumbscrew. Only man will inflict suffering for the sake of suffering. That is the best definition of evil I have been able to formulate.
+
  - loc 1466 - Perhaps Man is something that should never have been. Perhaps the world should even be cleansed of all human presence, so that Being and consciousness could return to the innocent brutality of the animal.
+
+ - loc 1466 - Perhaps the world should even be cleansed of all human presence, so that Being and consciousness could return to the innocent brutality of the animal.
 
  - loc 1489 - The entire Bible is structured so that everything after the Fall—the history of Israel, the prophets, the coming of Christ—is presented as a remedy for that Fall, a way out of evil. The beginning of conscious history, the rise of the state and all its pathologies of pride and rigidity, the emergence of great moral figures who try to set things right, culminating in the Messiah Himself—that is all part of humanity’s attempt, God willing, to set itself right. And what would that mean? And this is an amazing thing: the answer is already implicit in Genesis 1: to embody the Image of God—to speak out of chaos the Being that is Good—but to do so consciously, of our own free choice.
 
@@ -88,11 +104,17 @@
 
  - loc 1541 - There is little difference between standing up and speaking for yourself, when you are being bullied or otherwise tormented and enslaved, and standing up and speaking for someone else. As Jung points out, this means embracing and loving the sinner who is yourself, as much as forgiving and aiding someone else who is stumbling and imperfect.
 
+ - loc 1541 - there is little difference between standing up and speaking for yourself, when you are being bullied or otherwise tormented and enslaved, and standing up and speaking for someone else. As Jung points out, this means embracing and loving the sinner who is yourself, as much as forgiving and aiding someone else who is stumbling and imperfect.
+
  - loc 1596 - You must discipline yourself carefully. You must keep the promises you make to yourself, and reward yourself, so that you can trust and motivate yourself. You need to determine how to act toward yourself so that you are most likely to become and to stay a good person. It would be good to make the world a better place. Heaven, after all, will not arrive of its own accord. We will have to work to bring it about, and strengthen ourselves, so that we can withstand the deadly angels and flaming sword of judgment that God used to bar its entrance.
 
  - loc 1602 - As the great nineteenth-century German philosopher Friedrich Nietzsche so brilliantly noted, “He whose life has a why can bear almost any how.” You could help direct the world, on its careening trajectory, a bit more toward Heaven and a bit more away from Hell. Once having understood Hell, researched it, so to speak—particularly your own individual Hell—you could decide against going there or creating that. You could aim elsewhere. You could, in fact, devote your life to this. That would give you a Meaning, with a capital M. That would justify your miserable existence. That would atone for your sinful nature, and replace your shame and self-consciousness with the natural pride and forthright confidence of someone who has learned once again to walk with God in the Garden. You could begin by treating yourself as if you were someone you were responsible for helping.
 
+ - loc 1602 - As the great nineteenth-century German philosopher Friedrich Nietzsche so brilliantly noted, “He whose life has a why can bear almost any how.”61 You could help direct the world, on its careening trajectory, a bit more toward Heaven and a bit more away from Hell. Once having understood Hell, researched it, so to speak—particularly your own individual Hell—you could decide against going there or creating that. You could aim elsewhere. You could, in fact, devote your life to this. That would give you a Meaning, with a capital M. That would justify your miserable existence. That would atone for your sinful nature, and replace your shame and self-consciousness with the natural pride and forthright confidence of someone who has learned once again to walk with God in the Garden. You could begin by treating yourself as if you were someone you were responsible for helping.
+
  - loc 1831 - Maybe you are saving someone because you’re a strong, generous, well-put-together person who wants to do the right thing. But it’s also possible—and, perhaps, more likely—that you just want to draw attention to your inexhaustible reserves of compassion and good-will. Or maybe you’re saving someone because you want to convince yourself that the strength of your character is more than just a side effect of your luck and birthplace. Or maybe it’s because it’s easier to look virtuous when standing alongside someone utterly irresponsible. Assume first that you are doing the easiest thing, and not the most difficult.
+
+ - loc 1833 - maybe you’re saving someone because you want to convince yourself that the strength of your character is more than just a side effect of your luck and birthplace. Or maybe it’s because it’s easier to look virtuous when standing alongside someone utterly irresponsible. Assume first that you are doing the easiest thing, and not the most difficult.
 
  - loc 1899 - every good example is a fateful challenge, and every hero, a judge. Michelangelo’s great perfect marble David cries out to its observer: “You could be more than you are.” When you dare aspire upward, you reveal the inadequacy of the present and the promise of the future. Then you disturb others, in the depths of their souls, where they understand that their cynicism and immobility are unjustifiable. You play Abel to their Cain. You remind them that they ceased caring not because of life’s horrors, which are undeniable, but because they do not want to lift the world up on to their shoulders, where it belongs.
 
@@ -108,13 +130,19 @@
 
  - loc 2386 - The desire of his parents to let their child act without correction on every impulse perversely produced precisely the opposite effect: they deprived him instead of every opportunity to engage in independent action. Because they did not dare to teach him what “No” means, he had no conception of the reasonable limits enabling maximal toddler autonomy.
 
+ - loc 2386 - The desire of his parents to let their child act without correction on every impulse perversely produced precisely the opposite effect: they deprived him instead of every opportunity to engage in independent action. Because they did not dare to teach him what “No” means, he had no conception
+
  - loc 2547 - Children are damaged when those charged with their care, afraid of any conflict or upset, no longer dare to correct them, and leave them without guidance. I can recognize such children on the street. They are doughy and unfocused and vague. They are leaden and dull instead of golden and bright. They are uncarved blocks, trapped in a perpetual state of waiting-to-be.
+
+ - loc 2547 - them, instead, in an unconscious and undifferentiated state. Children are damaged when those charged with their care, afraid of any conflict or upset, no longer dare to correct them, and leave them without guidance. I can recognize such children on the street. They are doughy and unfocused and vague. They are leaden and dull instead of golden and bright. They are uncarved blocks, trapped in a perpetual state of waiting-to-be.
 
  - loc 2573 - It is difficult to formulate just and compassionate strategies of discipline, and to negotiate their application with others deeply involved in a child’s care. Because of this combination of responsibility and difficulty, any suggestion that all constraints placed on children are damaging can be perversely welcome. Such a notion, once accepted, allows adults who should know better to abandon their duty to serve as agents of enculturation and pretend that doing so is good for children.
 
  - loc 2611 - Infants are like blind people, searching for a wall. They have to push forward, and test, to see where the actual boundaries lie (and those are too-seldom where they are said to be). Consistent correction of such action indicates the limits of acceptable aggression to the child. Its absence merely heightens curiosity—so the child will hit and bite and kick, if he is aggressive and dominant, until something indicates a limit.
 
  - loc 2624 - He was frustrating his mother, and she was taking it out on me. The trajectory wasn’t good. After a few days of this degeneration, I decided to take the spoon back. I prepared for war. I set aside sufficient time. A patient adult can defeat a two-year-old, hard as that is to believe. As the saying goes: “Old age and treachery can always overcome youth and skill.” This is partly because time lasts forever, when you’re two. Half an hour for me was a week for my son. I assured myself of victory. He was stubborn and horrible. But I could be worse. We sat down, face to face, bowl in front of him. It was High Noon. He knew it, and I knew it.
+
+ - loc 2624 - He was frustrating his mother, and she was taking it out on me. The trajectory wasn’t good. After a few days of this degeneration,
 
  - loc 2633 - Ten or so pokes later, he opened his mouth, planning to emit a sound of outrage. Hah! His mistake. I deftly inserted the spoon. He tried, gamely, to force out the offending food with his tongue. But I know how to deal with that, too. I just placed my forefinger horizontally across his lips. Some came out. But some was swallowed, too. Score one for Dad. I gave him a pat on the head, and told him that he was a good boy. And I meant it. When someone does something you are trying to get them to do, reward them. No grudge after victory.
 
@@ -150,6 +178,8 @@
 
  - loc 3218 - Adam’s waking to the fundamental constraints of his Being—his vulnerability, his eventual death—is equivalent to his discovery of the future. The future: that’s where you go to die
 
+ - loc 3247 - every move and writing it down for further reference in a big book. Here’s a productive symbolic idea: the future is a judgmental father.
+
  - loc 3248 - Here’s a productive symbolic idea: the future is a judgmental father.
 
  - loc 3462 - In that manner, a truly vicious circle takes hold: begrudging sacrifice, half-heartedly undertaken; rejection of that sacrifice by God or by reality (take your pick); angry resentment, generated by that rejection; descent into bitterness and the desire for revenge; sacrifice undertaken even more begrudgingly, or refused altogether. And it’s Hell itself that serves as the destination place of that downward spiral.
@@ -161,6 +191,8 @@
  - loc 3518 - Christ is forever He who determines to take personal responsibility for the full depth of human depravity.
 
  - loc 3583 - Everywhere I could see great stratified multi-storied pyramids of glass, some small, some large, some overlapping, some separate—all akin to modern skyscrapers; all full of people striving to reach each pyramid’s very pinnacle. But there was something above that pinnacle, a domain outside each pyramid, in which all were nested. That was the privileged position of the eye that could or perhaps chose to soar freely above the fray; that chose not to dominate any specific group or cause but instead to somehow simultaneously transcend all. That was attention, itself, pure and untrammeled: detached, alert, watchful attention, waiting to act when the time was right and the place had been established.
+
+ - loc 3583 - Everywhere I could see great stratified multi-storied pyramids of glass, some small, some large, some overlapping, some separate—all akin to modern skyscrapers; all full of people striving to reach each pyramid’s very pinnacle. But there was something above that pinnacle, a domain outside each pyramid, in which all were nested. That was the privileged position of the eye that could or perhaps chose to soar freely above the fray; that chose not to dominate any specific group or cause but instead to somehow simultaneously transcend all. That was attention, itself, pure and untrammeled: detached, alert, watchful attention, waiting to act
 
  - loc 3592 - To obtain the greatest possible prize—the establishment of the Kingdom of God on Earth, the resurrection of Paradise—the individual must conduct his or her life in a manner that requires the rejection of immediate gratification, of natural and perverse desires alike, no matter how powerfully and convincingly and realistically those are offered, and dispense, as well with the temptations of evil.
 
@@ -176,7 +208,11 @@
 
  - loc 3741 - It was in the aftermath of God’s death that the great collective horrors of Communism and Fascism sprang forth (as both Dostoevsky and Nietzsche predicted they would). Nietzsche, for his part, posited that individual human beings would have to invent their own values in the aftermath of God’s death. But this is the element of his thinking that appears weakest, psychologically: we cannot invent our own values, because we cannot merely impose what we believe on our souls.
 
+ - loc 3741 - It was in the aftermath of God’s death that the great collective horrors of Communism and Fascism sprang forth (as both Dostoevsky and Nietzsche predicted they would). Nietzsche, for his part, posited that individual human beings would have to invent their own values in the aftermath of God’s death.
+
  - loc 3746 - We rebel against our own totalitarianism, as much as that of others. I cannot merely order myself to action, and neither can you. “I will stop procrastinating,” I say, but I don’t.
+
+ - loc 3817 - of those trials? There are some actions that are so intrinsically
 
  - loc 3840 - To place the alleviation of unnecessary pain and suffering at the pinnacle of your hierarchy of value is to work to bring about the Kingdom of God on Earth. That’s a state, and a state of mind, at the same time. Jung observed that the construction of such a moral hierarchy was inevitable—although it could remain poorly arranged and internally self-contradictory. For Jung, whatever was at the top of an individual’s moral hierarchy was, for all intents and purposes, that person’s ultimate value, that person’s god.
 
@@ -186,19 +222,29 @@
 
  - loc 4176 - What is going to save you? The totalitarian says, in essence, “You must rely on faith in what you already know.” But that is not what saves. What saves is the willingness to learn from what you don’t know.
 
+ - loc 4217 - wanted above all to avoid seeing his degraded state incontrovertibly
+
  - loc 4259 - Nietzsche said that a man’s worth was determined by how much truth he could tolerate. You are by no means only what you already know. You are also all that which you could know, if you only would.
 
  - loc 4262 - In the Christian tradition, Christ is identified with the Logos. The Logos is the Word of God. That Word transformed chaos into order at the beginning of time.
 
+ - loc 4263 - The Logos is the Word of God. That Word transformed chaos into order at the beginning of time.
+
  - loc 4277 - If you pay attention to what you do and say, you can learn to feel a state of internal division and weakness when you are misbehaving and misspeaking. It’s an embodied sensation, not a thought. I experience an internal sensation of sinking and division, rather than solidity and strength, when I am incautious with my acts and words. It seems to be centred in my solar plexus, where a large knot of nervous tissue resides.
 
  - loc 4284 - A totalitarian never asks, “What if my current ambition is in error?” He treats it, instead, as the Absolute. It becomes his God, for all intents and purposes. It constitutes his highest value. It regulates his emotions and motivational states, and determines his thoughts. All people serve their ambition. In that matter, there are no atheists. There are only people who know, and don’t know, what God they serve.
+
+ - loc 4284 - A totalitarian never asks, “What if my current ambition is in error?” He treats it, instead, as the Absolute. It becomes his God, for all intents and purposes.
+
+ - loc 4284 - A totalitarian never asks, “What if my current ambition is in error?” He treats it, instead, as the Absolute. It becomes his God, for all intents and purposes. It constitutes his highest value. It regulates his emotions and motivational states, and determines his thoughts. All people serve their ambition. In that matter, there are no atheists. There are
 
  - loc 4312 - Is existence good? You have to take a terrible risk to find out. Live in truth, or live in deceit, face the consequences, and draw your conclusions. This is the “act of faith” whose necessity was insisted upon by the Danish philosopher Kierkegaard. You cannot know ahead of time. Even a good example is insufficient for proof, given the differences between individuals. The success of a good example can always be attributed to luck. Thus, you have to risk your particular, individual life to find out. It is this risk that the ancients described as the sacrifice of personal will to the will of God. It is not an act of submission (at least as submission is currently understood). It is an act of courage. It is faith that the wind will blow your ship to a new and better port. It is the faith that Being can be corrected by becoming. It is the spirit of exploration itself.
 
  - loc 4342 - Reality has its terrible aspect: do we really need to confront its snake-headed face in every moment of our waking consciousness, and at every turn in our lives? Why not turn away, at least, when looking is simply too painful? The reason is simple. Things fall apart.
 
  - loc 4348 - Things fall apart: this is one of the great discoveries of humanity. And we speed the natural deterioration of great things through blindness, inaction and deceit. Without attention, culture degenerates and dies, and evil prevails.
+
+ - loc 4348 - humanity. And we speed the natural deterioration of great things through blindness, inaction and deceit. Without attention, culture degenerates and dies, and evil prevails.
 
  - loc 4446 - If you drop a single crystal of sugar into that super-saturated solution, all the excess sugar will suddenly and dramatically crystallize. It’s as if it were crying out for order. That was my client. People like her are the reason that the many forms of psychotherapy currently practised all work. People can be so confused that their psyches will be ordered and their lives improved by the adoption of any reasonably orderly system of interpretation.
 
@@ -218,17 +264,31 @@
 
  - loc 4779 - A conversation such as this is one where it is the desire for truth itself—on the part of both participants—that is truly listening and speaking. That’s why it’s engaging, vital, interesting and meaningful. That sense of meaning is a signal from the deep, ancient parts of your Being. You’re where you should be, with one foot in order, and the other tentatively extended into chaos and the unknown. You’re immersed in the Tao, following the great Way of Life. There, you’re stable enough to be secure, but flexible enough to transform. There, you’re allowing new information to inform you—to permeate your stability, to repair and improve its structure, and expand its domain. There the constituent elements of your Being can find their more elegant formation.
 
+ - loc 4779 - A conversation such as this is one where it is the desire for truth itself—on the part of both participants—that is truly listening and speaking. That’s why it’s engaging, vital, interesting and meaningful. That sense of meaning is a signal from the deep, ancient parts of your Being. You’re where you should be, with one foot in order, and the other tentatively extended into chaos and the unknown.
+
+ - loc 4779 - A conversation such as this is one where it is the desire for truth itself—on the part of both participants—that is truly listening and speaking. That’s why it’s engaging, vital, interesting and meaningful. That sense of meaning is a signal from the deep, ancient parts of your Being. You’re where you should be, with one foot in order, and the other tentatively extended into chaos and the unknown. You’re immersed in the Tao, following the great Way of Life. There, you’re stable enough to be secure, but flexible enough to transform. There, you’re allowing new information to inform you—to permeate your stability, to repair and improve its structure, and expand its domain.
+
  - loc 4856 - When we look at the world, we perceive only what is enough for our plans and actions to work and for us to get by. What we inhabit, then, is this “enough.”
+
+ - loc 4857 - our plans and actions to work and for us to get by. What we inhabit, then, is this “enough.”
 
  - loc 4861 - We perceive not them, but their functional utility and, in doing so, we make them sufficiently simple for sufficient understanding. It is for this reason that we must be precise in our aim. Absent that, we drown in the complexity of the world.
 
+ - loc 4861 - not as self-evidently separate, bounded, independent objects. We perceive not them, but their functional utility and, in doing so, we make them sufficiently simple for sufficient understanding. It is for this reason that we must be precise in our aim. Absent that, we drown in the complexity of the world.
+
  - loc 4893 - If we can become not only ourselves, but our families, teams and countries, cooperation comes easily to us, relying on the same deeply innate mechanisms that drive us (and other creatures) to protect our very bodies.
+
+ - loc 4893 - we can become not only ourselves, but our families, teams and countries, cooperation comes easily to us, relying on the same deeply innate mechanisms that drive us (and other creatures) to protect our very bodies.
+
+ - loc 4894 - innate mechanisms that drive us (and other creatures) to protect
 
  - loc 4904 - The hidden complexities of our private cars only intrude on our consciousness when that machinery fails, or when we collide unexpectedly with something (or something with us). Even in the case of mere mechanical failure (to say nothing of a serious accident) such intrusion is always felt, at least initially, as anxiety-provoking. That’s a consequence of emergent uncertainty.
 
  - loc 4920 - The limitations of all our perceptions of things and selves manifest themselves when something we can usually depend on in our simplified world breaks down. Then the more complex world that was always there, invisible and conveniently ignored, makes its presence known. It is then that the walled garden we archetypally inhabit reveals its hidden but ever-present snakes.
 
  - loc 4965 - How do we prepare for an emergency, when we do not know what has emerged, or from where?
+
+ - loc 5031 - “It’s OK. It’s not worth fighting about.” There is little, in a marriage, that is so little that it is not worth fighting about.
 
  - loc 5032 - There is little, in a marriage, that is so little that it is not worth fighting about.
 
@@ -271,4 +331,6 @@
  - loc 6545 - How shall I deal with the enlightened one? Replace him with the true seeker of enlightenment. There is no enlightened one. There is only the one who is seeking further enlightenment. Proper Being is process, not a state; a journey, not a destination.
 
  - loc 6627 - It is my firm belief that the best way to fix the world—a handyman’s dream, if ever there was one—is to fix yourself, as we discussed in Rule 6. Anything else is presumptuous. Anything else risks harm, stemming from your ignorance and lack of skill.
+
+ - loc 6627 - world—a handyman’s dream, if ever there was one—is to fix yourself, as we discussed in Rule 6. Anything else is presumptuous. Anything else risks harm, stemming from your ignorance and lack of skill.
 

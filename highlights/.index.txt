@@ -418,3 +418,43 @@ Kevin Simler
 The Kubernetes Book: Version 2.2 - January 2018
 Kubernetes Book
 Nigel Poulton
+
+An Elegant Puzzle: Systems of Engineering Management
+An Elegant Puzzle
+Will Larson
+
+Everything Is F*cked
+Everything is Fucked
+Mark Manson
+
+Homo Deus: A Brief History of Tomorrow
+Homo Deus
+Yuval Harari
+
+Rationality: From AI to Zombies
+Rationality from AI to Zombies
+Eliezer Yudkowsky
+
+Spiritual Enlightenment: The Damnedest Thing (The Enlightenment Trilogy Book 1)
+Spiritual Enlightenment: The Damnedest Thing
+Jed McKenna
+
+Spiritual Warfare (The Enlightenment Trilogy Book 3)
+Spiritual Warfare
+Jed McKenna
+
+Spiritually Incorrect Enlightenment (The Enlightenment Trilogy Book 2)
+Spiritually Incorrect Enlightenment
+Jed McKenna
+
+The Conscious Mind (Philosophy of Mind)
+The Conscious Mind
+David Chalmers
+
+The Goal: A Process of Ongoing Improvement
+The Goal
+Eliyahu Goldratt
+
+Zen and the Art of Motorcycle Maintenance
+Zen and the Art of Motorcycle Maintenance
+Robert Pirsig

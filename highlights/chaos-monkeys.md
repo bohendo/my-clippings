@@ -192,3 +192,17 @@
 
  - loc 5668 - the role of modern-day Big Brother is actually played by companies you’ve likely never heard about. Companies with names like Axciom, Experian, Epsilon, Merkle, and Neustar (among others). These are the companies that since the dawn of the direct-marketing age in the sixties and seventies have been tracking all of consumer America. They know your name, address, phone number, email address, education level, rough income, who else is in your household and their ages and spending patterns, and which consumer segment you fit into—and they’ve been accumulating this information since before the Internet even existed.
 
+ - loc 6071 - they cling to identities, clusters of consumption patterns, that
+
+ - loc 6178 - Here is your lesson from the Facebook IPO: whenever you see the headline “Stock X Pops on First Day of Trading and Declared a Success,” instead think “Founders and employees just got completely screwed, and the bankers and their wealthy clients made fortunes.” Because that’s what happened, and didn’t happen, in the case of Facebook.
+
+ - loc 6506 - family, the Facebook hoi polloi friended or followed whomever they could among the Facebook nobility, and watched, nose pressed against the glass, the regal extravaganza unfold. One of those princes, first among equals, was Andrew “Boz” Bosworth, Zuck’s former teaching assistant at Harvard. Purportedly raised on a horse ranch in Northern California, he was a big, bald bully with tattoos on both arms, a former member of the Harvard tae kwon do team grown thick with age. Prior to his involvement in Ads, he was the engineering brains behind the initial versions of News Feed, a fact he’d never fail to mention on a first meeting. He was the first Friend of Zuck to work in Ads, and it was understood he had been dispatched to unfuck the Ads team from the maelstrom of directionless chaos under Badros and Gokul. In that sense, Boz was an absolute godsend, and the Ads team, not to mention Facebook’s finances, has reaped the benefit of his decisive authority ever since he assumed the reins. As I hope I’ve managed to detail, from 2011 until early 2013, the Facebook monetization strategy distinguished itself mostly by its complete absence (other than the failed Sponsored Stories experiment). As with the British schoolchildren in William
+
+ - loc 6889 - There were few women one would call conventionally attractive at Facebook. The few there were rarely if ever dressed for work with their femininity on display in the form of dresses and heels. A fully turned out member of the deuxième sexe in a conference room was as clear an angel of death as a short-barreled .38 Special revolver.
+
+ - loc 6989 - If I hadn’t become a casualty of Reesman, the God of the Chaos Monkeys, and his ever-present circus of hooligans, I doubt I would have had the focus.
+
+ - loc 8649 - * “One really destroys only what one replaces.” The author is Napoleon III, on overthrowing the Second French Republic and replacing it with the Second French Empire.
+
+ - loc 8649 - “One really destroys only what one replaces.” The author is Napoleon III, on overthrowing the Second French Republic and replacing it with the Second French Empire.
+
