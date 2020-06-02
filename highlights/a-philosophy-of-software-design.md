@@ -23,13 +23,9 @@
 
  - loc 573 - For the purposes of this book, a module is any unit of code that has an interface and an implementation.
 
- - loc 577 - The best modules are those whose interfaces are much simpler than their implementations. Such modules have two advantages. First, a simple interface minimizes the complexity that a module imposes on the rest of the system. Second, if a module is modified in a way that does not change its interface,
-
  - loc 577 - The best modules are those whose interfaces are much simpler than their implementations. Such modules have two advantages. First, a simple interface minimizes the complexity that a module imposes on the rest of the system. Second, if a module is modified in a way that does not change its interface, then no other module will be affected by the modification.
 
  - loc 603 - An abstraction can go wrong in two ways. First, it can include details that are not really important; when this happens, it makes the abstraction more complicated than necessary, which increases the cognitive load on developers using the abstraction. The second error is when an abstraction omits details that really are important. This results in obscurity: developers looking only at the abstraction will not have all the information they need to use the abstraction correctly. An abstraction that omits important details is a false abstraction: it might appear simple, but in reality it isn’t.
-
- - loc 676 - A shallow module is one whose interface is complicated relative to the functionality it provides. Shallow modules don’t help much in the battle against complexity, because the benefit they provide (not having to learn about how they work internally) is negated by the cost of learning and using their interfaces.
 
  - loc 676 - A shallow module is one whose interface is complicated relative to the functionality it provides. Shallow modules don’t help much in the battle against complexity, because the benefit they provide (not having to learn about how they work internally) is negated by the cost of learning and using their interfaces. Small modules tend to be shallow.
 
@@ -37,7 +33,7 @@
 
  - loc 881 - If the API for a commonly used feature forces users to learn about other features that are rarely used, this increases the cognitive load on users who don’t need the rarely used features.
 
- - loc 919 - In my experience, the sweet spot is to implement new modules in a somewhat general-purpose fashion. The phrase “somewhat general-purpose” means that the module’s functionality should reflect your current needs, but its interface should not. Instead, the
+ - loc 919 - In my experience, the sweet spot is to implement new modules in a somewhat general-purpose fashion. The phrase “somewhat general-purpose” means that the module’s functionality should reflect your current needs, but its interface should not.
 
  - loc 1065 - Red Flag: Pass-Through Method  A pass-through method is one that does nothing except pass its arguments to another method, usually with the same API as the pass-through method. This typically indicates that there is not a clean division of responsibility between the classes.
 
@@ -53,8 +49,6 @@
 
  - loc 1507 - This form of subdivision makes sense if there is a subtask that is cleanly separable from the rest of the original method, which means (a) someone reading the child method doesn’t need to know anything about the parent method and (b) someone reading the parent method doesn’t need to understand the implementation of the child method. Typically this means that the child method is relatively general-purpose: it could conceivably be used by other methods besides the parent. If you make a split of this form and then find yourself flipping back and forth between the parent and child to understand how they work together, that is a red flag (“Conjoined Methods”) indicating that the split was probably a bad idea.
 
- - loc 1529 - Flag: Conjoined Methods  It should be possible
-
  - loc 1529 - Red Flag: Conjoined Methods  It should be possible to understand each method independently. If you can’t understand the implementation of one method without also understanding the implementation of another, that’s a red flag. This red flag can occur in other contexts as well: if two pieces of code are physically separated, but each can only be understood by looking at the other, that is a red flag.
 
  - loc 1626 - The exceptions thrown by a class are part of its interface; classes with lots of exceptions have complex interfaces, and they are shallower than classes with fewer exceptions.
@@ -62,8 +56,6 @@
  - loc 1637 - I should have changed the definition of unset slightly: rather than deleting a variable, unset should ensure that a variable no longer exists. With the first definition, unset can’t do its job if the variable doesn’t exist, so generating an exception makes sense. With the second definition, it is perfectly natural for unset to be invoked with the name of a variable that doesn’t exist.
 
  - loc 1827 - This chapter focused on exceptions, which are one of the most significant sources of special-case code, and discussed how to reduce the number of places where exceptions must be handled. The best way to do this is by redefining semantics to eliminate error conditions. For exceptions that can’t be defined away, you should look for opportunities to mask them at a low level, so their impact is limited, or aggregate several special-case handlers into a single more generic handler.
-
- - loc 1921 - If users must read the code of a method in order to use it, then there is no abstraction: all of the complexity of the method is exposed. Without comments, the only abstraction of a method is its declaration, which specifies its name and the names and types of its arguments and results. The declaration is missing too much
 
  - loc 1921 - If users must read the code of a method in order to use it, then there is no abstraction: all of the complexity of the method is exposed. Without comments, the only abstraction of a method is its declaration, which specifies its name and the names and types of its arguments and results. The declaration is missing too much essential information to provide a useful abstraction by itself.
 
@@ -73,23 +65,15 @@
 
  - loc 2213 - Comments of the form “how we get here” are very useful for helping people to understand code. For example, when documenting a method, it can be very helpful to describe the conditions under which the method is most likely to be invoked (especially if the method is only invoked in unusual situations).
 
- - loc 2219 - abstraction. The only way to describe an abstraction is with comments. If you want code that presents good abstractions, you must document those abstractions with comments. The first step in documenting abstractions is
-
- - loc 2220 - If you want code that presents good abstractions, you must document those abstractions with comments. The first step in documenting abstractions
-
  - loc 2220 - If you want code that presents good abstractions, you must document those abstractions with comments. The first step in documenting abstractions is to separate interface comments from implementation comments.
 
  - loc 2224 - If interface comments must also describe the implementation, then the class or method is shallow.
 
  - loc 2496 - I have recently been experimenting with an approach where cross-module issues are documented in a central file called designNotes. The file is divided up into clearly labeled sections, one for each major topic.
 
- - loc 2512 - Then, in any piece of code that relates to one of these issues there is a short comment referring to the designNotes file:
+ - loc 2512 - Then, in any piece of code that relates to one of these issues there is a short comment referring to the designNotes file.
 
  - loc 2648 - If it’s hard to find a simple name for a variable or method that creates a clear image of the underlying object, that’s a hint that the underlying object may not have a clean design.
-
- - loc 2654 - Consistent naming reduces cognitive load in much the same way as reusing a common class: once the reader has seen the name in one context, they can reuse their knowledge and instantly make assumptions when they see the name in a different context.
-
- - loc 2654 - Consistent naming reduces cognitive load in much the same way as reusing a common class: once the reader has seen the name in one context, they can reuse their knowledge and instantly make assumptions when they see the name in a different context. Consistency has three requirements: first, always use the common name for the given purpose; second, never use the common name for anything other than the given purpose; third, make sure that the purpose is narrow enough
 
  - loc 2654 - Consistent naming reduces cognitive load in much the same way as reusing a common class: once the reader has seen the name in one context, they can reuse their knowledge and instantly make assumptions when they see the name in a different context. Consistency has three requirements: first, always use the common name for the given purpose; second, never use the common name for anything other than the given purpose; third, make sure that the purpose is narrow enough that all variables with the name have the same behavior.
 
@@ -98,10 +82,6 @@
  - loc 2717 - Gerrand makes one comment that I agree with: “The greater the distance between a name’s declaration and its uses, the longer the name should be.” The earlier discussion about using loop variables named i and j is an example of this rule.
 
  - loc 2744 - Even if you do have the self-discipline to go back and write the comments (and don’t fool yourself: you probably don’t), the comments won’t be very good. By this time in the process, you have checked out mentally.
-
- - loc 2766 - you write comments describing the abstractions at the beginning, you can review and tune them before writing implementation code. To write a good comment, you must identify the essence of a variable or piece of code: what are the most important aspects of this thing? It’s important to do this early in the design process; otherwise you are just hacking code.
-
- - loc 2766 - If you write comments describing the abstractions at the beginning, you can review and tune them before writing implementation code. To write a good comment, you must identify the essence of a variable or piece of code: what are the most important aspects of this thing? It’s important to do this early
 
  - loc 2766 - If you write comments describing the abstractions at the beginning, you can review and tune them before writing implementation code. To write a good comment, you must identify the essence of a variable or piece of code: what are the most important aspects of this thing? It’s important to do this early in the design process; otherwise you are just hacking code.
 
@@ -112,8 +92,6 @@
  - loc 2822 - Ideally, when you have finished with each change, the system will have the structure it would have had if you had designed it from the start with that change in mind. To achieve this goal, you must resist the temptation to make a quick fix. Instead, think about whether the current system design is still the best one, in light of the desired change. If not, refactor the system so that you end up with the best possible design. With this approach, the system design improves with every modification.
 
  - loc 2829 - Whenever you modify any code, try to find a way to improve the system design at least a little bit in the process. If you’re not making the design better, you are probably making it worse.
-
- - loc 2844 - The best way to ensure that comments get updated is to position them close to the code they describe, so developers will see them when they change the code. The farther a comment is from its associated
 
  - loc 2844 - The best way to ensure that comments get updated is to position them close to the code they describe, so developers will see them when they change the code. The farther a comment is from its associated code, the less likely it is that it will be updated properly.
 
@@ -129,13 +107,9 @@
 
  - loc 3080 - There are many things that can make code nonobvious; this section provides a few examples. Some of these, such as event-driven programming, are useful in some situations, so you may end up using them anyway. When this happens, extra documentation can help to minimize reader confusion.
 
- - loc 3085 - Event-driven programming makes it hard to follow the flow of control. The event handler functions are never invoked directly; they are invoked indirectly by the event module, typically using a function pointer or interface. Even if you find the point of invocation in the event module, it still isn’t possible to tell which specific function will be invoked: this will depend on which handlers were registered at runtime. Because of this, it’s hard to reason about event-driven code or convince yourself that it works. To compensate for this obscurity, use the interface comment for each handler function to indicate when it is invoked,
-
- - loc 3112 - This example illustrates a general rule: software should be designed for ease of reading, not ease of writing. Generic containers are expedient for the person writing
+ - loc 3085 - Event-driven programming makes it hard to follow the flow of control. The event handler functions are never invoked directly; they are invoked indirectly by the event module, typically using a function pointer or interface. Even if you find the point of invocation in the event module, it still isn’t possible to tell which specific function will be invoked: this will depend on which handlers were registered at runtime. Because of this, it’s hard to reason about event-driven code or convince yourself that it works. To compensate for this obscurity, use the interface comment for each handler function to indicate when it is invoked.
 
  - loc 3112 - This example illustrates a general rule: software should be designed for ease of reading, not ease of writing. Generic containers are expedient for the person writing the code, but they create confusion for all the readers that follow.
-
- - loc 3137 - If code is nonobvious, that usually means there is important
 
  - loc 3141 - To make code obvious, you must ensure that readers always have the information they need to understand it. You can do this in three ways. The best way is to reduce the amount of information that is needed, using design techniques such as abstraction and eliminating special cases. Second, you can take advantage of information that readers have already acquired in other contexts (for example, by following conventions and conforming to expectations) so readers don’t have to learn new information for your code. Third, you can present the important information to them in the code, using techniques such as good names and strategic comments.
 
