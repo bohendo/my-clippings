@@ -11,6 +11,8 @@
 
  - loc 721 - Ken Kesey was Randall P. McMurphy and sixties America was his madhouse, and he takes a rightful place beside Walt Whitman and Herman Melville in the American pantheon of heroic explorers
 
+ - loc 776 - “Why are you
+
  - loc 814 - What’s dying in her is something that should die. What most people call life is really just the fearful protraction of a pupal state, like butterflies too scared to emerge from the cocoon. The butterfly stage of development is called imago; adulthood. That’s what we are meant to be, imago. If we lived in a society of imagines, we would be well prepared for metamorphosis; it would occur when it’s supposed to and be easier by magnitudes.
 
  - loc 1037 - All beliefs are like ugly babies, don’cha think? Everyone thinks theirs is the most beautiful in the world, but they all look and smell the same to me.

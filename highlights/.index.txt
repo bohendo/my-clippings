@@ -458,3 +458,27 @@ Eliyahu Goldratt
 Zen and the Art of Motorcycle Maintenance
 Zen and the Art of Motorcycle Maintenance
 Robert Pirsig
+
+A Gentle Introduction to Unqualified Reservations
+A Gentle Introduction to Unqualified Reservations
+Mencius Moldbug
+
+A Philosophy of Software Design
+A Philosophy of Software Design
+John Ousterhout
+
+Economic Facts and Fallacies
+Economic Facts and Fallacies
+Thomas Sowell
+
+Loserthink
+Loserthink
+Scott Adams
+
+The Age of Entitlement: America Since the Sixties
+The Age of Entitlement
+Christopher Caldwell
+
+The Unicorn Project
+The Unicorn Project
+Gene Kim

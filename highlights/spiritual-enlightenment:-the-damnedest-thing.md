@@ -43,6 +43,8 @@
 
  - loc 847 - Jed McKenna is like the outfit an invisible man wears so that he can interact with people without freaking them out.
 
+ - loc 870 - I may be doing this or that—fulfilling my role—but I’m almost always out in the seats somewhere, watching it all, as unprepared for the next thing I do as anyone else.
+
  - loc 951 - If you want to be an enlightened person, the thinking goes, you should act like an enlightened person. Utter nonsense, of course, but widely accepted. Once you’re able to recognize this fallacy, you’ll be amazed by how common it is.
 
  - loc 963 - Well, I’ve noticed that every time I eat a good meal, I belch, so I tell you to belch because that means you’re well fed. Totally backward, right? You’re still starving, and now you’re also offgassing like a pig. And the worst part of the whole deal—pay attention to this trick—the worst part is that you’ve stopped looking for food. You are now programmed to fail; your starvation is assured.”

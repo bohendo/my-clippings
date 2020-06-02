@@ -180,3 +180,5 @@
 
  - loc 3426 - The name of the boundary between the software and the firmware is the hardware abstraction layer (HAL) (Figure 29.4). This is not a new idea: It has been in PCs since the days before Windows.
 
+ - loc 3759 - Don’t let frameworks into your core code. Instead, integrate them into components that plug in to your core code, following the Dependency Rule.
+

@@ -70,6 +70,10 @@
 
  - loc 38 - �� The shoulder is the lynchpin of the upper body just like the hip is for the lower body
 
+ - loc 38 - our first axiom is:  Keeping the shoulders (glenohumeral / scapular articulations) operating optimally is the key to bodyweight strength success
+
+ - loc 38 - The second axiom builds off of this point:  The shoulder is the lynchpin of the upper body just like the hip is for the lower body
+
  - loc 39 - �� Any exercise in which the center of mass of the body is moving towards the hands is a pulling exercise  Any exercise in which the center of mass of the body is moving away from the hands is a pushing exercise
 
  - loc 40 - there is very little “elbows out” in bodyweight strength training
@@ -85,6 +89,10 @@
  - loc 43 - Pulling exercises with the shoulder in a state of extension or hyperextension are very few and far between. The most obvious one is the V-sit and manna progression as the hands as being extended backwards away from the the hips while the arms are already located behind the body
 
  - loc 43 - Pulling exercises which extend the shoulder when it is in a state of flexion or adduction are compromised of most of the vertical pulling variations such as pullups, front lever progressions, and pullup variations
+
+ - loc 44 - proper routine balance is key to avoid these sorts of problems. This is why the L-sit/V-sit/manna progression is so important. It effectively counteracts the effects of a pushing heavy routine with one simple exercise series. This set of progressions works the scapular retractors
+
+ - loc 44 - This is why the L-sit/V-sit/manna progression is so important. It effectively counteracts the effects of a pushing heavy routine with one simple exercise series. This set of progressions works the scapular retractors, posterior deltoids, and external rotators without doing 2-3 different exercises, saving much time and effort
 
  - loc 45 - The basics of this system can be summarized as:  Do one vertical push upwards, one vertical push downwards, and one horizontal pushing exercise  Do one vertical pulling exercise downwards, and one horizontal pulling exercise.  Do manna OR add in another horizontal pulling exercise OR inverted vertical pulling exercise
 
